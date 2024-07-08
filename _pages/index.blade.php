@@ -60,18 +60,23 @@
                     <ul class="flex flex-wrap justify-center list-none" style="padding: 0;">
                         <li>
                             <a href="https://hydephp.com/docs/1.x" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                Documentation
+                                文档
                             </a>
                         </li>
                         <li>
                             <a href="https://hydephp.com/docs/1.x/getting-started" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                Getting Started
+                                快速开始
                             </a>
                         </li>
                         <li>
 
                             <a href="https://github.com/hydephp/hyde" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                GitHub Source Code
+                                GitHub
+                            </a>
+                        </li>
+                         <li>
+                            <a href="https://github.com/hydephp/hyde" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
+                                Gitee
                             </a>
                         </li>
                     </ul>
