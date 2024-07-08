@@ -25,7 +25,7 @@ jobs:
           php-version: ${{ matrix.php }}
           extensions: fileinfo, zip
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Require latest version
         if: matrix.dependency-version == 'latest'
@@ -59,7 +59,7 @@ jobs:
           php-version: ${{ matrix.php }}
           extensions: fileinfo, zip
 
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Require latest development version
         run: composer require hyde/framework:dev-develop hyde/testing:dev-master
