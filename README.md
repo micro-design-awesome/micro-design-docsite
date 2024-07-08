@@ -1,4 +1,4 @@
-# 12121
+# HydePHP - Elegant and Powerful Static Site Generator
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/hyde/framework?include_prereleases)](https://packagist.org/packages/hyde/framework)
 [![Total Downloads on Packagist](https://img.shields.io/packagist/dt/hyde/framework)](https://packagist.org/packages/hyde/framework)
