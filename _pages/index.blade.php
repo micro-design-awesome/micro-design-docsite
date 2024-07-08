@@ -1,20 +1,11 @@
 <!DOCTYPE html>
-/*
- * @Description: 
- * @Author: xunzhaotech
- * @Email: luyb@xunzhaotech.com
- * @QQ: 1525572900
- * @Date: 2024-07-08 18:36:41
- * @LastEditTime: 2024-07-08 19:04:40
- * @LastEditors: xunzhaotech
- */
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Welcome to HydePHP!</title>
+    <title>MicroDesign Docs</title>
 
     <style>
         /*! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com*/
@@ -51,14 +42,13 @@
             <div class="mx-auto mt-8 sm:mt-4 text-gray-200 md:mt-8 md:max-w-2xl md:text-center">
                 <section aria-label="About Hyde">
                     <p class="lg:text-lg">
-                        Leap into the future of static HTML blogs and documentation with the tools you already know and love.
-                        Made with Tailwind, Laravel, and Coffee.
+                       一个基于微服务架构生态的文档框架
                     </p>
                 </section>
 
                 <section aria-label="About this page">
                     <p class="mt-4 mb-4">
-                        This is the default homepage stored as index.blade.php, however you can publish any of the built-in views using the following command:
+                        极致体验，用心创造，让开发文档书写更简单、更优雅、更高效!
 
                         <!-- Syntax highlighted by torchlight.dev -->
                     <pre style="margin-top: 1.5rem; margin-bottom: 1.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B;">php hyde</span> <span style="color: #C3E88D;">publish:homepage</span></code></pre>
