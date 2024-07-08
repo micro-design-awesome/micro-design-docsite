@@ -1,0 +1,11 @@
+* text=auto eol=lf
+
+*.md diff=markdown
+*.php diff=php
+
+tests/ export-ignore
+hyde.yml export-ignore
+
+action.yml linguist-detectable
+docs/** linguist-documentation
+tests/**/* linguist-vendored
