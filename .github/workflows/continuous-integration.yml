@@ -1,0 +1,33 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test-action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hydephp/action@master
+        with:
+          debug: true
+          upload-artifact: true
+
+  build-documentation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: https://hydephp.github.io/action
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hydephp/action@master
+        with:
+          deploy-to: pages
+          env-torchlight-token: ${{ secrets.TORCHLIGHT_TOKEN }}
+          env-site-name: "'HydePHP Action'"

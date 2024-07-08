@@ -1,0 +1,121 @@
+name: Test Suite
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run linter
+        run: php tests/lint.php
+
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run unit tests
+        run: bash tests/unit-tests.sh
+
+  run-workflow-test-1:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run workflow test 1
+        uses: ./
+
+  run-workflow-test-2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run workflow test 2
+        uses: ./
+        with:
+          debug: true
+
+  run-workflow-test-3:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run workflow test 3
+        uses: ./
+        with:
+          deploy-to: artifact
+
+  run-workflow-test-4:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup project
+        run: |
+          composer create-project hyde/hyde --no-interaction --no-progress --no-dev /tmp/hyde
+          cp -r /tmp/hyde/* .
+
+      - name: Run workflow test 4
+        uses: ./
+
+  integration-tests:
+    runs-on: ubuntu-latest
+    name: "Integration test: ${{ matrix.test.name }}"
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    strategy:
+      fail-fast: false
+      matrix:
+        test:
+          - name: "Full HydePHP project"
+            id: "github-action-test-project-1"
+          - name: "Anonymous HydePHP Project"
+            id: "github-action-test-project-2"
+    environment:
+      name: "Integration test: ${{ matrix.test.name }}"
+      url: "https://github.com/hyde-staging/${{ matrix.test.id }}/actions"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate payload reference
+        id: client-payload-reference
+        run: |
+          # if the current branch is a pull request, use the pull request number as the reference, else use the branch name@shortSha
+          if [[ $GITHUB_REF == refs/pull/* ]]; then
+            ## Get the PR number
+            PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
+            REFERENCE="PR #${PR_NUMBER}"
+            URL=${{ github.event.repository.html_url }}/pull/${PR_NUMBER}
+          else
+            REFERENCE="${GITHUB_REF##*/}@${GITHUB_SHA::8}"
+            URL=${{ github.event.repository.html_url }}/commit/${GITHUB_SHA}
+          fi
+          # Escape the reference string for use in the JSON payload
+          REFERENCE=$(echo $REFERENCE | sed -e 's/"/\\"/g' -e "s/'/\\'/g")
+          echo "client_payload-reference=$REFERENCE" >> $GITHUB_OUTPUT
+          echo "client_payload-url=$URL" >> $GITHUB_OUTPUT
+
+      - name: Prepare client payload
+        id: client-payload
+        run: >
+          echo "client_payload={ \
+            \"ref\": \"${{ github.ref }}\", \
+            \"sha\": \"${{ github.sha }}\", \
+            \"url\": \"${{ steps.client-payload-reference.outputs.client_payload-url }}\", \
+            \"reference\": \"${{ steps.client-payload-reference.outputs.client_payload-reference }}\" \
+          }" >> $GITHUB_OUTPUT
+
+      - name: Dispatch integration test ${{ matrix.test.id }}
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.HYDE_STAGING_DISPATCH_TOKEN }}
+          repository: hyde-staging/${{ matrix.test.id }}
+          event-type: integration-test
+          client-payload: ${{ steps.client-payload.outputs.client_payload }}
