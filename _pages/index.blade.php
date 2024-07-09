@@ -1,10 +1,25 @@
 <!DOCTYPE html>
+/*
+ * @Description: 
+ * @Author: xunzhaotech
+ * @Email: luyb@xunzhaotech.com
+ * @QQ: 1525572900
+ * @Date: 2024-07-08 18:36:41
+ * @LastEditTime: 2024-07-09 08:34:13
+ * @LastEditors: xunzhaotech
+ */
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>MicroDesign Docs</title>
 
     <style>
@@ -29,62 +44,269 @@
     </style>
 </head>
 
-<body class="antialiased overflow-x-hidden min-w-screen min-h-screen flex flex-col app-gradient">
-<main class="my-auto px-6 pb-12 antialiased app-gradient-dark">
-    <div class="mx-auto max-w-7xl">
-        <!-- Main Hero Content -->
-        <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center">
-            <h1
-                class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-100 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
-                <span class="block text-4xl md:text-5xl mb-4 sm:mb-0">一个基于微服务架构生态的文档框架</span><span
-                    class="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br logo-gradient md:inline-block drop-shadow-2xl tracking-normal">MicroDesign Docs</span>
-            </h1>
-            <div class="mx-auto mt-8 sm:mt-4 text-gray-200 md:mt-8 md:max-w-2xl md:text-center">
-                <section aria-label="About Hyde">
-                    <p class="lg:text-lg">
-                       一个基于微服务架构生态的文档框架
-                    </p>
-                </section>
+<body class="bg-backgroundColor scroll-smooth">
+  
+     <main class="w-full flex flex-col relative items-center">
+          <div class="w-full flex flex-col bg-testemunhasBackground h-64 md:h-96 items-center relative">
+            
+            <header class="w-full max-w-7xl flex items-center justify-between px-2 py-1 z-10 md:py-4 md:px-1">
+               <div>
+                 <img class="w-20 h-6 md:w-24 md:h-8" src="/images/logo.svg" alt="logo">
+               </div>
+              
+              <nav class="text-gray-400 text-xs md:text-sm gap-2 md:gap-4 flex items-center py-7 px-4">
+                  <a class="border-transparent hover:border-white hover:text-white border-b-2 duration-200" href="#">Features</a>
+                 <a class="border-transparent hover:border-white hover:text-white border-b-2 duration-200" href="#">Team</a>
+                 <a class="border-transparent hover:border-white hover:text-white border-b-2 duration-200" href="#">Sign In</a>
+              </nav>
 
-                <section aria-label="About this page">
-                    <p class="mt-4 mb-4">
-                        极致体验，用心创造，让开发文档书写更简单、更优雅、更高效!
+            </header>
 
-                        <!-- Syntax highlighted by torchlight.dev -->
-                    <pre style="margin-top: 1.5rem; margin-bottom: 1.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B;">php hyde</span> <span style="color: #C3E88D;">publish:homepage</span></code></pre>
-                    </p>
-                </section>
+            <div class="z-10 absolute w-64 -bottom-6 md:hidden">
+               <img src="/images/illustration-intro.png" alt="bonecosMobile">
+            </div>
 
-                <div class="mt-4 md:mt-8 text-white">
-                    <span class="sr-only">Resources for getting started</span>
-                    <ul class="flex flex-wrap justify-center list-none" style="padding: 0;">
-                        <li>
-                            <a href="https://hydephp.com/docs/1.x" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                文档
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://hydephp.com/docs/1.x/getting-started" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                快速开始
-                            </a>
-                        </li>
-                        <li>
+             <div class="hidden z-10 absolute md:flex justify-center mt-16">
+                <img class="w-4/5" src="/images/illustration-intro.png" alt="bonecosDesktop">
+             </div>
 
-                            <a href="https://github.com/hydephp/hyde" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                GitHub
-                            </a>
-                        </li>
-                         <li>
-                            <a href="https://github.com/hydephp/hyde" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                Gitee
-                            </a>
-                        </li>
-                    </ul>
+          </div>
+          
+          <div class="absolute w-full top-64 md:hidden">
+            <img class="bg-testemunhasBackground w-full" src="/images/bg-curvy-mobile.svg" alt="curvaMobile">
+          </div>
+
+          <div class="hidden md:flex absolute w-full top-96">
+             <img class="bg-testemunhasBackground w-full" src="/images/bg-curvy-desktop.svg" alt="curvaDesktop"> 
+          </div>
+
+           <div class="w-full flex flex-col items-center z-10 mt-12 md:mt-28">
+               <div class="w-full max-w-7xl flex flex-col items-center text-white gap-5 px-5 md:py-3">
+                   <h2 class="
+                    text-lg font-larger text-center 
+                    max-w-[250px] md:text-3xl 
+                    md:max-w-[540px]">
+                    All your files in one secure location, accessible anywhere.
+                  </h2>
+                   
+                   <p class="text-center text-gray-400 text-xs leading-5 md:text-base md:max-w-[500px]">
+                    Fylo stores all your most important files in one secure location. Access them wherever 
+                    you need, share and collaborate with friends family, and co-workers.
+                   </p>
+
+                   <button class="font-larger bg-callToActionBlue 
+                   py-3 px-14 rounded-full 
+                   text-xs md:text-sm hover:bg-callToaction duration-200">Get Started</button>     
+               </div>    
+           </div> 
+
+           
+           <div class="w-full flex flex-col items-center py-24 md:py-36">
+             
+             <div class="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 items-center gap-16">
+                   <article class="w-full flex flex-col items-center gap-5">
+                       <img class="block w-16 md:w-28" src="/images/icon-access-anywhere.svg">
+                       
+                       <div class="flex flex-col items-center px-3 gap-2">
+                           <h2 class="text-white font-larger text-center">Access your files, anywhere</h2>
+                           <p class="text-gray-400 text-center text-xs leading-5 md:text-sm md:max-w-xs">The ability to use a smartphone, tablet, or computer to access your account means your 
+                            files follow you everywhere.
+                            </p>
+                       </div>
+                    </article>
+
+                   <article class="w-full flex flex-col items-center gap-5">
+                       <img class="block w-16 md:w-28" src="/images/icon-security.svg">
+                       
+                       <div class="flex flex-col items-center px-3 gap-2">
+                           <h2 class="text-white font-larger text-center">Security you can trust</h2>
+                           <p class="text-gray-400 text-center text-xs leading-5 md:text-sm md:max-w-xs">2-factor authentication and user-controlled encryption are just a couple of the security 
+                            features we allow to help secure your files.
+                            </p>
+                       </div>
+                    </article>
+
+                   <article class="w-full flex flex-col items-center gap-5">
+                       <img class="block w-16 md:w-28" src="/images/icon-collaboration.svg">
+                       
+                       <div class="flex flex-col items-center px-3 gap-2">
+                           <h2 class="text-white font-larger text-center">Real-time collaboration</h2>
+                           <p class="text-gray-400 text-center text-xs leading-5 md:text-sm md:max-w-xs">Securely share files and folders with friends, family and colleagues for live collaboration. 
+                            No email attachments required.
+                            </p>
+                       </div>
+                    </article>  
+
+                   <article class="w-full flex flex-col items-center gap-5">
+                       <img class="block w-16 md:w-28" src="/images/icon-any-file.svg">
+                       
+                       <div class="flex flex-col items-center px-3 gap-2">
+                           <h2 class="text-white font-larger text-center">Store any type of file</h2>
+                           <p class="text-gray-400 text-center text-xs leading-5 md:text-sm md:max-w-xs">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+                            file types to be securely stored and shared.
+                            </p>
+                       </div>
+                    </article>                      
+              </div>
+           </div>
+ 
+            <div class="w-full flex flex-col items-center py-4">
+                 <div class="w-full max-w-7xl flex flex-col items-center md:flex-row md:gap-3 md:px-3">
+                     <div class="w-full flex px-3">
+                          <img class="block" src="/images/illustration-stay-productive.png">
+                     </div>  
+
+                     <div class="w-full flex flex-col py-7 px-4 gap-3 items-start">
+                          <h2 class="text-white font-larger md:text-4xl md:max-w-sm">Stay productive, wherever you are</h2>
+                          
+                          <p class="text-gray-400 text-xs md:text-lg">
+                            Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+                            storage needs.
+                          </p>
+                          <p class="text-gray-400 text-xs md:text-lg">
+                             Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+                             attachments required.
+                          </p>
+                          
+                          <button class="text-callToaction text-xs md:text-[15px] 
+                          flex gap-1 border-b-2 border-callToaction hover:text-white hover:border-white duration-200">
+                            See how Fylo works
+                            <img src="/images/icon-arrow.svg">
+                          </button>
+                     </div>
+                 </div>  
+            </div>    
+
+            <div class="w-full flex flex-col items-center py-10 md:mt-32">
+                <div class="w-full max-w-7xl grid grid-cols-1 md:grid-cols-3 px-3 gap-5 md:h-56">
+                       
+                    <article class="bg-testemunhasBackground w-full flex flex-col items-start justify-center gap-5 py-2 px-3 md:py-5 md:px-6 relative">
+                        <img class="block absolute left-0 -top-5 md:-top-8 -z-10 w-5 h-5 md:w-8 md:h-8" src="/images/bg-quotes.png" alt="parenteses">  
+                         <p class="text-uper text-gray-400 md:text-base">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+                            become a well-oiled collaboration machine.
+                          </p> 
+                          
+                          
+                          <div class="flex gap-2 items-center">
+                            <img class="block rounded-full w-8 h-8 object-cover" src="/images/profile-1.jpg" alt="profile1">
+                             
+                            <div class="flex flex-col">
+                                <p class="block text-white font-larger text-uper tracking-space">Satish Patel</p>
+                                <span class="block text-gray-400 text-down">Founder & CEO, Huddle</span> 
+                             </div>
+                          </div>  
+                    </article>
+                    <article class="bg-testemunhasBackground w-full flex flex-col items-start justify-center gap-5 py-2 px-3 md:py-5 md:px-6">
+                          <p class="text-uper text-gray-400 md:text-base">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+                            become a well-oiled collaboration machine.
+                          </p> 
+                          
+                          
+                          <div class="flex gap-2 items-center">
+                            <img class="block rounded-full w-8 h-8 object-cover" src="/images/profile-2.jpg" alt="profile1">
+                             
+                            <div class="flex flex-col">
+                                <p class="block text-white font-larger text-uper tracking-space">Bruce McKenzie</p>
+                                <span class="block text-gray-400 text-down">Founder & CEO, Huddle</span> 
+                             </div>
+                          </div>  
+                    </article>
+                    <article class="bg-testemunhasBackground w-full flex flex-col items-start justify-center gap-5 py-2 px-3 md:py-5 md:px-6">
+                          <p class="text-uper text-gray-400 md:text-base">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
+                            become a well-oiled collaboration machine.
+                          </p> 
+                          
+                          
+                          <div class="flex gap-2 items-center">
+                            <img class="block rounded-full w-8 h-8 object-cover" src="/images/profile-3.jpg" alt="profile1">
+                             
+                            <div class="flex flex-col">
+                                <p class="block text-white font-larger text-uper tracking-space">Iva Boyd</p>
+                                <span class="block text-gray-400 text-down">Founder & CEO, Huddle</span> 
+                             </div>
+                          </div>  
+                    </article>
+                </div>  
+            </div> 
+                 
+            <!--call to action-->
+            <div class="w-full flex flex-col items-center px-4 absolute bottom-[650px] z-20 md:bottom-[300px]">
+               <div class="flex flex-col items-center w-full max-w-3xl py-6 px-4 bg-testemunhasBackground gap-8 rounded-lg">
+                    
+                    <div class="w-full flex flex-col items-center justify-center gap-3">
+                        <h2 class="text-white text-lg font-larger md:text-3xl">Get early access today</h2>
+                         <p class="text-gray-300 text-center md:max-w-2xl">
+                            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+                            questions, our support team would be happy to help you.
+                        </p>
+                    </div>
+                    
+                    <div class="w-full flex flex-col md:flex-row md:justify-center gap-6 relative">
+                        <input id="input" type="email" class="py-2 px-7 rounded-full focus:outline-none flex flex-col">
+                        <div id="erro" class="hidden text-red-700 absolute bottom-12 text-xs ml-3 md:left-32 md:-bottom-5">
+                          Please enter a valid email address
+                        </div>
+                        <button class="text-white bg-callToActionBlue py-2 px-10 rounded-full hover:bg-callToaction duration-200">Get start for free</button> 
+                            
+                    </div>
+               </div>
+             </div> 
+            
+            <div class="w-full flex flex-col items-center bg-footerBackground mt-60 relative"> 
+                <div class="w-full max-w-7xl flex flex-col md:flex-row md:gap-14 md:items-start py-10 px-7 gap-2 mt-36 md:relative">
+               
+                  <div class="flex flex-col">
+                      <img class="block w-24 md:w-36 md:absolute md:-top-6" src="/images/logo.svg" alt="logoFooter">
+                        <div class="flex gap-3 items-center mt-4 md:mt-0">
+                            <img class="block" src="/images/icon-location.svg" alt="location">
+                          
+                             <span class="block text-gray-400 max-w-sm">
+                               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                               dolore magna aliqua
+                             </span>      
+                        </div>  
+                    </div>
+                           
+                    <div class="flex flex-col gap-3">
+                        <div class="flex gap-3 text-gray-400 mb-2 items-center md:mb-0">
+                          <img class="block" src="/images/icon-phone.svg" alt="phone"> 
+                          <span class="block">+1-543-123-4567</span> 
+                        </div>
+                        
+                        <div class="flex gap-3 text-gray-400 mb-6 items-center md:mb-0">
+                          <img class="block" src="/images/icon-email.svg" alt="email">
+                          <span class="block">example@fylo.com</span>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col gap-2 text-gray-400 mb-5">
+                        <a href="#" class="hover:text-white duration-200">About Us</a>
+                        <a href="#" class="hover:text-white duration-200">Jobs</a>
+                        <a href="#" class="hover:text-white duration-200">Press</a>
+                        <a href="#" class="hover:text-white duration-200">Blog</a>
+                    </div>
+
+                    <div class="flex flex-col gap-2 text-gray-400 mb-5">
+                        <a href="#" class="hover:text-white duration-200">Contact Us</a>
+                        <a href="#" class="hover:text-white duration-200">Terms</a>
+                        <a href="#" class="hover:text-white duration-200">Privacy</a>
+                    </div>
+
+                    <div class="flex gap-3 text-gray-400">
+                        <a href="#" class="hover:text-callToaction duration-200">
+                           <i class="ri-facebook-fill outline rounded-full py-2 px-2"></i>
+                        </a>
+                        <a href="#" class="hover:text-callToaction duration-200">
+                          <i class="ri-twitter-line outline rounded-full py-2 px-2"></i>
+                        </a>
+                        <a href="#" class="hover:text-callToaction duration-200">
+                          <i class="ri-instagram-line outline rounded-full py-2 px-2"></i>
+                        </a>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <!-- End Main Hero Content -->
-    </div>
-</main>
+
+     </main>
 </body>
 </html>
