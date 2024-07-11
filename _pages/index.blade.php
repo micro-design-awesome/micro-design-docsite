@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+/*
+ * @Description: 
+ * @Author: xunzhaotech
+ * @Email: luyb@xunzhaotech.com
+ * @QQ: 1525572900
+ * @Date: 2024-07-08 18:36:41
+ * @LastEditTime: 2024-07-11 16:02:40
+ * @LastEditors: xunzhaotech
+ */
 <html lang="en">
 
 <head>
@@ -36,85 +45,5 @@
 </head>
 
 <body class="antialiased overflow-x-hidden min-w-screen min-h-screen flex flex-col app-gradient scroll-smooth">
-    <main class="w-full flex flex-col relative items-center">
-        <div class="w-full flex flex-col bg-testemunhasBackground h-64 md:h-96 items-center relative">
-                
-                <header class="w-full max-w-7xl flex items-center justify-between px-2 py-1 z-10 md:py-4 md:px-1">
-                <div>
-                    <img class="w-20 h-6 md:w-24 md:h-8" src="/images/logo.svg" alt="logo">
-                </div>
-                
-                <nav class="text-gray-400 text-xs md:text-sm gap-2 md:gap-4 flex items-center py-7 px-4">
-                    <a class="border-transparent hover:border-white hover:text-white border-b-2 duration-200" href="#">Features</a>
-                    <a class="border-transparent hover:border-white hover:text-white border-b-2 duration-200" href="#">Team</a>
-                    <a class="border-transparent hover:border-white hover:text-white border-b-2 duration-200" href="#">Sign In</a>
-                </nav>
-
-                </header>
-
-                <div class="z-10 absolute w-64 -bottom-6 md:hidden">
-                <img src="/images/illustration-intro.png" alt="bonecosMobile">
-                </div>
-
-                <div class="hidden z-10 absolute md:flex justify-center mt-16">
-                    <img class="w-4/5" src="/images/illustration-intro.png" alt="bonecosDesktop">
-                </div>
-
-            </div>
-            <div class="mx-auto max-w-7xl">
-                <!-- Main Hero Content -->
-                <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center">
-                    <h1
-                        class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-100 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
-                        <span class="block text-4xl md:text-5xl mb-4 sm:mb-0">一个基于微服务架构生态的文档框架</span><span
-                            class="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br logo-gradient md:inline-block drop-shadow-2xl tracking-normal">MicroDesign Docs</span>
-                    </h1>
-                    <div class="mx-auto mt-8 sm:mt-4 text-gray-200 md:mt-8 md:max-w-2xl md:text-center">
-                        <section aria-label="About Hyde">
-                            <p class="lg:text-lg">
-                            一个基于微服务架构生态的文档框架
-                            </p>
-                        </section>
-
-                        <section aria-label="About this page">
-                            <p class="mt-4 mb-4">
-                                极致体验，用心创造，让开发文档书写更简单、更优雅、更高效!
-
-                                <!-- Syntax highlighted by torchlight.dev -->
-                            <pre style="margin-top: 1.5rem; margin-bottom: 1.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B;">php hyde</span> <span style="color: #C3E88D;">publish:homepage</span></code></pre>
-                            </p>
-                        </section>
-
-                        <div class="mt-4 md:mt-8 text-white">
-                            <span class="sr-only">Resources for getting started</span>
-                            <ul class="flex flex-wrap justify-center list-none" style="padding: 0;">
-                                <li>
-                                    <a href="https://hydephp.com/docs/1.x" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                        文档
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://hydephp.com/docs/1.x/getting-started" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                        快速开始
-                                    </a>
-                                </li>
-                                <li>
-
-                                    <a href="https://github.com/hydephp/hyde" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                        GitHub
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/hydephp/hyde" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                        Gitee
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Main Hero Content -->
-            </div>  
-    </main>
 </body>
 </html>
