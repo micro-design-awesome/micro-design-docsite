@@ -816,6 +816,7 @@
         </div>
         <!-- End Main Hero Content -->
     </div>
+</main>
      <div class="mx-auto max-w-7xl relative border-b border-b-[#1e293c] py-10 sm:py-14">
         <div class="container">
             <h2 class=" text-center text-md font-regular absolute -top-[17px] flex rounded-lg border border-[#1e293c] bg-slate-900 px-3 py-1 text-slate-400 sm:left-1/2 sm:-translate-x-1/2"> 快速导航 </h2>
@@ -879,6 +880,5 @@
             </ul>
         </div>
     </div>
-</main>
 </body>
 </html>
