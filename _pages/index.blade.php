@@ -790,12 +790,12 @@
                     <span class="sr-only">快速入口</span>
                     <ul class="flex flex-wrap justify-center list-none" style="padding: 0;">
                         <li>
-                            <a href="/docs/index" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
+                            <a href="/micro-design-docsite/docs/index" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
                                 文档
                             </a>
                         </li>
                         <li>
-                            <a href="/micro-design-docsite/getting-started" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
+                            <a href="/micro-design-docsite/docs/getting-started" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
                                 快速开始
                             </a>
                         </li>
