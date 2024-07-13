@@ -30,4 +30,4 @@ jobs:
         with:
           deploy-to: pages
           env-torchlight-token: ${{ secrets.TORCHLIGHT_TOKEN }}
-          env-site-name: "'HydePHP Action'"
+          env-site-name: "'MicroDesign'"
