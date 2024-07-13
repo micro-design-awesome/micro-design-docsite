@@ -37,26 +37,26 @@
             <h1
                 class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-100 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
                 <span class="block text-4xl md:text-5xl mb-4 sm:mb-0">一个基于微服务架构生态的文档框架</span><span
-                    class="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br logo-gradient md:inline-block drop-shadow-2xl tracking-normal">MicroDesign Docs</span>
+                    class="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br logo-gradient md:inline-block drop-shadow-2xl tracking-normal">MicroDesign Framework Ecosystem</span>
             </h1>
             <div class="mx-auto mt-8 sm:mt-4 text-gray-200 md:mt-8 md:max-w-2xl md:text-center">
-                <section aria-label="About Hyde">
+                <!-- <section aria-label="About Hyde">
                     <p class="lg:text-lg">
                        一个基于微服务架构生态的文档框架
                     </p>
-                </section>
+                </section> -->
 
                 <section aria-label="About this page">
                     <p class="mt-4 mb-4">
                         极致体验，用心创造，让开发文档书写更简单、更优雅、更高效!
 
                         <!-- Syntax highlighted by torchlight.dev -->
-                    <pre style="margin-top: 1.5rem; margin-bottom: 1.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B;">php hyde</span> <span style="color: #C3E88D;">publish:homepage</span></code></pre>
+                    <pre style="margin-top: 1.5rem; margin-bottom: 1.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B;">npm install</span> <span style="color: #C3E88D;">micro-design-ui</span></code></pre>
                     </p>
                 </section>
 
                 <div class="mt-4 md:mt-8 text-white">
-                    <span class="sr-only">Resources for getting started</span>
+                    <span class="sr-only">快速入口</span>
                     <ul class="flex flex-wrap justify-center list-none" style="padding: 0;">
                         <li>
                             <a href="https://hydephp.com/docs/1.x" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
@@ -87,7 +87,7 @@
     </div>
      <div class="mx-auto max-w-7xl relative border-b border-b-[#1e293c] py-10 sm:py-14">
         <div class="container">
-            <h2 class="text-md font-regular absolute -top-[17px] flex rounded-lg border border-[#1e293c] bg-slate-900 px-3 py-1 text-slate-400 sm:left-1/2 sm:-translate-x-1/2"> Role based Roadmaps </h2>
+            <h2 class=" text-center text-md font-regular absolute -top-[17px] flex rounded-lg border border-[#1e293c] bg-slate-900 px-3 py-1 text-slate-400 sm:left-1/2 sm:-translate-x-1/2"> 快速导航 </h2>
             <ul class="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3">
                 <li>
                     <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden" href="/frontend">
