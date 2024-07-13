@@ -30,13 +30,13 @@
 </head>
 
 <body class="antialiased overflow-x-hidden min-w-screen min-h-screen flex flex-col app-gradient">
-<main class="my-auto px-6 pb-12 antialiased app-gradient-dark">
+<main class="bg-gradient-to-b from-slate-900 to-black">
     <div class="mx-auto max-w-7xl">
         <!-- Main Hero Content -->
         <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center">
             <h1
                 class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-100 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
-                <span class="block text-4xl md:text-5xl mb-4 sm:mb-0">一个基于微服务架构生态的文档框架</span><span
+                <span class="block text-4xl md:text-5xl mb-4 sm:mb-0">一个基于微服务架构生态框架</span><span
                     class="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br logo-gradient md:inline-block drop-shadow-2xl tracking-normal">MicroDesign Framework Ecosystem</span>
             </h1>
             <div class="mx-auto mt-8 sm:mt-4 text-gray-200 md:mt-8 md:max-w-2xl md:text-center">
