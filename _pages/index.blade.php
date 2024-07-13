@@ -1,13 +1,4 @@
 <!DOCTYPE html>
-/*
- * @Description: 
- * @Author: xunzhaotech
- * @Email: luyb@xunzhaotech.com
- * @QQ: 1525572900
- * @Date: 2024-07-08 18:36:41
- * @LastEditTime: 2024-07-11 16:02:40
- * @LastEditors: xunzhaotech
- */
 <html lang="en">
 
 <head>
@@ -45,5 +36,101 @@
 </head>
 
 <body class="antialiased overflow-x-hidden min-w-screen min-h-screen flex flex-col app-gradient scroll-smooth">
+    <div class="bg-gray-900 text-white">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold mb-4">Quick Reference</h1>
+        <p class="text-lg mb-8">
+        为开发人员分享快速参考备忘清单【速查表】。这是英文版 Reference 的中文版本，目的是为了方便自己的技术栈查阅，如果
+        您提供一个清单，我将抽空搬运，立即撸起来:)。如果您发现此处的备忘单不合适，您可以通过提交 PR来修复它或提供更好的备
+        忘清单，只针对【中文】用户。以下是开源天使提供的一些备忘清单和快速参考:)。
+        </p>
+        <div class="text-center">
+        <h2 class="text-2xl font-bold mb-4">正在建设中...</h2>
+        <p class="mb-8">坑已挖，需要您的参与完善和贡献!</p>
+        </div>
+        <div class="grid grid-cols-4 gap-4">
+        <div class="bg-red-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">Ansible</h3>
+            <p class="text-sm">看看还缺点儿什么?</p>
+        </div>
+        <div class="bg-green-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">CMake</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-blue-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2"># C#</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-yellow-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">FFmpeg</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-purple-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">Flask</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-pink-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">+ FastAPI</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-indigo-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">Gitlab CI/CD</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-teal-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">LaTeX</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-gray-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">LUB Lua</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-blue-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">MATLAB</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-red-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">Oracle</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-green-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">Pytorch</h3>
+            <p class="text-sm">看看还缺点儿什么?</p>
+        </div>
+        <div class="bg-blue-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">dj Django</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-yellow-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">Flutter</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-purple-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">NestJS</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        <div class="bg-pink-500 rounded-md p-4 text-center">
+            <svg class="w-8 h-8 text-white mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <h3 class="font-bold text-lg mb-2">✔ Vue 3</h3>
+            <p class="text-sm">待完善需要您的参与</p>
+        </div>
+        </div>
+    </div>
+    </div
 </body>
 </html>
