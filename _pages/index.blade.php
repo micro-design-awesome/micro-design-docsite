@@ -795,18 +795,18 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://hydephp.com/docs/1.x/getting-started" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
+                            <a href="/micro-design-docsite/getting-started" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
                                 快速开始
                             </a>
                         </li>
                         <li>
 
-                            <a href="https://github.com/hydephp/hyde" class="font-bold text-sm flex text-center m-2 mx-3">
+                            <a href="https://github.com/xunzhaotech" class="font-bold text-sm flex text-center m-2 mx-3">
                                 GitHub
                             </a>
                         </li>
                          <li>
-                            <a href="https://github.com/hydephp/hyde" class="font-bold text-sm flex text-center m-2 mx-3">
+                            <a href="https://gitee.com/xunzhaotech" class="font-bold text-sm flex text-center m-2 mx-3">
                                 Gitee
                             </a>
                         </li>
