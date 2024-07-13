@@ -70,12 +70,12 @@
                         </li>
                         <li>
 
-                            <a href="https://github.com/hydephp/hyde" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
+                            <a href="https://github.com/hydephp/hyde" class="font-bold text-sm flex text-center m-2 mx-3">
                                 GitHub
                             </a>
                         </li>
                          <li>
-                            <a href="https://github.com/hydephp/hyde" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
+                            <a href="https://github.com/hydephp/hyde" class="font-bold text-sm flex text-center m-2 mx-3">
                                 Gitee
                             </a>
                         </li>
