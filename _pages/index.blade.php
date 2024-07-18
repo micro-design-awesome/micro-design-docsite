@@ -759,161 +759,239 @@
         }
     </style>
 </head>
+<body class="bg-gradient-to-br from-gray-900 to-black">
+    <div
+      class="text-gray-300 container mx-auto p-8 overflow-hidden md:rounded-lg md:p-10 lg:p-12"
+    >
+      <div class="flex justify-between">
+        <h1 class="font-serif text-3xl font-medium">Landing</h1>
+        <a
+          href="https://github.com/gary149/landing-gradients"
+          class="self-start px-3 py-2 leading-none text-gray-200 border border-gray-800 rounded-lg focus:outline-none focus:shadow-outline bg-gradient-to-b hover:from-indigo-500 from-gray-900 to-black"
+        >
+          Get this template
+        </a>
+      </div>
 
-<body class="min-h-screen overflow-x-hidden antialiased min-w-screen app-gradient">
-   <header class="p-4 dark:bg-gray-100 dark:text-gray-800">
-	<div class="container flex justify-between h-16 mx-auto">
-		<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" class="flex items-center p-2">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32" class="w-8 h-8 dark:text-violet-600">
-				<path d="M27.912 7.289l-10.324-5.961c-0.455-0.268-1.002-0.425-1.588-0.425s-1.133 0.158-1.604 0.433l0.015-0.008-10.324 5.961c-0.955 0.561-1.586 1.582-1.588 2.75v11.922c0.002 1.168 0.635 2.189 1.574 2.742l0.016 0.008 10.322 5.961c0.455 0.267 1.004 0.425 1.59 0.425 0.584 0 1.131-0.158 1.602-0.433l-0.014 0.008 10.322-5.961c0.955-0.561 1.586-1.582 1.588-2.75v-11.922c-0.002-1.168-0.633-2.189-1.573-2.742zM27.383 21.961c0 0.389-0.211 0.73-0.526 0.914l-0.004 0.002-10.324 5.961c-0.152 0.088-0.334 0.142-0.53 0.142s-0.377-0.053-0.535-0.145l0.005 0.002-10.324-5.961c-0.319-0.186-0.529-0.527-0.529-0.916v-11.922c0-0.389 0.211-0.73 0.526-0.914l0.004-0.002 10.324-5.961c0.152-0.090 0.334-0.143 0.53-0.143s0.377 0.053 0.535 0.144l-0.006-0.002 10.324 5.961c0.319 0.185 0.529 0.527 0.529 0.916z"></path>
-				<path d="M22.094 19.451h-0.758c-0.188 0-0.363 0.049-0.515 0.135l0.006-0.004-4.574 2.512-5.282-3.049v-6.082l5.282-3.051 4.576 2.504c0.146 0.082 0.323 0.131 0.508 0.131h0.758c0.293 0 0.529-0.239 0.529-0.531v-0.716c0-0.2-0.11-0.373-0.271-0.463l-0.004-0.002-5.078-2.777c-0.293-0.164-0.645-0.26-1.015-0.26-0.39 0-0.756 0.106-1.070 0.289l0.010-0.006-5.281 3.049c-0.636 0.375-1.056 1.055-1.059 1.834v6.082c0 0.779 0.422 1.461 1.049 1.828l0.009 0.006 5.281 3.049c0.305 0.178 0.67 0.284 1.061 0.284 0.373 0 0.723-0.098 1.027-0.265l-0.012 0.006 5.080-2.787c0.166-0.091 0.276-0.265 0.276-0.465v-0.716c0-0.293-0.238-0.529-0.529-0.529z"></path>
-			</svg>
-		</a>
-		<ul class="items-stretch hidden space-x-3 lg:flex">
-			<li class="flex">
-				<a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Link</a>
-			</li>
-			<li class="flex">
-				<a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
-			</li>
-			<li class="flex">
-				<a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
-			</li>
-			<li class="flex">
-				<a rel="noopener noreferrer" href="#" class="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
-			</li>
-		</ul>
-		<div class="items-center flex-shrink-0 hidden lg:flex">
-			<button class="self-center px-8 py-3 rounded">Sign in</button>
-			<button class="self-center px-8 py-3 font-semibold rounded dark:bg-violet-600 dark:text-gray-50">Sign up</button>
-		</div>
-		<button class="p-4 lg:hidden">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 dark:text-gray-800">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-			</svg>
-		</button>
-	</div>
-    </header>
-    <main class="bg-gradient-to-b from-slate-900 to-black">
-        <div class="mx-auto max-w-7xl">
-            <!-- Main Hero Content -->
-            <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center">
-                <h1
-                    class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-100 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
-                    <span class="block mb-4 text-4xl md:text-5xl sm:mb-0">一个基于微服务架构生态框架</span><span
-                        class="relative mt-2 tracking-normal text-transparent bg-clip-text bg-gradient-to-br logo-gradient md:inline-block drop-shadow-2xl">MicroDesign Framework Ecosystem</span>
-                </h1>
-                <div class="mx-auto mt-8 text-gray-200 sm:mt-4 md:mt-8 md:max-w-2xl md:text-center">
-                    <!-- <section aria-label="About Hyde">
-                        <p class="lg:text-lg">
-                        一个基于微服务架构生态的文档框架
-                        </p>
-                    </section> -->
+      <div class="h-32 md:h-40"></div>
 
-                    <section aria-label="About this page">
-                        <p class="mt-4 mb-4">
-                            极致体验，用心创造，让开发文档书写更简单、更优雅、更高效!
+      <p
+        class="font-sans text-4xl font-bold text-gray-200 max-w-5xl lg:text-7xl lg:pr-24 md:text-6xl"
+      >
+        Spend less time coding and more time creating
+      </p>
+      <div class="h-10"></div>
+      <p class="max-w-2xl font-serif text-xl text-gray-400 md:text-2xl">
+        Imagine being able to spent less time... This is a demonstration landing
+        page made with tailwindcss
+      </p>
 
-                            <!-- Syntax highlighted by torchlight.dev -->
-                        <pre style="margin-top: 1.5rem; margin-bottom: 1.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B;">npm install</span> <span style="color: #C3E88D;">micro-design-ui</span></code></pre>
-                        </p>
-                    </section>
+      <div class="h-32 md:h-40"></div>
 
-                    <div class="mt-4 text-white md:mt-8">
-                        <span class="sr-only">快速入口</span>
-                        <ul class="flex flex-wrap justify-center list-none" style="padding: 0;">
-                            <li>
-                                <a href="/micro-design-docsite/docs/index" class="flex m-2 mx-3 text-sm font-bold text-center uppercase">
-                                    文档
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/micro-design-docsite/docs/getting-started" class="flex m-2 mx-3 text-sm font-bold text-center uppercase">
-                                    快速开始
-                                </a>
-                            </li>
-                            <li>
-
-                                <a href="https://github.com/xunzhaotech" class="flex m-2 mx-3 text-sm font-bold text-center">
-                                    GitHub
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://gitee.com/xunzhaotech" class="flex m-2 mx-3 text-sm font-bold text-center">
-                                    Gitee
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="grid gap-8 md:grid-cols-2">
+        <div class="flex flex-col justify-center">
+          <p
+            class="self-start inline font-sans text-xl font-medium text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600"
+          >
+            Simple and easy
+          </p>
+          <h2 class="text-4xl font-bold">Made for devs and designers</h2>
+          <div class="h-6"></div>
+          <p class="font-serif text-xl text-gray-400 md:pr-10">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+            autem, a recusandae vero praesentium qui impedit doloremque
+            molestias necessitatibus.
+          </p>
+          <div class="h-8"></div>
+          <div class="grid grid-cols-2 gap-4 pt-8 border-t border-gray-800">
+            <div>
+              <p class="font-semibold text-gray-400">Made with love</p>
+              <div class="h-4"></div>
+              <p class="font-serif text-gray-400">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Delectus labor.
+              </p>
             </div>
-            <!-- End Main Hero Content -->
+            <div>
+              <p class="font-semibold text-gray-400">It's easy to build</p>
+              <div class="h-4"></div>
+              <p class="font-serif text-gray-400">
+                Ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+                amet consectetur.
+              </p>
+            </div>
+          </div>
         </div>
-    </main>
-    <section class="dark:bg-gray-100 dark:text-gray-800">
-	<div class="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
-		<a rel="noopener noreferrer" href="#" class="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline focus:no-underline lg:grid lg:grid-cols-12 dark:bg-gray-50">
-			<img src="https://source.unsplash.com/random/480x360" alt="" class="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500">
-			<div class="p-6 space-y-2 lg:col-span-5">
-				<h3 class="text-2xl font-semibold sm:text-4xl group-hover:underline group-focus:underline">Noster tincidunt reprimique ad pro</h3>
-				<span class="text-xs dark:text-gray-600">February 19, 2021</span>
-				<p>Ei delenit sensibus liberavisse pri. Quod suscipit no nam. Est in graece fuisset, eos affert putent doctus id.</p>
-			</div>
-		</a>
-		<div class="grid justify-center grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-			<a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-				<img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?1">
-				<div class="p-6 space-y-2">
-					<h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-					<span class="text-xs dark:text-gray-600">January 21, 2021</span>
-					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-				</div>
-			</a>
-			<a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-				<img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?2">
-				<div class="p-6 space-y-2">
-					<h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-					<span class="text-xs dark:text-gray-600">January 22, 2021</span>
-					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-				</div>
-			</a>
-			<a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50">
-				<img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?3">
-				<div class="p-6 space-y-2">
-					<h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-					<span class="text-xs dark:text-gray-600">January 23, 2021</span>
-					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-				</div>
-			</a>
-			<a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
-				<img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?4">
-				<div class="p-6 space-y-2">
-					<h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-					<span class="text-xs dark:text-gray-600">January 24, 2021</span>
-					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-				</div>
-			</a>
-			<a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
-				<img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?5">
-				<div class="p-6 space-y-2">
-					<h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-					<span class="text-xs dark:text-gray-600">January 25, 2021</span>
-					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-				</div>
-			</a>
-			<a rel="noopener noreferrer" href="#" class="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50 hidden sm:block">
-				<img role="presentation" class="object-cover w-full rounded h-44 dark:bg-gray-500" src="https://source.unsplash.com/random/480x360?6">
-				<div class="p-6 space-y-2">
-					<h3 class="text-2xl font-semibold group-hover:underline group-focus:underline">In usu laoreet repudiare legendos</h3>
-					<span class="text-xs dark:text-gray-600">January 26, 2021</span>
-					<p>Mei ex aliquid eleifend forensibus, quo ad dicta apeirian neglegentur, ex has tantas percipit perfecto. At per tempor albucius perfecto, ei probatus consulatu patrioque mea, ei vocent delicata indoctum pri.</p>
-				</div>
-			</a>
-		</div>
-		<div class="flex justify-center">
-			<button type="button" class="px-6 py-3 text-sm rounded-md hover:underline dark:bg-gray-50 dark:text-gray-600">Load more posts...</button>
-		</div>
-	</div>
-</section>
-</body>
+        <div>
+          <div
+            class="-mr-24 rounded-lg md:rounded-l-full bg-gradient-to-br from-gray-900 to-black h-96"
+          ></div>
+        </div>
+      </div>
+
+      <div class="h-32 md:h-40"></div>
+
+      <p class="font-serif text-4xl">
+        <span class="text-gray-400">If we work all together</span>
+
+        <span class="text-gray-600"
+          >consectetur adipisicing elit. Consectetur atque molestiae omnis
+          excepturi enim!</span
+        >
+      </p>
+
+      <div class="h-32 md:h-40"></div>
+
+      <div class="grid gap-4 md:grid-cols-3">
+        <div
+          class="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-br from-gray-900 to-black"
+        >
+          <p
+            class="flex items-center justify-center text-4xl font-semibold text-green-400 bg-green-800 rounded-full shadow-lg w-14 h-14"
+          >
+            1
+          </p>
+          <div class="h-6"></div>
+          <p class="font-serif text-3xl">We build products with UX in mind</p>
+        </div>
+        <div
+          class="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-b from-gray-900 to-black"
+        >
+          <p
+            class="flex items-center justify-center text-4xl font-semibold text-indigo-400 bg-indigo-800 rounded-full shadow-lg w-14 h-14"
+          >
+            2
+          </p>
+          <div class="h-6"></div>
+          <p class="font-serif text-3xl">
+            You can trust us to deliver super fast
+          </p>
+        </div>
+        <div
+          class="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-bl from-gray-900 to-black"
+        >
+          <p
+            class="flex items-center justify-center text-4xl font-semibold text-teal-400 bg-teal-800 rounded-full shadow-lg w-14 h-14"
+          >
+            3
+          </p>
+          <div class="h-6"></div>
+          <p class="font-serif text-3xl">We made it simple and easy to do</p>
+        </div>
+      </div>
+
+      <div class="h-40"></div>
+
+      <div class="grid gap-8 md:grid-cols-3">
+        <div class="flex flex-col justify-center md:col-span-2">
+          <p
+            class="self-start inline font-sans text-xl font-medium text-transparent bg-clip-text bg-gradient-to-br from-teal-400 to-teal-600"
+          >
+            We are humans
+          </p>
+          <h2 class="text-4xl font-bold">We could work together</h2>
+          <div class="h-6"></div>
+          <p class="font-serif text-xl text-gray-400 md:pr-10">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+            autem, a recusandae vero praesentium qui impedit doloremque
+            molestias.
+          </p>
+          <div class="h-8"></div>
+          <div class="grid gap-6 pt-8 border-t border-gray-800 lg:grid-cols-3">
+            <div>
+              <p class="font-semibold text-gray-400">Made with love</p>
+              <div class="h-4"></div>
+              <p class="font-serif text-gray-400">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Delectus labor.
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-gray-400">It's easy to build</p>
+              <div class="h-4"></div>
+              <p class="font-serif text-gray-400">
+                Ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+                amet consectetur.
+              </p>
+            </div>
+            <div>
+              <p class="font-semibold text-gray-400">It's easy to build</p>
+              <div class="h-4"></div>
+              <p class="font-serif text-gray-400">
+                Ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+                amet consectetur.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            class="-mr-24 rounded-lg md:rounded-l-full bg-gradient-to-br from-gray-900 to-black h-96"
+          ></div>
+        </div>
+      </div>
+
+      <div class="h-10 md:h-40"></div>
+
+      <div class="grid gap-4 md:grid-cols-4">
+        <ul class="space-y-1 text-gray-400">
+          <li class="pb-4 font-serif text-gray-400">Social networks</li>
+          <li>
+            <a href="https://twitter.com/victormustar" class="hover:underline"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Linkedin</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Facebook</a>
+          </li>
+        </ul>
+        <ul class="space-y-1 text-gray-400">
+          <li class="pb-4 font-serif text-gray-400">Locations</li>
+          <li>
+            <a href="#" class="hover:underline">Paris</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">New York</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">London</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Singapour</a>
+          </li>
+        </ul>
+        <ul class="space-y-1 text-gray-400">
+          <li class="pb-4 font-serif text-gray-400">Company</li>
+          <li>
+            <a href="#" class="hover:underline">The team</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">About us</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Our vision</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline">Join us</a>
+          </li>
+        </ul>
+        <ul class="space-y-1 text-gray-400">
+          <li class="pb-4 font-serif text-gray-400">Join</li>
+          <li>
+            <a
+              href="https://github.com/gary149/landing-gradients"
+              class="self-start px-3 py-2 leading-none text-gray-200 border border-gray-800 rounded-lg focus:outline-none focus:shadow-outline bg-gradient-to-b hover:from-indigo-500 from-gray-900 to-black"
+            >
+              Get this template
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="h-12"></div>
+    </div>
+  </body>
+</html>
 </html>
