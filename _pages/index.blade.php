@@ -760,7 +760,7 @@
     </style>
 </head>
 
-<body class="flex flex-col min-h-screen overflow-x-hidden antialiased min-w-screen app-gradient">
+<body class="min-h-screen overflow-x-hidden antialiased min-w-screen app-gradient">
    <header class="p-4 dark:bg-gray-100 dark:text-gray-800">
 	<div class="container flex justify-between h-16 mx-auto">
 		<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" class="flex items-center p-2">
