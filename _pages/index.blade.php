@@ -759,7 +759,7 @@
         }
     </style>
 </head>
-<body>
+<body class="flex flex-col min-h-screen overflow-x-hidden antialiased min-w-screen app-gradient">
     <header class="bg-white">
     <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
