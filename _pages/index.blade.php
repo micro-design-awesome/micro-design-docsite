@@ -842,5 +842,61 @@
     </div>
 </div>
 </header>
+<main class="bg-gradient-to-b from-slate-900 to-black">
+    <div class="mx-auto max-w-7xl">
+        <!-- Main Hero Content -->
+        <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center">
+            <h1
+                class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-100 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
+                <span class="block mb-4 text-4xl md:text-5xl sm:mb-0">一个基于微服务架构生态框架</span><span
+                    class="relative mt-2 tracking-normal text-transparent bg-clip-text bg-gradient-to-br logo-gradient md:inline-block drop-shadow-2xl">MicroDesign Framework Ecosystem</span>
+            </h1>
+            <div class="mx-auto mt-8 text-gray-200 sm:mt-4 md:mt-8 md:max-w-2xl md:text-center">
+                <!-- <section aria-label="About Hyde">
+                    <p class="lg:text-lg">
+                       一个基于微服务架构生态的文档框架
+                    </p>
+                </section> -->
+
+                <section aria-label="About this page">
+                    <p class="mt-4 mb-4">
+                        极致体验，用心创造，让开发文档书写更简单、更优雅、更高效!
+
+                        <!-- Syntax highlighted by torchlight.dev -->
+                    <pre style="margin-top: 1.5rem; margin-bottom: 1.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B;">npm install</span> <span style="color: #C3E88D;">micro-design-ui</span></code></pre>
+                    </p>
+                </section>
+
+                <div class="mt-4 text-white md:mt-8">
+                    <span class="sr-only">快速入口</span>
+                    <ul class="flex flex-wrap justify-center list-none" style="padding: 0;">
+                        <li>
+                            <a href="/micro-design-docsite/docs/index" class="flex m-2 mx-3 text-sm font-bold text-center uppercase">
+                                文档
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/micro-design-docsite/docs/getting-started" class="flex m-2 mx-3 text-sm font-bold text-center uppercase">
+                                快速开始
+                            </a>
+                        </li>
+                        <li>
+
+                            <a href="https://github.com/xunzhaotech" class="flex m-2 mx-3 text-sm font-bold text-center">
+                                GitHub
+                            </a>
+                        </li>
+                         <li>
+                            <a href="https://gitee.com/xunzhaotech" class="flex m-2 mx-3 text-sm font-bold text-center">
+                                Gitee
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Main Hero Content -->
+    </div>
+</main>
 </body>
 </html>
