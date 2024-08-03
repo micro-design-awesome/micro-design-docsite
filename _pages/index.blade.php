@@ -881,7 +881,7 @@
             <h1
                 class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-100 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
                 <span class="block mb-4 text-4xl md:text-5xl sm:mb-0">一个基于微服务架构生态框架</span>
-                <span class="relative mb-2 bg-gradient-to-b from-amber-50 to-purple-500 bg-clip-text text-2xl font-bold text-transparent sm:mb-4 sm:text-5xl sm:leading-tight">MicroDesign Framework Ecosystem</span>
+                <span class="relative mb-2 bg-gradient-to-b from-amber-50 to-purple-500 bg-clip-text text-2xl font-bold sm:mb-4 sm:text-5xl sm:leading-tight">MicroDesign Framework Ecosystem</span>
             </h1>
             <div class="mx-auto mt-8 text-gray-200 sm:mt-4 md:mt-8 md:max-w-2xl md:text-center">
                 <!-- <section aria-label="About Hyde">
