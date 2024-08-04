@@ -759,16 +759,16 @@
         }
         .logo-gradient {
             /* Crimson Tide */
-            background-image: linear-gradient(to bottom right, #642B73, #C6426E);
+            background-image: linear-gradient(to bottom right, #fffbeb, #a855f7);
             padding-top: .5rem;
             padding-bottom: 1rem;
         }
     </style>
 </head>
-<body class="flex min-h-screen flex-col bg-gradient from-slate-900 to-black">
+<body class="flex flex-col min-h-screen bg-gradient from-slate-900 to-black">
 <header>
-<div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-    <div class="flex h-16 items-center justify-between">
+<div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
     <div class="flex-1 md:flex md:items-center md:gap-12">
         <a class="block text-teal-600" href="#">
         <span class="sr-only">Home</span>
@@ -830,10 +830,10 @@
         </div>
 
         <div class="block md:hidden">
-            <button class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+            <button class="p-2 text-gray-600 transition bg-gray-100 rounded hover:text-gray-600/75">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                class="w-5 h-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -854,8 +854,8 @@
         <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center">
             <h1
                 class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-100 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
-                <span class="block mb-4 text-4xl md:text-5xl sm:mb-0">一个基于微服务架构生态框架</span><span
-                    class="relative mt-2 tracking-normal text-transparent bg-clip-text bg-gradient-to-br logo-gradient md:inline-block drop-shadow-2xl">MicroDesign Framework Ecosystem</span>
+                <span class="block mb-4 text-4xl md:text-5xl sm:mb-0">一个基于微服务架构生态框架</span>
+                <span class="relative mt-2 tracking-normal text-transparent bg-clip-text bg-gradient-to-br logo-gradient md:inline-block drop-shadow-2xl">MicroDesign Framework Ecosystem</span>
             </h1>
             <div class="mx-auto mt-8 text-gray-200 sm:mt-4 md:mt-8 md:max-w-2xl md:text-center">
                 <!-- <section aria-label="About Hyde">
