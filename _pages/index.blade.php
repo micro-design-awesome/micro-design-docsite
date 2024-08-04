@@ -767,9 +767,9 @@
 </head>
 <body class="flex flex-col min-h-screen bg-gradient from-slate-900 to-black">
 <header>
-<div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+<div class="max-w-screen-xl px-4 mx-auto sm:px-6 md:px-8 lg:px-8">
     <div class="flex items-center justify-between h-16">
-    <div class="flex-1 md:flex md:items-center md:gap-12">
+    <div class="flex-1 flex items-center gap-12">
         <a class="block text-teal-600" href="#">
         <span class="sr-only">Home</span>
         <svg class="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -781,7 +781,7 @@
         </a>
     </div>
 
-    <div class="md:flex md:items-center md:gap-12">
+    <div class="flex items-center gap-12">
         <nav aria-label="Global" class="hidden md:block">
         <ul class="flex items-center gap-6 text-sm">
             <li>
