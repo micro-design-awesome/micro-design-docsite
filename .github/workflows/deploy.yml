@@ -34,6 +34,10 @@ jobs:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
       # - uses: pnpm/action-setup@v3 # Uncomment this if you're using pnpm
       # - uses: oven-sh/setup-bun@v1 # Uncomment this if you're using Bun
+      - name: Install pnpm
+        run: npm install -g pnpm
+      - name: Setup PATH
+        run: echo "$HOME/.npm-global/bin" >> $GITHUB_PATH
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
