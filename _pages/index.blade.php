@@ -900,43 +900,52 @@
                     </ul>
                 </div>
             </div>
-            <div class="flex flex-wrap justify-between mx-auto mt-8 text-gray-200 space-between">
-                <div class="h-8 border w-33 border-slate-800">
-                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
-                         Frontend 
-                    </a>
+           <section class="relative max-w-7xl mx-auto px-4 focus:outline-none sm:px-3 md:px-5">
+           <h2 class="sr-only">Testimonials</h2>
+           <div class="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 max-h-[33rem] overflow-hidden">
+            <ul class="space-y-8">
+                <li class="text-sm leading-6">
+                <figure class="relative flex flex-col-reverse bg-slate-50 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
+                <blockquote class="mt-6 text-slate-700 dark:text-slate-300">
+                <p>I feel like an idiot for not using Tailwind CSS until now.</p>
+                </blockquote>
+                <figcaption class="flex items-center space-x-4">
+                <img src="/_next/static/media/ryan-florence.3af9c9d9.jpg" alt="" class="flex-none w-14 h-14 rounded-full object-cover" loading="lazy" decoding="async">
+                <div class="flex-auto">
+                <div class="text-base text-slate-900 font-semibold dark:text-slate-300">
+                <a href="https://twitter.com/ryanflorence/status/1187951799442886656" tabindex="0">
+                <span class="absolute inset-0"></span>Ryan Florence</a>
                 </div>
-                <div class="h-8 border w-33 border-slate-800">
-                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
-                         Frontend 
-                    </a>
+                <div class="mt-0.5">Remix &amp; React Training</div></div></figcaption></figure>
+            </li>
+              <li class="text-sm leading-6">
+                <figure class="relative flex flex-col-reverse bg-slate-50 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
+                <blockquote class="mt-6 text-slate-700 dark:text-slate-300">
+                <p>I feel like an idiot for not using Tailwind CSS until now.</p>
+                </blockquote>
+                <figcaption class="flex items-center space-x-4">
+                <img src="/_next/static/media/ryan-florence.3af9c9d9.jpg" alt="" class="flex-none w-14 h-14 rounded-full object-cover" loading="lazy" decoding="async">
+                <div class="flex-auto">
+                <div class="text-base text-slate-900 font-semibold dark:text-slate-300">
+                <a href="https://twitter.com/ryanflorence/status/1187951799442886656" tabindex="0">
+                <span class="absolute inset-0"></span>Ryan Florence</a>
                 </div>
-                <div class="h-8 border w-33 border-slate-800">
-                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
-                         Frontend 
-                    </a>
+                <div class="mt-0.5">Remix &amp; React Training</div></div></figcaption></figure>
+            </li>
+              <li class="text-sm leading-6">
+                <figure class="relative flex flex-col-reverse bg-slate-50 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
+                <blockquote class="mt-6 text-slate-700 dark:text-slate-300">
+                <p>I feel like an idiot for not using Tailwind CSS until now.</p>
+                </blockquote>
+                <figcaption class="flex items-center space-x-4">
+                <img src="/_next/static/media/ryan-florence.3af9c9d9.jpg" alt="" class="flex-none w-14 h-14 rounded-full object-cover" loading="lazy" decoding="async">
+                <div class="flex-auto">
+                <div class="text-base text-slate-900 font-semibold dark:text-slate-300">
+                <a href="https://twitter.com/ryanflorence/status/1187951799442886656" tabindex="0">
+                <span class="absolute inset-0"></span>Ryan Florence</a>
                 </div>
-                <div class="h-8 border w-33 border-slate-800">
-                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
-                         Frontend 
-                    </a>
-                </div>
-                <div class="h-8 border w-33 border-slate-800">
-                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
-                         Frontend 
-                    </a>
-                </div>
-                <div class="h-8 border w-33 border-slate-800" >
-                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
-                         Frontend 
-                    </a>
-                </div>
-                <div class="h-8 border w-33 border-slate-800">
-                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
-                         Frontend 
-                    </a>
-                </div>
-            </div>
+                <div class="mt-0.5">Remix &amp; React Training</div></div></figcaption></figure>
+            </li>
         </div>
         <!-- End Main Hero Content -->
     </div>
