@@ -768,8 +768,8 @@
 <body class="flex flex-col min-h-screen bg-gradient from-slate-900 to-black">
 <header>
 <div class="max-w-screen-xl px-4 mx-auto sm:px-6 md:px-8 lg:px-8">
-    <div class="lg:flex lg:items-center lg:justify-between h-16">
-    <div class="lg:flex lg:items-center lg:flex-1 gap-12">
+    <div class="h-16 lg:flex lg:items-center lg:justify-between">
+    <div class="gap-12 lg:flex lg:items-center lg:flex-1">
         <a class="block text-teal-600" href="#">
         <span class="sr-only">Home</span>
         <svg class="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -898,6 +898,43 @@
                             </a>
                         </li>
                     </ul>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 gap-2 mx-auto mt-8 text-gray-200 sm:mt-4 md:mt-8 md:max-w-2xl sm:grid-cols-2 md:grid-cols-3">
+                <div>
+                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
+                         Frontend 
+                    </a>
+                </div>
+                <div>
+                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
+                         Frontend 
+                    </a>
+                </div>
+                <div>
+                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
+                         Frontend 
+                    </a>
+                </div>
+                <div>
+                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
+                         Frontend 
+                    </a>
+                </div>
+                <div>
+                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
+                         Frontend 
+                    </a>
+                </div>
+                <div>
+                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
+                         Frontend 
+                    </a>
+                </div>
+                <div>
+                    <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
+                         Frontend 
+                    </a>
                 </div>
             </div>
         </div>
