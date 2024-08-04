@@ -900,53 +900,52 @@
                     </ul>
                 </div>
             </div>
-           <section class="relative max-w-7xl mx-auto px-4 focus:outline-none sm:px-3 md:px-5">
-           <h2 class="sr-only">Testimonials</h2>
-           <div class="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 max-h-[33rem] overflow-hidden">
-            <ul class="space-y-8">
+           <section class="relative border-b border-b-[#1e293c] py-10 sm:py-14">
+           <h2 class="text-md font-regular absolute -top-[17px] flex rounded-lg border border-[#1e293c] bg-slate-900 px-3 py-1 text-slate-400 sm:left-1/2 sm:-translate-x-1/2">Testimonials</h2>
+            <ul class="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3">
                 <li class="text-sm leading-6">
-                <figure class="relative flex flex-col-reverse bg-slate-50 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
+                <figure class="relative flex flex-col-reverse p-6 rounded-lg bg-slate-50 dark:bg-slate-800 dark:highlight-white/5">
                 <blockquote class="mt-6 text-slate-700 dark:text-slate-300">
                 <p>I feel like an idiot for not using Tailwind CSS until now.</p>
                 </blockquote>
                 <figcaption class="flex items-center space-x-4">
-                <img src="/_next/static/media/ryan-florence.3af9c9d9.jpg" alt="" class="flex-none w-14 h-14 rounded-full object-cover" loading="lazy" decoding="async">
+                <img src="/_next/static/media/ryan-florence.3af9c9d9.jpg" alt="" class="flex-none object-cover rounded-full w-14 h-14" loading="lazy" decoding="async">
                 <div class="flex-auto">
-                <div class="text-base text-slate-900 font-semibold dark:text-slate-300">
+                <div class="text-base font-semibold text-slate-900 dark:text-slate-300">
                 <a href="https://twitter.com/ryanflorence/status/1187951799442886656" tabindex="0">
                 <span class="absolute inset-0"></span>Ryan Florence</a>
                 </div>
                 <div class="mt-0.5">Remix &amp; React Training</div></div></figcaption></figure>
             </li>
-              <li class="text-sm leading-6">
-                <figure class="relative flex flex-col-reverse bg-slate-50 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
-                <blockquote class="mt-6 text-slate-700 dark:text-slate-300">
-                <p>I feel like an idiot for not using Tailwind CSS until now.</p>
-                </blockquote>
-                <figcaption class="flex items-center space-x-4">
-                <img src="/_next/static/media/ryan-florence.3af9c9d9.jpg" alt="" class="flex-none w-14 h-14 rounded-full object-cover" loading="lazy" decoding="async">
-                <div class="flex-auto">
-                <div class="text-base text-slate-900 font-semibold dark:text-slate-300">
-                <a href="https://twitter.com/ryanflorence/status/1187951799442886656" tabindex="0">
-                <span class="absolute inset-0"></span>Ryan Florence</a>
-                </div>
-                <div class="mt-0.5">Remix &amp; React Training</div></div></figcaption></figure>
+            <li class="text-sm leading-6">
+            <figure class="relative flex flex-col-reverse p-6 rounded-lg bg-slate-50 dark:bg-slate-800 dark:highlight-white/5">
+            <blockquote class="mt-6 text-slate-700 dark:text-slate-300">
+            <p>I feel like an idiot for not using Tailwind CSS until now.</p>
+            </blockquote>
+            <figcaption class="flex items-center space-x-4">
+            <img src="/_next/static/media/ryan-florence.3af9c9d9.jpg" alt="" class="flex-none object-cover rounded-full w-14 h-14" loading="lazy" decoding="async">
+            <div class="flex-auto">
+            <div class="text-base font-semibold text-slate-900 dark:text-slate-300">
+            <a href="https://twitter.com/ryanflorence/status/1187951799442886656" tabindex="0">
+            <span class="absolute inset-0"></span>Ryan Florence</a>
+            </div>
+            <div class="mt-0.5">Remix &amp; React Training</div></div></figcaption></figure>
             </li>
-              <li class="text-sm leading-6">
-                <figure class="relative flex flex-col-reverse bg-slate-50 rounded-lg p-6 dark:bg-slate-800 dark:highlight-white/5">
-                <blockquote class="mt-6 text-slate-700 dark:text-slate-300">
-                <p>I feel like an idiot for not using Tailwind CSS until now.</p>
-                </blockquote>
-                <figcaption class="flex items-center space-x-4">
-                <img src="/_next/static/media/ryan-florence.3af9c9d9.jpg" alt="" class="flex-none w-14 h-14 rounded-full object-cover" loading="lazy" decoding="async">
-                <div class="flex-auto">
-                <div class="text-base text-slate-900 font-semibold dark:text-slate-300">
-                <a href="https://twitter.com/ryanflorence/status/1187951799442886656" tabindex="0">
-                <span class="absolute inset-0"></span>Ryan Florence</a>
-                </div>
-                <div class="mt-0.5">Remix &amp; React Training</div></div></figcaption></figure>
+            <li class="text-sm leading-6">
+            <figure class="relative flex flex-col-reverse p-6 rounded-lg bg-slate-50 dark:bg-slate-800 dark:highlight-white/5">
+            <blockquote class="mt-6 text-slate-700 dark:text-slate-300">
+            <p>I feel like an idiot for not using Tailwind CSS until now.</p>
+            </blockquote>
+            <figcaption class="flex items-center space-x-4">
+            <img src="/_next/static/media/ryan-florence.3af9c9d9.jpg" alt="" class="flex-none object-cover rounded-full w-14 h-14" loading="lazy" decoding="async">
+            <div class="flex-auto">
+            <div class="text-base font-semibold text-slate-900 dark:text-slate-300">
+            <a href="https://twitter.com/ryanflorence/status/1187951799442886656" tabindex="0">
+            <span class="absolute inset-0"></span>Ryan Florence</a>
+            </div>
+            <div class="mt-0.5">Remix &amp; React Training</div></div></figcaption></figure>
             </li>
-        </div>
+            </ul>
         <!-- End Main Hero Content -->
     </div>
 </main>
