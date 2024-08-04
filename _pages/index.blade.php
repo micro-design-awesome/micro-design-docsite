@@ -751,6 +751,12 @@
             background: -webkit-linear-gradient(to left bottom, #243B55, #141E30); /* Chrome 10-25, Safari 5.1-6 */
             background: linear-gradient(to left bottom, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
+        .bg-gradient {
+            /* Royal */
+            background: #0f172a; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to left bottom, #243B55, #0f172a); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to left bottom, #243B55, #0f172a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
         .logo-gradient {
             /* Crimson Tide */
             background-image: linear-gradient(to bottom right, #642B73, #C6426E);
@@ -759,7 +765,7 @@
         }
     </style>
 </head>
-<body class="flex min-h-screen flex-col bg-gradient-to-b from-slate-900 to-black">
+<body class="flex min-h-screen flex-col bg-gradient from-slate-900 to-black">
 <header>
 <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div class="flex h-16 items-center justify-between">
