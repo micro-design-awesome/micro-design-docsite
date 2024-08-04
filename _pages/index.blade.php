@@ -900,7 +900,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="flex flex-wrap justify-between mx-auto mt-8 text-gray-200">
+            <div class="flex flex-wrap justify-between mx-auto mt-8 text-gray-200 space-between">
                 <div class="h-8 border w-33 border-slate-800">
                     <a class="group border border-slate-800 bg-slate-900 p-2.5 sm:p-3.5 block no-underline rounded-lg relative text-slate-400 font-regular text-md hover:border-slate-600 hover:text-slate-100 overflow-hidden">
                          Frontend 
