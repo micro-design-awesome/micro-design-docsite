@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="rainbow">
 
 <head>
     <meta charset="utf-8">
@@ -16,732 +16,732 @@
 
     @keyframes rainbow {
         0% {
-            --vp-c-brand-1: #00a98e;
-            --vp-c-brand-light: #4ad1b4;
-            --vp-c-brand-lighter: #78fadc;
-            --vp-c-brand-dark: #008269;
-            --vp-c-brand-darker: #005d47;
-            --vp-c-brand-next: #009ff7
+            --jjext-color-brand: #00a98e;
+            --jjext-color-brand-light: #4ad1b4;
+            --jjext-color-brand-lighter: #78fadc;
+            --jjext-color-nav-title: #008269;
+            --jjext-color-nav-titleer: #005d47;
+            --jjext-color-thirdly: #009ff7
         }
 
         1.25% {
-            --vp-c-brand-1: #00a996;
-            --vp-c-brand-light: #4bd1bd;
-            --vp-c-brand-lighter: #79fbe5;
-            --vp-c-brand-dark: #008371;
-            --vp-c-brand-darker: #005e4f;
-            --vp-c-brand-next: #009dfa
+            --jjext-color-brand: #00a996;
+            --jjext-color-brand-light: #4bd1bd;
+            --jjext-color-brand-lighter: #79fbe5;
+            --jjext-color-nav-title: #008371;
+            --jjext-color-nav-titleer: #005e4f;
+            --jjext-color-thirdly: #009dfa
         }
 
         2.5% {
-            --vp-c-brand-1: #00a99f;
-            --vp-c-brand-light: #4cd1c6;
-            --vp-c-brand-lighter: #7afbee;
-            --vp-c-brand-dark: #00837a;
-            --vp-c-brand-darker: #005e56;
-            --vp-c-brand-next: #009bfc
+            --jjext-color-brand: #00a99f;
+            --jjext-color-brand-light: #4cd1c6;
+            --jjext-color-brand-lighter: #7afbee;
+            --jjext-color-nav-title: #00837a;
+            --jjext-color-nav-titleer: #005e56;
+            --jjext-color-thirdly: #009bfc
         }
 
         3.75% {
-            --vp-c-brand-1: #00a9a7;
-            --vp-c-brand-light: #4dd1cf;
-            --vp-c-brand-lighter: #7bfbf8;
-            --vp-c-brand-dark: #008382;
-            --vp-c-brand-darker: #005e5e;
-            --vp-c-brand-next: #0098fd
+            --jjext-color-brand: #00a9a7;
+            --jjext-color-brand-light: #4dd1cf;
+            --jjext-color-brand-lighter: #7bfbf8;
+            --jjext-color-nav-title: #008382;
+            --jjext-color-nav-titleer: #005e5e;
+            --jjext-color-thirdly: #0098fd
         }
 
         5% {
-            --vp-c-brand-1: #00a9b0;
-            --vp-c-brand-light: #4ed1d7;
-            --vp-c-brand-lighter: #7dfaff;
-            --vp-c-brand-dark: #00838a;
-            --vp-c-brand-darker: #005e65;
-            --vp-c-brand-next: #0096fd
+            --jjext-color-brand: #00a9b0;
+            --jjext-color-brand-light: #4ed1d7;
+            --jjext-color-brand-lighter: #7dfaff;
+            --jjext-color-nav-title: #00838a;
+            --jjext-color-nav-titleer: #005e65;
+            --jjext-color-thirdly: #0096fd
         }
 
         6.25% {
-            --vp-c-brand-1: #00a9b8;
-            --vp-c-brand-light: #4fd1e0;
-            --vp-c-brand-lighter: #7efaff;
-            --vp-c-brand-dark: #008391;
-            --vp-c-brand-darker: #005e6d;
-            --vp-c-brand-next: #0093fd
+            --jjext-color-brand: #00a9b8;
+            --jjext-color-brand-light: #4fd1e0;
+            --jjext-color-brand-lighter: #7efaff;
+            --jjext-color-nav-title: #008391;
+            --jjext-color-nav-titleer: #005e6d;
+            --jjext-color-thirdly: #0093fd
         }
 
         7.5% {
-            --vp-c-brand-1: #00a9c0;
-            --vp-c-brand-light: #50d0e8;
-            --vp-c-brand-lighter: #7ffaff;
-            --vp-c-brand-dark: #008399;
-            --vp-c-brand-darker: #005e74;
-            --vp-c-brand-next: #2e90fc
+            --jjext-color-brand: #00a9c0;
+            --jjext-color-brand-light: #50d0e8;
+            --jjext-color-brand-lighter: #7ffaff;
+            --jjext-color-nav-title: #008399;
+            --jjext-color-nav-titleer: #005e74;
+            --jjext-color-thirdly: #2e90fc
         }
 
         8.75% {
-            --vp-c-brand-1: #00a8c7;
-            --vp-c-brand-light: #51d0f0;
-            --vp-c-brand-lighter: #81f9ff;
-            --vp-c-brand-dark: #0082a0;
-            --vp-c-brand-darker: #005e7b;
-            --vp-c-brand-next: #4d8dfa
+            --jjext-color-brand: #00a8c7;
+            --jjext-color-brand-light: #51d0f0;
+            --jjext-color-brand-lighter: #81f9ff;
+            --jjext-color-nav-title: #0082a0;
+            --jjext-color-nav-titleer: #005e7b;
+            --jjext-color-thirdly: #4d8dfa
         }
 
         10% {
-            --vp-c-brand-1: #00a8cf;
-            --vp-c-brand-light: #52cff7;
-            --vp-c-brand-lighter: #82f8ff;
-            --vp-c-brand-dark: #0082a7;
-            --vp-c-brand-darker: #005e81;
-            --vp-c-brand-next: #638af8
+            --jjext-color-brand: #00a8cf;
+            --jjext-color-brand-light: #52cff7;
+            --jjext-color-brand-lighter: #82f8ff;
+            --jjext-color-nav-title: #0082a7;
+            --jjext-color-nav-titleer: #005e81;
+            --jjext-color-thirdly: #638af8
         }
 
         11.25% {
-            --vp-c-brand-1: #00a7d5;
-            --vp-c-brand-light: #53cfff;
-            --vp-c-brand-lighter: #84f8ff;
-            --vp-c-brand-dark: #0081ae;
-            --vp-c-brand-darker: #005d87;
-            --vp-c-brand-next: #7587f5
+            --jjext-color-brand: #00a7d5;
+            --jjext-color-brand-light: #53cfff;
+            --jjext-color-brand-lighter: #84f8ff;
+            --jjext-color-nav-title: #0081ae;
+            --jjext-color-nav-titleer: #005d87;
+            --jjext-color-thirdly: #7587f5
         }
 
         12.5% {
-            --vp-c-brand-1: #00a6dc;
-            --vp-c-brand-light: #55ceff;
-            --vp-c-brand-lighter: #85f7ff;
-            --vp-c-brand-dark: #0081b4;
-            --vp-c-brand-darker: #005d8d;
-            --vp-c-brand-next: #8583f1
+            --jjext-color-brand: #00a6dc;
+            --jjext-color-brand-light: #55ceff;
+            --jjext-color-brand-lighter: #85f7ff;
+            --jjext-color-nav-title: #0081b4;
+            --jjext-color-nav-titleer: #005d8d;
+            --jjext-color-thirdly: #8583f1
         }
 
         13.75% {
-            --vp-c-brand-1: #00a6e2;
-            --vp-c-brand-light: #56cdff;
-            --vp-c-brand-lighter: #87f6ff;
-            --vp-c-brand-dark: #0080b9;
-            --vp-c-brand-darker: #005c93;
-            --vp-c-brand-next: #9280ed
+            --jjext-color-brand: #00a6e2;
+            --jjext-color-brand-light: #56cdff;
+            --jjext-color-brand-lighter: #87f6ff;
+            --jjext-color-nav-title: #0080b9;
+            --jjext-color-nav-titleer: #005c93;
+            --jjext-color-thirdly: #9280ed
         }
 
         15% {
-            --vp-c-brand-1: #00a4e7;
-            --vp-c-brand-light: #57ccff;
-            --vp-c-brand-lighter: #88f4ff;
-            --vp-c-brand-dark: #007fbf;
-            --vp-c-brand-darker: #005b98;
-            --vp-c-brand-next: #9f7ce9
+            --jjext-color-brand: #00a4e7;
+            --jjext-color-brand-light: #57ccff;
+            --jjext-color-brand-lighter: #88f4ff;
+            --jjext-color-nav-title: #007fbf;
+            --jjext-color-nav-titleer: #005b98;
+            --jjext-color-thirdly: #9f7ce9
         }
 
         16.25% {
-            --vp-c-brand-1: #00a3ec;
-            --vp-c-brand-light: #58caff;
-            --vp-c-brand-lighter: #89f3ff;
-            --vp-c-brand-dark: #007ec3;
-            --vp-c-brand-darker: #005b9c;
-            --vp-c-brand-next: #aa78e3
+            --jjext-color-brand: #00a3ec;
+            --jjext-color-brand-light: #58caff;
+            --jjext-color-brand-lighter: #89f3ff;
+            --jjext-color-nav-title: #007ec3;
+            --jjext-color-nav-titleer: #005b9c;
+            --jjext-color-thirdly: #aa78e3
         }
 
         17.5% {
-            --vp-c-brand-1: #00a2f1;
-            --vp-c-brand-light: #58c9ff;
-            --vp-c-brand-lighter: #8af1ff;
-            --vp-c-brand-dark: #007dc8;
-            --vp-c-brand-darker: #0059a0;
-            --vp-c-brand-next: #b574dd
+            --jjext-color-brand: #00a2f1;
+            --jjext-color-brand-light: #58c9ff;
+            --jjext-color-brand-lighter: #8af1ff;
+            --jjext-color-nav-title: #007dc8;
+            --jjext-color-nav-titleer: #0059a0;
+            --jjext-color-thirdly: #b574dd
         }
 
         18.75% {
-            --vp-c-brand-1: #00a0f4;
-            --vp-c-brand-light: #59c7ff;
-            --vp-c-brand-lighter: #8bf0ff;
-            --vp-c-brand-dark: #007bcb;
-            --vp-c-brand-darker: #0058a3;
-            --vp-c-brand-next: #be71d7
+            --jjext-color-brand: #00a0f4;
+            --jjext-color-brand-light: #59c7ff;
+            --jjext-color-brand-lighter: #8bf0ff;
+            --jjext-color-nav-title: #007bcb;
+            --jjext-color-nav-titleer: #0058a3;
+            --jjext-color-thirdly: #be71d7
         }
 
         20% {
-            --vp-c-brand-1: #009ff7;
-            --vp-c-brand-light: #5ac5ff;
-            --vp-c-brand-lighter: #8ceeff;
-            --vp-c-brand-dark: #007ace;
-            --vp-c-brand-darker: #0057a6;
-            --vp-c-brand-next: #c76dd1
+            --jjext-color-brand: #009ff7;
+            --jjext-color-brand-light: #5ac5ff;
+            --jjext-color-brand-lighter: #8ceeff;
+            --jjext-color-nav-title: #007ace;
+            --jjext-color-nav-titleer: #0057a6;
+            --jjext-color-thirdly: #c76dd1
         }
 
         21.25% {
-            --vp-c-brand-1: #009dfa;
-            --vp-c-brand-light: #5ac3ff;
-            --vp-c-brand-lighter: #8decff;
-            --vp-c-brand-dark: #0078d0;
-            --vp-c-brand-darker: #0055a8;
-            --vp-c-brand-next: #cf69c9
+            --jjext-color-brand: #009dfa;
+            --jjext-color-brand-light: #5ac3ff;
+            --jjext-color-brand-lighter: #8decff;
+            --jjext-color-nav-title: #0078d0;
+            --jjext-color-nav-titleer: #0055a8;
+            --jjext-color-thirdly: #cf69c9
         }
 
         22.5% {
-            --vp-c-brand-1: #009bfc;
-            --vp-c-brand-light: #5bc1ff;
-            --vp-c-brand-lighter: #8de9ff;
-            --vp-c-brand-dark: #0076d2;
-            --vp-c-brand-darker: #0053aa;
-            --vp-c-brand-next: #d566c2
+            --jjext-color-brand: #009bfc;
+            --jjext-color-brand-light: #5bc1ff;
+            --jjext-color-brand-lighter: #8de9ff;
+            --jjext-color-nav-title: #0076d2;
+            --jjext-color-nav-titleer: #0053aa;
+            --jjext-color-thirdly: #d566c2
         }
 
         23.75% {
-            --vp-c-brand-1: #0098fd;
-            --vp-c-brand-light: #5bbfff;
-            --vp-c-brand-lighter: #8ee7ff;
-            --vp-c-brand-dark: #0074d3;
-            --vp-c-brand-darker: #0051ab;
-            --vp-c-brand-next: #dc63ba
+            --jjext-color-brand: #0098fd;
+            --jjext-color-brand-light: #5bbfff;
+            --jjext-color-brand-lighter: #8ee7ff;
+            --jjext-color-nav-title: #0074d3;
+            --jjext-color-nav-titleer: #0051ab;
+            --jjext-color-thirdly: #dc63ba
         }
 
         25% {
-            --vp-c-brand-1: #0096fd;
-            --vp-c-brand-light: #5bbcff;
-            --vp-c-brand-lighter: #8ee4ff;
-            --vp-c-brand-dark: #0071d4;
-            --vp-c-brand-darker: #004fab;
-            --vp-c-brand-next: #e160b3
+            --jjext-color-brand: #0096fd;
+            --jjext-color-brand-light: #5bbcff;
+            --jjext-color-brand-lighter: #8ee4ff;
+            --jjext-color-nav-title: #0071d4;
+            --jjext-color-nav-titleer: #004fab;
+            --jjext-color-thirdly: #e160b3
         }
 
         26.25% {
-            --vp-c-brand-1: #0093fd;
-            --vp-c-brand-light: #5bb9ff;
-            --vp-c-brand-lighter: #8ee1ff;
-            --vp-c-brand-dark: #006fd3;
-            --vp-c-brand-darker: #004dab;
-            --vp-c-brand-next: #e65eab
+            --jjext-color-brand: #0093fd;
+            --jjext-color-brand-light: #5bb9ff;
+            --jjext-color-brand-lighter: #8ee1ff;
+            --jjext-color-nav-title: #006fd3;
+            --jjext-color-nav-titleer: #004dab;
+            --jjext-color-thirdly: #e65eab
         }
 
         27.5% {
-            --vp-c-brand-1: #2e90fc;
-            --vp-c-brand-light: #69b6ff;
-            --vp-c-brand-lighter: #99deff;
-            --vp-c-brand-dark: #006cd2;
-            --vp-c-brand-darker: #004baa;
-            --vp-c-brand-next: #e95ca2
+            --jjext-color-brand: #2e90fc;
+            --jjext-color-brand-light: #69b6ff;
+            --jjext-color-brand-lighter: #99deff;
+            --jjext-color-nav-title: #006cd2;
+            --jjext-color-nav-titleer: #004baa;
+            --jjext-color-thirdly: #e95ca2
         }
 
         28.75% {
-            --vp-c-brand-1: #4d8dfa;
-            --vp-c-brand-light: #7eb3ff;
-            --vp-c-brand-lighter: #abdbff;
-            --vp-c-brand-dark: #0069d1;
-            --vp-c-brand-darker: #0048a9;
-            --vp-c-brand-next: #ed5a9a
+            --jjext-color-brand: #4d8dfa;
+            --jjext-color-brand-light: #7eb3ff;
+            --jjext-color-brand-lighter: #abdbff;
+            --jjext-color-nav-title: #0069d1;
+            --jjext-color-nav-titleer: #0048a9;
+            --jjext-color-thirdly: #ed5a9a
         }
 
         30% {
-            --vp-c-brand-1: #638af8;
-            --vp-c-brand-light: #8fb0ff;
-            --vp-c-brand-lighter: #bbd7ff;
-            --vp-c-brand-dark: #3066cf;
-            --vp-c-brand-darker: #0045a7;
-            --vp-c-brand-next: #ef5992
+            --jjext-color-brand: #638af8;
+            --jjext-color-brand-light: #8fb0ff;
+            --jjext-color-brand-lighter: #bbd7ff;
+            --jjext-color-nav-title: #3066cf;
+            --jjext-color-nav-titleer: #0045a7;
+            --jjext-color-thirdly: #ef5992
         }
 
         31.25% {
-            --vp-c-brand-1: #7587f5;
-            --vp-c-brand-light: #9fadff;
-            --vp-c-brand-lighter: #cad4ff;
-            --vp-c-brand-dark: #4963cc;
-            --vp-c-brand-darker: #0941a4;
-            --vp-c-brand-next: #f15989
+            --jjext-color-brand: #7587f5;
+            --jjext-color-brand-light: #9fadff;
+            --jjext-color-brand-lighter: #cad4ff;
+            --jjext-color-nav-title: #4963cc;
+            --jjext-color-nav-titleer: #0941a4;
+            --jjext-color-thirdly: #f15989
         }
 
         32.5% {
-            --vp-c-brand-1: #8583f1;
-            --vp-c-brand-light: #aea9ff;
-            --vp-c-brand-lighter: #d8d1ff;
-            --vp-c-brand-dark: #5b5fc8;
-            --vp-c-brand-darker: #2e3ea1;
-            --vp-c-brand-next: #f25981
+            --jjext-color-brand: #8583f1;
+            --jjext-color-brand-light: #aea9ff;
+            --jjext-color-brand-lighter: #d8d1ff;
+            --jjext-color-nav-title: #5b5fc8;
+            --jjext-color-nav-titleer: #2e3ea1;
+            --jjext-color-thirdly: #f25981
         }
 
         33.75% {
-            --vp-c-brand-1: #9280ed;
-            --vp-c-brand-light: #bca6ff;
-            --vp-c-brand-lighter: #e6cdff;
-            --vp-c-brand-dark: #6a5cc4;
-            --vp-c-brand-darker: #413a9d;
-            --vp-c-brand-next: #f25a79
+            --jjext-color-brand: #9280ed;
+            --jjext-color-brand-light: #bca6ff;
+            --jjext-color-brand-lighter: #e6cdff;
+            --jjext-color-nav-title: #6a5cc4;
+            --jjext-color-nav-titleer: #413a9d;
+            --jjext-color-thirdly: #f25a79
         }
 
         35% {
-            --vp-c-brand-1: #9f7ce9;
-            --vp-c-brand-light: #c8a2ff;
-            --vp-c-brand-lighter: #f2c9ff;
-            --vp-c-brand-dark: #7758c0;
-            --vp-c-brand-darker: #503598;
-            --vp-c-brand-next: #f25c71
+            --jjext-color-brand: #9f7ce9;
+            --jjext-color-brand-light: #c8a2ff;
+            --jjext-color-brand-lighter: #f2c9ff;
+            --jjext-color-nav-title: #7758c0;
+            --jjext-color-nav-titleer: #503598;
+            --jjext-color-thirdly: #f25c71
         }
 
         36.25% {
-            --vp-c-brand-1: #aa78e3;
-            --vp-c-brand-light: #d39eff;
-            --vp-c-brand-lighter: #fec6ff;
-            --vp-c-brand-dark: #8354bb;
-            --vp-c-brand-darker: #5c3193;
-            --vp-c-brand-next: #f15e69
+            --jjext-color-brand: #aa78e3;
+            --jjext-color-brand-light: #d39eff;
+            --jjext-color-brand-lighter: #fec6ff;
+            --jjext-color-nav-title: #8354bb;
+            --jjext-color-nav-titleer: #5c3193;
+            --jjext-color-thirdly: #f15e69
         }
 
         37.5% {
-            --vp-c-brand-1: #b574dd;
-            --vp-c-brand-light: #de9bff;
-            --vp-c-brand-lighter: #ffc2ff;
-            --vp-c-brand-dark: #8d50b5;
-            --vp-c-brand-darker: #662c8e;
-            --vp-c-brand-next: #ef6061
+            --jjext-color-brand: #b574dd;
+            --jjext-color-brand-light: #de9bff;
+            --jjext-color-brand-lighter: #ffc2ff;
+            --jjext-color-nav-title: #8d50b5;
+            --jjext-color-nav-titleer: #662c8e;
+            --jjext-color-thirdly: #ef6061
         }
 
         38.75% {
-            --vp-c-brand-1: #be71d7;
-            --vp-c-brand-light: #e897ff;
-            --vp-c-brand-lighter: #ffbfff;
-            --vp-c-brand-dark: #964baf;
-            --vp-c-brand-darker: #6f2688;
-            --vp-c-brand-next: #ed635a
+            --jjext-color-brand: #be71d7;
+            --jjext-color-brand-light: #e897ff;
+            --jjext-color-brand-lighter: #ffbfff;
+            --jjext-color-nav-title: #964baf;
+            --jjext-color-nav-titleer: #6f2688;
+            --jjext-color-thirdly: #ed635a
         }
 
         40% {
-            --vp-c-brand-1: #c76dd1;
-            --vp-c-brand-light: #f194fa;
-            --vp-c-brand-lighter: #ffbcff;
-            --vp-c-brand-dark: #9e47a9;
-            --vp-c-brand-darker: #772082;
-            --vp-c-brand-next: #eb6552
+            --jjext-color-brand: #c76dd1;
+            --jjext-color-brand-light: #f194fa;
+            --jjext-color-brand-lighter: #ffbcff;
+            --jjext-color-nav-title: #9e47a9;
+            --jjext-color-nav-titleer: #772082;
+            --jjext-color-thirdly: #eb6552
         }
 
         41.25% {
-            --vp-c-brand-1: #cf69c9;
-            --vp-c-brand-light: #f991f2;
-            --vp-c-brand-lighter: #ffb9ff;
-            --vp-c-brand-dark: #a643a2;
-            --vp-c-brand-darker: #7e197c;
-            --vp-c-brand-next: #e8694b
+            --jjext-color-brand: #cf69c9;
+            --jjext-color-brand-light: #f991f2;
+            --jjext-color-brand-lighter: #ffb9ff;
+            --jjext-color-nav-title: #a643a2;
+            --jjext-color-nav-titleer: #7e197c;
+            --jjext-color-thirdly: #e8694b
         }
 
         42.5% {
-            --vp-c-brand-1: #d566c2;
-            --vp-c-brand-light: #ff8deb;
-            --vp-c-brand-lighter: #ffb6ff;
-            --vp-c-brand-dark: #ac3f9b;
-            --vp-c-brand-darker: #841075;
-            --vp-c-brand-next: #e46c44
+            --jjext-color-brand: #d566c2;
+            --jjext-color-brand-light: #ff8deb;
+            --jjext-color-brand-lighter: #ffb6ff;
+            --jjext-color-nav-title: #ac3f9b;
+            --jjext-color-nav-titleer: #841075;
+            --jjext-color-thirdly: #e46c44
         }
 
         43.75% {
-            --vp-c-brand-1: #dc63ba;
-            --vp-c-brand-light: #ff8be3;
-            --vp-c-brand-lighter: #ffb3ff;
-            --vp-c-brand-dark: #b23b94;
-            --vp-c-brand-darker: #89046f;
-            --vp-c-brand-next: #e06f3d
+            --jjext-color-brand: #dc63ba;
+            --jjext-color-brand-light: #ff8be3;
+            --jjext-color-brand-lighter: #ffb3ff;
+            --jjext-color-nav-title: #b23b94;
+            --jjext-color-nav-titleer: #89046f;
+            --jjext-color-thirdly: #e06f3d
         }
 
         45% {
-            --vp-c-brand-1: #e160b3;
-            --vp-c-brand-light: #ff88db;
-            --vp-c-brand-lighter: #ffb1ff;
-            --vp-c-brand-dark: #b7378c;
-            --vp-c-brand-darker: #8d0068;
-            --vp-c-brand-next: #db7336
+            --jjext-color-brand: #e160b3;
+            --jjext-color-brand-light: #ff88db;
+            --jjext-color-brand-lighter: #ffb1ff;
+            --jjext-color-nav-title: #b7378c;
+            --jjext-color-nav-titleer: #8d0068;
+            --jjext-color-thirdly: #db7336
         }
 
         46.25% {
-            --vp-c-brand-1: #e65eab;
-            --vp-c-brand-light: #ff86d2;
-            --vp-c-brand-lighter: #ffaffb;
-            --vp-c-brand-dark: #bb3485;
-            --vp-c-brand-darker: #910060;
-            --vp-c-brand-next: #d77630
+            --jjext-color-brand: #e65eab;
+            --jjext-color-brand-light: #ff86d2;
+            --jjext-color-brand-lighter: #ffaffb;
+            --jjext-color-nav-title: #bb3485;
+            --jjext-color-nav-titleer: #910060;
+            --jjext-color-thirdly: #d77630
         }
 
         47.5% {
-            --vp-c-brand-1: #e95ca2;
-            --vp-c-brand-light: #ff84ca;
-            --vp-c-brand-lighter: #ffadf2;
-            --vp-c-brand-dark: #be317d;
-            --vp-c-brand-darker: #940059;
-            --vp-c-brand-next: #d17a2a
+            --jjext-color-brand: #e95ca2;
+            --jjext-color-brand-light: #ff84ca;
+            --jjext-color-brand-lighter: #ffadf2;
+            --jjext-color-nav-title: #be317d;
+            --jjext-color-nav-titleer: #940059;
+            --jjext-color-thirdly: #d17a2a
         }
 
         48.75% {
-            --vp-c-brand-1: #ed5a9a;
-            --vp-c-brand-light: #ff83c1;
-            --vp-c-brand-lighter: #fface9;
-            --vp-c-brand-dark: #c12f75;
-            --vp-c-brand-darker: #970052;
-            --vp-c-brand-next: #cc7d24
+            --jjext-color-brand: #ed5a9a;
+            --jjext-color-brand-light: #ff83c1;
+            --jjext-color-brand-lighter: #fface9;
+            --jjext-color-nav-title: #c12f75;
+            --jjext-color-nav-titleer: #970052;
+            --jjext-color-thirdly: #cc7d24
         }
 
         50% {
-            --vp-c-brand-1: #ef5992;
-            --vp-c-brand-light: #ff82b8;
-            --vp-c-brand-lighter: #ffabe0;
-            --vp-c-brand-dark: #c32d6d;
-            --vp-c-brand-darker: #98004b;
-            --vp-c-brand-next: #c6811e
+            --jjext-color-brand: #ef5992;
+            --jjext-color-brand-light: #ff82b8;
+            --jjext-color-brand-lighter: #ffabe0;
+            --jjext-color-nav-title: #c32d6d;
+            --jjext-color-nav-titleer: #98004b;
+            --jjext-color-thirdly: #c6811e
         }
 
         51.25% {
-            --vp-c-brand-1: #f15989;
-            --vp-c-brand-light: #ff82af;
-            --vp-c-brand-lighter: #ffabd7;
-            --vp-c-brand-dark: #c52d65;
-            --vp-c-brand-darker: #9a0043;
-            --vp-c-brand-next: #bf8418
+            --jjext-color-brand: #f15989;
+            --jjext-color-brand-light: #ff82af;
+            --jjext-color-brand-lighter: #ffabd7;
+            --jjext-color-nav-title: #c52d65;
+            --jjext-color-nav-titleer: #9a0043;
+            --jjext-color-thirdly: #bf8418
         }
 
         52.5% {
-            --vp-c-brand-1: #f25981;
-            --vp-c-brand-light: #ff82a7;
-            --vp-c-brand-lighter: #ffabce;
-            --vp-c-brand-dark: #c52e5e;
-            --vp-c-brand-darker: #9a003c;
-            --vp-c-brand-next: #b98713
+            --jjext-color-brand: #f25981;
+            --jjext-color-brand-light: #ff82a7;
+            --jjext-color-brand-lighter: #ffabce;
+            --jjext-color-nav-title: #c52e5e;
+            --jjext-color-nav-titleer: #9a003c;
+            --jjext-color-thirdly: #b98713
         }
 
         53.75% {
-            --vp-c-brand-1: #f25a79;
-            --vp-c-brand-light: #ff839e;
-            --vp-c-brand-lighter: #ffacc5;
-            --vp-c-brand-dark: #c62f56;
-            --vp-c-brand-darker: #9a0035;
-            --vp-c-brand-next: #b28a0f
+            --jjext-color-brand: #f25a79;
+            --jjext-color-brand-light: #ff839e;
+            --jjext-color-brand-lighter: #ffacc5;
+            --jjext-color-nav-title: #c62f56;
+            --jjext-color-nav-titleer: #9a0035;
+            --jjext-color-thirdly: #b28a0f
         }
 
         55% {
-            --vp-c-brand-1: #f25c71;
-            --vp-c-brand-light: #ff8496;
-            --vp-c-brand-lighter: #ffadbc;
-            --vp-c-brand-dark: #c5314e;
-            --vp-c-brand-darker: #99002e;
-            --vp-c-brand-next: #ab8d0c
+            --jjext-color-brand: #f25c71;
+            --jjext-color-brand-light: #ff8496;
+            --jjext-color-brand-lighter: #ffadbc;
+            --jjext-color-nav-title: #c5314e;
+            --jjext-color-nav-titleer: #99002e;
+            --jjext-color-thirdly: #ab8d0c
         }
 
         56.25% {
-            --vp-c-brand-1: #f15e69;
-            --vp-c-brand-light: #ff868d;
-            --vp-c-brand-lighter: #ffaeb4;
-            --vp-c-brand-dark: #c43447;
-            --vp-c-brand-darker: #980027;
-            --vp-c-brand-next: #a3900b
+            --jjext-color-brand: #f15e69;
+            --jjext-color-brand-light: #ff868d;
+            --jjext-color-brand-lighter: #ffaeb4;
+            --jjext-color-nav-title: #c43447;
+            --jjext-color-nav-titleer: #980027;
+            --jjext-color-thirdly: #a3900b
         }
 
         57.5% {
-            --vp-c-brand-1: #ef6061;
-            --vp-c-brand-light: #ff8885;
-            --vp-c-brand-lighter: #ffb0ab;
-            --vp-c-brand-dark: #c3373f;
-            --vp-c-brand-darker: #970020;
-            --vp-c-brand-next: #9c920d
+            --jjext-color-brand: #ef6061;
+            --jjext-color-brand-light: #ff8885;
+            --jjext-color-brand-lighter: #ffb0ab;
+            --jjext-color-nav-title: #c3373f;
+            --jjext-color-nav-titleer: #970020;
+            --jjext-color-thirdly: #9c920d
         }
 
         58.75% {
-            --vp-c-brand-1: #ed635a;
-            --vp-c-brand-light: #ff8a7d;
-            --vp-c-brand-lighter: #ffb2a3;
-            --vp-c-brand-dark: #c13b38;
-            --vp-c-brand-darker: #940619;
-            --vp-c-brand-next: #949510
+            --jjext-color-brand: #ed635a;
+            --jjext-color-brand-light: #ff8a7d;
+            --jjext-color-brand-lighter: #ffb2a3;
+            --jjext-color-nav-title: #c13b38;
+            --jjext-color-nav-titleer: #940619;
+            --jjext-color-thirdly: #949510
         }
 
         60% {
-            --vp-c-brand-1: #eb6552;
-            --vp-c-brand-light: #ff8d76;
-            --vp-c-brand-lighter: #ffb59b;
-            --vp-c-brand-dark: #be3e31;
-            --vp-c-brand-darker: #921111;
-            --vp-c-brand-next: #8b9715
+            --jjext-color-brand: #eb6552;
+            --jjext-color-brand-light: #ff8d76;
+            --jjext-color-brand-lighter: #ffb59b;
+            --jjext-color-nav-title: #be3e31;
+            --jjext-color-nav-titleer: #921111;
+            --jjext-color-thirdly: #8b9715
         }
 
         61.25% {
-            --vp-c-brand-1: #e8694b;
-            --vp-c-brand-light: #ff8f6e;
-            --vp-c-brand-lighter: #ffb794;
-            --vp-c-brand-dark: #bb4229;
-            --vp-c-brand-darker: #8f1908;
-            --vp-c-brand-next: #83991b
+            --jjext-color-brand: #e8694b;
+            --jjext-color-brand-light: #ff8f6e;
+            --jjext-color-brand-lighter: #ffb794;
+            --jjext-color-nav-title: #bb4229;
+            --jjext-color-nav-titleer: #8f1908;
+            --jjext-color-thirdly: #83991b
         }
 
         62.5% {
-            --vp-c-brand-1: #e46c44;
-            --vp-c-brand-light: #ff9367;
-            --vp-c-brand-lighter: #ffba8c;
-            --vp-c-brand-dark: #b74622;
-            --vp-c-brand-darker: #8c1f00;
-            --vp-c-brand-next: #7a9b21
+            --jjext-color-brand: #e46c44;
+            --jjext-color-brand-light: #ff9367;
+            --jjext-color-brand-lighter: #ffba8c;
+            --jjext-color-nav-title: #b74622;
+            --jjext-color-nav-titleer: #8c1f00;
+            --jjext-color-thirdly: #7a9b21
         }
 
         63.75% {
-            --vp-c-brand-1: #e06f3d;
-            --vp-c-brand-light: #ff9661;
-            --vp-c-brand-lighter: #ffbd86;
-            --vp-c-brand-dark: #b44a1a;
-            --vp-c-brand-darker: #882500;
-            --vp-c-brand-next: #719d27
+            --jjext-color-brand: #e06f3d;
+            --jjext-color-brand-light: #ff9661;
+            --jjext-color-brand-lighter: #ffbd86;
+            --jjext-color-nav-title: #b44a1a;
+            --jjext-color-nav-titleer: #882500;
+            --jjext-color-thirdly: #719d27
         }
 
         65% {
-            --vp-c-brand-1: #db7336;
-            --vp-c-brand-light: #ff995a;
-            --vp-c-brand-lighter: #ffc17f;
-            --vp-c-brand-dark: #af4e11;
-            --vp-c-brand-darker: #842a00;
-            --vp-c-brand-next: #679e2e
+            --jjext-color-brand: #db7336;
+            --jjext-color-brand-light: #ff995a;
+            --jjext-color-brand-lighter: #ffc17f;
+            --jjext-color-nav-title: #af4e11;
+            --jjext-color-nav-titleer: #842a00;
+            --jjext-color-thirdly: #679e2e
         }
 
         66.25% {
-            --vp-c-brand-1: #d77630;
-            --vp-c-brand-light: #ff9c54;
-            --vp-c-brand-lighter: #ffc47a;
-            --vp-c-brand-dark: #ab5206;
-            --vp-c-brand-darker: #802f00;
-            --vp-c-brand-next: #5da035
+            --jjext-color-brand: #d77630;
+            --jjext-color-brand-light: #ff9c54;
+            --jjext-color-brand-lighter: #ffc47a;
+            --jjext-color-nav-title: #ab5206;
+            --jjext-color-nav-titleer: #802f00;
+            --jjext-color-thirdly: #5da035
         }
 
         67.5% {
-            --vp-c-brand-1: #d17a2a;
-            --vp-c-brand-light: #fea04f;
-            --vp-c-brand-lighter: #ffc774;
-            --vp-c-brand-dark: #a55600;
-            --vp-c-brand-darker: #7b3300;
-            --vp-c-brand-next: #51a13c
+            --jjext-color-brand: #d17a2a;
+            --jjext-color-brand-light: #fea04f;
+            --jjext-color-brand-lighter: #ffc774;
+            --jjext-color-nav-title: #a55600;
+            --jjext-color-nav-titleer: #7b3300;
+            --jjext-color-thirdly: #51a13c
         }
 
         68.75% {
-            --vp-c-brand-1: #cc7d24;
-            --vp-c-brand-light: #f8a34a;
-            --vp-c-brand-lighter: #ffca70;
-            --vp-c-brand-dark: #a05900;
-            --vp-c-brand-darker: #773700;
-            --vp-c-brand-next: #44a244
+            --jjext-color-brand: #cc7d24;
+            --jjext-color-brand-light: #f8a34a;
+            --jjext-color-brand-lighter: #ffca70;
+            --jjext-color-nav-title: #a05900;
+            --jjext-color-nav-titleer: #773700;
+            --jjext-color-thirdly: #44a244
         }
 
         70% {
-            --vp-c-brand-1: #c6811e;
-            --vp-c-brand-light: #f2a646;
-            --vp-c-brand-lighter: #ffce6c;
-            --vp-c-brand-dark: #9b5d00;
-            --vp-c-brand-darker: #713b00;
-            --vp-c-brand-next: #34a44b
+            --jjext-color-brand: #c6811e;
+            --jjext-color-brand-light: #f2a646;
+            --jjext-color-brand-lighter: #ffce6c;
+            --jjext-color-nav-title: #9b5d00;
+            --jjext-color-nav-titleer: #713b00;
+            --jjext-color-thirdly: #34a44b
         }
 
         71.25% {
-            --vp-c-brand-1: #bf8418;
-            --vp-c-brand-light: #ebaa42;
-            --vp-c-brand-lighter: #ffd168;
-            --vp-c-brand-dark: #956000;
-            --vp-c-brand-darker: #6c3e00;
-            --vp-c-brand-next: #1ba553
+            --jjext-color-brand: #bf8418;
+            --jjext-color-brand-light: #ebaa42;
+            --jjext-color-brand-lighter: #ffd168;
+            --jjext-color-nav-title: #956000;
+            --jjext-color-nav-titleer: #6c3e00;
+            --jjext-color-thirdly: #1ba553
         }
 
         72.5% {
-            --vp-c-brand-1: #b98713;
-            --vp-c-brand-light: #e4ad3f;
-            --vp-c-brand-lighter: #ffd466;
-            --vp-c-brand-dark: #8e6300;
-            --vp-c-brand-darker: #674100;
-            --vp-c-brand-next: #00a65b
+            --jjext-color-brand: #b98713;
+            --jjext-color-brand-light: #e4ad3f;
+            --jjext-color-brand-lighter: #ffd466;
+            --jjext-color-nav-title: #8e6300;
+            --jjext-color-nav-titleer: #674100;
+            --jjext-color-thirdly: #00a65b
         }
 
         73.75% {
-            --vp-c-brand-1: #b28a0f;
-            --vp-c-brand-light: #ddb03d;
-            --vp-c-brand-lighter: #ffd764;
-            --vp-c-brand-dark: #886600;
-            --vp-c-brand-darker: #614400;
-            --vp-c-brand-next: #00a663
+            --jjext-color-brand: #b28a0f;
+            --jjext-color-brand-light: #ddb03d;
+            --jjext-color-brand-lighter: #ffd764;
+            --jjext-color-nav-title: #886600;
+            --jjext-color-nav-titleer: #614400;
+            --jjext-color-thirdly: #00a663
         }
 
         75% {
-            --vp-c-brand-1: #ab8d0c;
-            --vp-c-brand-light: #d5b33c;
-            --vp-c-brand-lighter: #ffda63;
-            --vp-c-brand-dark: #816900;
-            --vp-c-brand-darker: #5b4700;
-            --vp-c-brand-next: #00a76c
+            --jjext-color-brand: #ab8d0c;
+            --jjext-color-brand-light: #d5b33c;
+            --jjext-color-brand-lighter: #ffda63;
+            --jjext-color-nav-title: #816900;
+            --jjext-color-nav-titleer: #5b4700;
+            --jjext-color-thirdly: #00a76c
         }
 
         76.25% {
-            --vp-c-brand-1: #a3900b;
-            --vp-c-brand-light: #cdb63c;
-            --vp-c-brand-lighter: #f8dd63;
-            --vp-c-brand-dark: #7a6b00;
-            --vp-c-brand-darker: #554900;
-            --vp-c-brand-next: #00a874
+            --jjext-color-brand: #a3900b;
+            --jjext-color-brand-light: #cdb63c;
+            --jjext-color-brand-lighter: #f8dd63;
+            --jjext-color-nav-title: #7a6b00;
+            --jjext-color-nav-titleer: #554900;
+            --jjext-color-thirdly: #00a874
         }
 
         77.5% {
-            --vp-c-brand-1: #9c920d;
-            --vp-c-brand-light: #c5b83d;
-            --vp-c-brand-lighter: #f0e064;
-            --vp-c-brand-dark: #736e00;
-            --vp-c-brand-darker: #4e4b00;
-            --vp-c-brand-next: #00a87d
+            --jjext-color-brand: #9c920d;
+            --jjext-color-brand-light: #c5b83d;
+            --jjext-color-brand-lighter: #f0e064;
+            --jjext-color-nav-title: #736e00;
+            --jjext-color-nav-titleer: #4e4b00;
+            --jjext-color-thirdly: #00a87d
         }
 
         78.75% {
-            --vp-c-brand-1: #949510;
-            --vp-c-brand-light: #bdbb3e;
-            --vp-c-brand-lighter: #e7e366;
-            --vp-c-brand-dark: #6c7000;
-            --vp-c-brand-darker: #474d00;
-            --vp-c-brand-next: #00a985
+            --jjext-color-brand: #949510;
+            --jjext-color-brand-light: #bdbb3e;
+            --jjext-color-brand-lighter: #e7e366;
+            --jjext-color-nav-title: #6c7000;
+            --jjext-color-nav-titleer: #474d00;
+            --jjext-color-thirdly: #00a985
         }
 
         80% {
-            --vp-c-brand-1: #8b9715;
-            --vp-c-brand-light: #b4bd41;
-            --vp-c-brand-lighter: #dee668;
-            --vp-c-brand-dark: #647200;
-            --vp-c-brand-darker: #404f00;
-            --vp-c-brand-next: #00a98e
+            --jjext-color-brand: #8b9715;
+            --jjext-color-brand-light: #b4bd41;
+            --jjext-color-brand-lighter: #dee668;
+            --jjext-color-nav-title: #647200;
+            --jjext-color-nav-titleer: #404f00;
+            --jjext-color-thirdly: #00a98e
         }
 
         81.25% {
-            --vp-c-brand-1: #83991b;
-            --vp-c-brand-light: #abc045;
-            --vp-c-brand-lighter: #d4e86c;
-            --vp-c-brand-dark: #5c7400;
-            --vp-c-brand-darker: #385100;
-            --vp-c-brand-next: #00a996
+            --jjext-color-brand: #83991b;
+            --jjext-color-brand-light: #abc045;
+            --jjext-color-brand-lighter: #d4e86c;
+            --jjext-color-nav-title: #5c7400;
+            --jjext-color-nav-titleer: #385100;
+            --jjext-color-thirdly: #00a996
         }
 
         82.5% {
-            --vp-c-brand-1: #7a9b21;
-            --vp-c-brand-light: #a2c249;
-            --vp-c-brand-lighter: #cbea70;
-            --vp-c-brand-dark: #537600;
-            --vp-c-brand-darker: #2f5200;
-            --vp-c-brand-next: #00a99f
+            --jjext-color-brand: #7a9b21;
+            --jjext-color-brand-light: #a2c249;
+            --jjext-color-brand-lighter: #cbea70;
+            --jjext-color-nav-title: #537600;
+            --jjext-color-nav-titleer: #2f5200;
+            --jjext-color-thirdly: #00a99f
         }
 
         83.75% {
-            --vp-c-brand-1: #719d27;
-            --vp-c-brand-light: #98c44e;
-            --vp-c-brand-lighter: #c1ec75;
-            --vp-c-brand-dark: #4a7700;
-            --vp-c-brand-darker: #255300;
-            --vp-c-brand-next: #00a9a7
+            --jjext-color-brand: #719d27;
+            --jjext-color-brand-light: #98c44e;
+            --jjext-color-brand-lighter: #c1ec75;
+            --jjext-color-nav-title: #4a7700;
+            --jjext-color-nav-titleer: #255300;
+            --jjext-color-thirdly: #00a9a7
         }
 
         85% {
-            --vp-c-brand-1: #679e2e;
-            --vp-c-brand-light: #8ec654;
-            --vp-c-brand-lighter: #b7ee7a;
-            --vp-c-brand-dark: #407900;
-            --vp-c-brand-darker: #185500;
-            --vp-c-brand-next: #00a9b0
+            --jjext-color-brand: #679e2e;
+            --jjext-color-brand-light: #8ec654;
+            --jjext-color-brand-lighter: #b7ee7a;
+            --jjext-color-nav-title: #407900;
+            --jjext-color-nav-titleer: #185500;
+            --jjext-color-thirdly: #00a9b0
         }
 
         86.25% {
-            --vp-c-brand-1: #5da035;
-            --vp-c-brand-light: #84c75a;
-            --vp-c-brand-lighter: #acf080;
-            --vp-c-brand-dark: #357a0a;
-            --vp-c-brand-darker: #015600;
-            --vp-c-brand-next: #00a9b8
+            --jjext-color-brand: #5da035;
+            --jjext-color-brand-light: #84c75a;
+            --jjext-color-brand-lighter: #acf080;
+            --jjext-color-nav-title: #357a0a;
+            --jjext-color-nav-titleer: #015600;
+            --jjext-color-thirdly: #00a9b8
         }
 
         87.5% {
-            --vp-c-brand-1: #51a13c;
-            --vp-c-brand-light: #79c961;
-            --vp-c-brand-lighter: #a1f287;
-            --vp-c-brand-dark: #277b16;
-            --vp-c-brand-darker: #005700;
-            --vp-c-brand-next: #00a9c0
+            --jjext-color-brand: #51a13c;
+            --jjext-color-brand-light: #79c961;
+            --jjext-color-brand-lighter: #a1f287;
+            --jjext-color-nav-title: #277b16;
+            --jjext-color-nav-titleer: #005700;
+            --jjext-color-thirdly: #00a9c0
         }
 
         88.75% {
-            --vp-c-brand-1: #44a244;
-            --vp-c-brand-light: #6dca68;
-            --vp-c-brand-lighter: #96f48e;
-            --vp-c-brand-dark: #117c1f;
-            --vp-c-brand-darker: #005700;
-            --vp-c-brand-next: #00a8c7
+            --jjext-color-brand: #44a244;
+            --jjext-color-brand-light: #6dca68;
+            --jjext-color-brand-lighter: #96f48e;
+            --jjext-color-nav-title: #117c1f;
+            --jjext-color-nav-titleer: #005700;
+            --jjext-color-thirdly: #00a8c7
         }
 
         90% {
-            --vp-c-brand-1: #34a44b;
-            --vp-c-brand-light: #60cc70;
-            --vp-c-brand-lighter: #89f595;
-            --vp-c-brand-dark: #007d28;
-            --vp-c-brand-darker: #005801;
-            --vp-c-brand-next: #00a8cf
+            --jjext-color-brand: #34a44b;
+            --jjext-color-brand-light: #60cc70;
+            --jjext-color-brand-lighter: #89f595;
+            --jjext-color-nav-title: #007d28;
+            --jjext-color-nav-titleer: #005801;
+            --jjext-color-thirdly: #00a8cf
         }
 
         91.25% {
-            --vp-c-brand-1: #1ba553;
-            --vp-c-brand-light: #51cd77;
-            --vp-c-brand-lighter: #7cf69d;
-            --vp-c-brand-dark: #007e30;
-            --vp-c-brand-darker: #00590d;
-            --vp-c-brand-next: #00a7d5
+            --jjext-color-brand: #1ba553;
+            --jjext-color-brand-light: #51cd77;
+            --jjext-color-brand-lighter: #7cf69d;
+            --jjext-color-nav-title: #007e30;
+            --jjext-color-nav-titleer: #00590d;
+            --jjext-color-thirdly: #00a7d5
         }
 
         92.5% {
-            --vp-c-brand-1: #00a65b;
-            --vp-c-brand-light: #48ce80;
-            --vp-c-brand-lighter: #75f7a6;
-            --vp-c-brand-dark: #007f38;
-            --vp-c-brand-darker: #005917;
-            --vp-c-brand-next: #00a6dc
+            --jjext-color-brand: #00a65b;
+            --jjext-color-brand-light: #48ce80;
+            --jjext-color-brand-lighter: #75f7a6;
+            --jjext-color-nav-title: #007f38;
+            --jjext-color-nav-titleer: #005917;
+            --jjext-color-thirdly: #00a6dc
         }
 
         93.75% {
-            --vp-c-brand-1: #00a663;
-            --vp-c-brand-light: #48cf88;
-            --vp-c-brand-lighter: #75f8ae;
-            --vp-c-brand-dark: #008040;
-            --vp-c-brand-darker: #005a20;
-            --vp-c-brand-next: #00a6e2
+            --jjext-color-brand: #00a663;
+            --jjext-color-brand-light: #48cf88;
+            --jjext-color-brand-lighter: #75f8ae;
+            --jjext-color-nav-title: #008040;
+            --jjext-color-nav-titleer: #005a20;
+            --jjext-color-thirdly: #00a6e2
         }
 
         95% {
-            --vp-c-brand-1: #00a76c;
-            --vp-c-brand-light: #49cf91;
-            --vp-c-brand-lighter: #76f9b7;
-            --vp-c-brand-dark: #008049;
-            --vp-c-brand-darker: #005b28;
-            --vp-c-brand-next: #00a4e7
+            --jjext-color-brand: #00a76c;
+            --jjext-color-brand-light: #49cf91;
+            --jjext-color-brand-lighter: #76f9b7;
+            --jjext-color-nav-title: #008049;
+            --jjext-color-nav-titleer: #005b28;
+            --jjext-color-thirdly: #00a4e7
         }
 
         96.25% {
-            --vp-c-brand-1: #00a874;
-            --vp-c-brand-light: #49d099;
-            --vp-c-brand-lighter: #76f9c0;
-            --vp-c-brand-dark: #008151;
-            --vp-c-brand-darker: #005c30;
-            --vp-c-brand-next: #00a3ec
+            --jjext-color-brand: #00a874;
+            --jjext-color-brand-light: #49d099;
+            --jjext-color-brand-lighter: #76f9c0;
+            --jjext-color-nav-title: #008151;
+            --jjext-color-nav-titleer: #005c30;
+            --jjext-color-thirdly: #00a3ec
         }
 
         97.5% {
-            --vp-c-brand-1: #00a87d;
-            --vp-c-brand-light: #49d0a2;
-            --vp-c-brand-lighter: #77fac9;
-            --vp-c-brand-dark: #008159;
-            --vp-c-brand-darker: #005c37;
-            --vp-c-brand-next: #00a2f1
+            --jjext-color-brand: #00a87d;
+            --jjext-color-brand-light: #49d0a2;
+            --jjext-color-brand-lighter: #77fac9;
+            --jjext-color-nav-title: #008159;
+            --jjext-color-nav-titleer: #005c37;
+            --jjext-color-thirdly: #00a2f1
         }
 
         98.75% {
-            --vp-c-brand-1: #00a985;
-            --vp-c-brand-light: #4ad1ab;
-            --vp-c-brand-lighter: #77fad3;
-            --vp-c-brand-dark: #008261;
-            --vp-c-brand-darker: #005d3f;
-            --vp-c-brand-next: #00a0f4
+            --jjext-color-brand: #00a985;
+            --jjext-color-brand-light: #4ad1ab;
+            --jjext-color-brand-lighter: #77fad3;
+            --jjext-color-nav-title: #008261;
+            --jjext-color-nav-titleer: #005d3f;
+            --jjext-color-thirdly: #00a0f4
         }
 
         to {
-            --vp-c-brand-1: #00a98e;
-            --vp-c-brand-light: #4ad1b4;
-            --vp-c-brand-lighter: #78fadc;
-            --vp-c-brand-dark: #008269;
-            --vp-c-brand-darker: #005d47;
-            --vp-c-brand-next: #009ff7
+            --jjext-color-brand: #00a98e;
+            --jjext-color-brand-light: #4ad1b4;
+            --jjext-color-brand-lighter: #78fadc;
+            --jjext-color-nav-title: #008269;
+            --jjext-color-nav-titleer: #005d47;
+            --jjext-color-thirdly: #009ff7
         }
     }
         /* Gradients by https://uigradients.com/ */
