@@ -946,6 +946,7 @@
             <div class="mt-0.5">Remix &amp; React Training</div></div></figcaption></figure>
             </li>
             </ul>
+            </section>
         <!-- End Main Hero Content -->
     </div>
 </main>
