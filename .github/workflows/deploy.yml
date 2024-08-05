@@ -38,7 +38,7 @@ jobs:
         with:
           version: 9.0.6 # 指定您需要的 pnpm 版本号
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: pnpm
