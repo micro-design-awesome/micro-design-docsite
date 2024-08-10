@@ -1,0 +1,22 @@
+{
+  "name": "typedoc",
+  "version": "1.0.0",
+  "description": "micro-design-typedoc",
+  "scripts": {
+    "dev": "vitepress dev . --open",
+    "build": "vitepress build .",
+    "serve": "vitepress serve ."
+  },
+  "main": "index.js",
+  "author": "MicroDesign",
+  "license": "MIT",
+  "devDependencies": {
+    "@algolia/client-search": "^4.17.0",
+    "typedoc": "^0.24.6",
+    "typedoc-plugin-markdown": "^3.13.6",
+    "vitepress": "1.0.0-alpha.74"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
