@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-08-11 17:06:26
+ * @LastEditTime: 2024-08-11 17:47:54
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -66,19 +66,19 @@ function getComponentsSidebar() {
 function getGuideSidebar() {
   return [
     {
-      text: '基础组件',
+      text: '介绍',
       items: [
         {
-          text: '文档1',
+          text: '简介',
           link: '/guide/'
         },
         {
-          text: '文档2',
-          link: '/guide/button'
+          text: '演示',
+          link: '/guide/introduce'
         },
         {
-          text: '文档3',
-          link: '/guide/modal'
+          text: '源码',
+          link: '/guide/source'
         }
       ]
     }
