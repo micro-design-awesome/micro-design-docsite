@@ -12,7 +12,7 @@ html.dark {
   --vp-code-block-bg: var(--vp-c-bg-alt, #161618);
 }
 
-.demo-block .xl-button {
+.demo-block .md-button {
   margin: 0 10px 10px 0;
 }
 

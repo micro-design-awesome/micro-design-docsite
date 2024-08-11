@@ -1,6 +1,6 @@
 <template>
   <input class="input" type="text" v-model="input"/>
-  <xl-button type="primary" @click="onSubmit">提交</xl-button>
+  <md-button type="primary" @click="onSubmit">提交</md-button>
   <div style="margin-top: 16px">输出内容：{{ content }}</div>
 </template>
 

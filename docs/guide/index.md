@@ -41,7 +41,7 @@
 | [Nacos](https://github.com/alibaba/nacos)                                                   | 配置中心 & 注册中心      | 2.0.4       | [文档](https://www.iocoder.cn/categories/Nacos/?yudao)                |
 | [RocketMQ](https://github.com/apache/rocketmq)                                              | 消息队列             | 4.9.4       | [文档](https://www.iocoder.cn/categories/RocketMQ/?yudao)             |
 | [Sentinel](https://github.com/alibaba/sentinel)                                             | 服务保障             | 1.8.6       | [文档](https://www.iocoder.cn/categories/Sentinel/?yudao)             |
-| [XXL Job](https://github.com/xuxueli/xxl-job)                                               | 定时任务             | 2.3.1       | [文档](https://www.iocoder.cn/XXL-JOB/good-collection/?yudao)         |
+| [XXL Job](https://github.com/xuxueli/xmd-job)                                               | 定时任务             | 2.3.1       | [文档](https://www.iocoder.cn/Xmd-JOB/good-collection/?yudao)         |
 | [Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway)                | 服务网关             | 3.4.1       | [文档](https://www.iocoder.cn/categories/Spring-Cloud-Gateway/?yudao) |
 | [Seata](https://github.com/seata/seata)                                                     | 分布式事务            | 1.6.1       | [文档](https://www.iocoder.cn/categories/Seata/?yudao)                |
 | [MySQL](https://www.mysql.com/cn/)                                                          | 数据库服务器           | 5.7 / 8.0+  |                                                                     |

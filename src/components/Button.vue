@@ -1,12 +1,12 @@
 <template>
-  <button :class="['xl-button', type ? 'xl-button--' + type : '']">
+  <button :class="['md-button', type ? 'md-button--' + type : '']">
     <slot/>
   </button>
 </template>
 
 <script>
 export default {
-  name: "XlButton",
+  name: "MDButton",
   props: {
     type: { type: String, default: 'default' }
   }

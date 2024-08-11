@@ -1,4 +1,4 @@
-.xl-button {
+.md-button {
   cursor: pointer;
   border: 1px solid;
   outline: none;
@@ -9,45 +9,45 @@
   transition: all .3s;
 }
 
-.xl-button:hover {
+.md-button:hover {
   opacity: .8;
 }
 
-.xl-button:active {
+.md-button:active {
   opacity: 1;
 }
 
-.xl-button + .xl-button {
+.md-button + .md-button {
   margin-left: 10px;
 }
 
-.xl-button--default {
+.md-button--default {
   color: #606266;
   background: #fff;
   border-color: #dcdfe6;
 }
 
-.xl-button--primary {
+.md-button--primary {
   background: #1890ff;
   border-color: #1890ff;
 }
 
-.xl-button--success {
+.md-button--success {
   background: #52c41a;
   border-color: #52c41a;
 }
 
-.xl-button--info {
+.md-button--info {
   background: #909399;
   border-color: #909399;
 }
 
-.xl-button--warning {
+.md-button--warning {
   background: #faad14;
   border-color: #faad14;
 }
 
-.xl-button--danger {
+.md-button--danger {
   background: #f5222d;
   border-color: #f5222d;
 }
