@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-08-11 12:55:35
+ * @LastEditTime: 2024-08-11 16:31:58
  * @LastEditors: xunzhaotech
  */
 import { defineConfig } from 'vitepress'
@@ -55,7 +55,7 @@ export default defineConfig({
 
     search: {
       provider: 'local',
-      provider: 'algolia',
+      // provider: 'algolia',
       options: {
         appId: 'X51HWTCQJJ',
         apiKey: 'ca20f15eb8a667898b65d13f4213ae3d',
