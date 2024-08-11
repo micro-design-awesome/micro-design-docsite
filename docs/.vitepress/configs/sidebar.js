@@ -1,7 +1,17 @@
+/*
+ * @Description: 
+ * @Author: xunzhaotech
+ * @Email: luyb@xunzhaotech.com
+ * @QQ: 1525572900
+ * @Date: 2024-08-11 11:40:49
+ * @LastEditTime: 2024-08-11 17:06:26
+ * @LastEditors: xunzhaotech
+ */
 export default {
   '/api/': getApiSidebar(),
   '/components/': getComponentsSidebar(),
-  '/guide/': getGuideSidebar()
+  '/guide/': getGuideSidebar(),
+  '/awesome/': getAwesomeSidebar()
 }
 
 function getApiSidebar() {
@@ -22,7 +32,7 @@ function getApiSidebar() {
 function getComponentsSidebar() {
   return [
     {
-      text: '组件',
+      text: '基础组件',
       items: [
         {
           text: 'Button 按钮',
@@ -56,7 +66,7 @@ function getComponentsSidebar() {
 function getGuideSidebar() {
   return [
     {
-      text: '指南',
+      text: '基础组件',
       items: [
         {
           text: '文档1',
@@ -75,3 +85,24 @@ function getGuideSidebar() {
   ]
 }
 
+function getAwesomeSidebar() {
+   return [
+    {
+      text: '工具资源',
+      items: [
+        {
+          text: '博客相关',
+          link: '/guide/'
+        },
+        {
+          text: '面试系列',
+          link: '/guide/button'
+        },
+        {
+          text: '书籍大全',
+          link: '/guide/modal'
+        }
+      ]
+    }
+  ]
+}
