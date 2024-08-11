@@ -1,71 +1,40 @@
-# Vue Theme
+# Vitepress Demo
 
-This is the [VitePress](https://vitepress.vuejs.org/) theme for the official Vue documentation at `vuejs.org`.
+基于 [vitepress-theme-demoblock](https://github.com/xinlei3166/vitepress-theme-demoblock) 插件来实现 `Vue` 组件的支持。
 
-Please note this theme is solely dedicated for `vuejs.org` and isn't meant to be used as a content-neutral theme. It does **not** follow semver and may contain hard-coded logic specific to the Vue documentation.
+- [x] Vue 组件
 
-## Development Setup
-
-This repo can be developed on its own since it is a self-contained VitePress theme. Make sure to use [pnpm](https://pnpm.io/) as the package manager when installing deps. A demo app is available in `/demo` and can be run with `npm run dev`:
-
-```bash
-$ pnpm install
-$ npm run dev
+```js
+<demo-block>
+  <xl-button>默认按钮</xl-button>
+  <xl-button type="primary">主要按钮</xl-button>
+  <xl-button type="success">成功按钮</xl-button>
+  <xl-button type="info">信息按钮</xl-button>
+  <xl-button type="warning">警告按钮</xl-button>
+  <xl-button type="danger">危险按钮</xl-button>
+</demo-block>
 ```
 
-## Developing with Real Content
+![image](https://github.com/xinlei3166/vitepress-demo/assets/22881872/13820eb2-c0fb-4cd8-95d0-8431782bb6ac)
 
-To work on this theme in the context of the `vuejs.org` website requires cloning both repos and linking the theme into the docs repo:
 
-1. Clone repositories:
+- [x] Vue 代码自动渲染并且显示对应 Code
 
-   ```bash
-   git clone git@github.com:vuejs/docs.git
-   git clone git@github.com:vuejs/theme.git
-   ```
-
-2. Link theme into docs repo:
-
-   ```bash
-   # In ./theme
-   pnpm install
-   # Make @vue/theme available for global linking
-   pnpm link --global
-
-   # in ./docs
-   pnpm install
-   # Link teme
-   pnpm link --global @vue/theme
-   ```
-
-3. Start VitePress server:
-
-   ```bash
-   # in ./docs
-   pnpm run dev
-   ```
-
-### Available Scripts
-
-Here is the list of available scripts that can be used during the development.
-
-```bash
-# Boot local dev server.
-$ npm run dev
-
-# Build demo, then serve locally. This is for testing
-# production build in the local environment.
-$ npm run serve
-
-# Run lint via Prettier.
-$ npm run lint
-
-# Run type check via tsc.
-$ npm run type
+:::demo
+```vue
+<template>
+  <xl-button>默认按钮</xl-button>
+  <xl-button type="primary">主要按钮</xl-button>
+  <xl-button type="success">成功按钮</xl-button>
+  <xl-button type="info">信息按钮</xl-button>
+  <xl-button type="warning">警告按钮</xl-button>
+  <xl-button type="danger">危险按钮</xl-button>
+</template>
 ```
+:::
 
-## License
+![vitepress-demo-example](https://github.com/xinlei3166/vitepress-demo/assets/22881872/67638b21-c995-4870-b5e7-fbdc85eddfea)
 
-[MIT](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2021-present Evan You
+
+
