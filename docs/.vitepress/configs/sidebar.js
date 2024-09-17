@@ -9,6 +9,7 @@
  */
 export default {
   '/api/': getApiSidebar(),
+  '/docs/': getDocsSidebar(),
   '/components/': getComponentsSidebar(),
   '/guide/': getGuideSidebar(),
   '/awesome/': getAwesomeSidebar()
@@ -62,7 +63,27 @@ function getComponentsSidebar() {
     }
   ]
 }
-
+function getDocsSidebar() {
+  return [
+    {
+      text: '介绍',
+      items: [
+        {
+          text: '简介',
+          link: '/guide/'
+        },
+        {
+          text: '演示',
+          link: '/guide/introduce'
+        },
+        {
+          text: '源码',
+          link: '/guide/source'
+        }
+      ]
+    }
+  ]
+}
 function getGuideSidebar() {
   return [
     {
