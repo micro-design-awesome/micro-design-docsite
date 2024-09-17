@@ -6,24 +6,24 @@
  * @FilePath: \micro-design-docs\docs\guide\index.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
-# MicroDocs Framework
-## 项目简介
-[MicroDocs Framework](https://microdesign.gitee.io/micro-design-docs/) 是一套基于MicroDesign体系的文档平台，致力于从用户体验、需求分析、系统架构、系统插件、系统组件、系统主题、系统测试、系统部署、开发文档和解决方面，解决企业痛点，为企业降本增效的的生态解决方案。
-## 前端项目
+# 准备工作
+## 准备工作
+由于 MICRO 系列项目依赖于前端工程化进行开发，所以依赖于 npm 管理安装此模块，也正式因为如此，您需要准备 nodejs 进行安装，如果您的电脑已经安装过了 nodejs ，那么您可以直接往下继续看，若没有，这里推荐您安装并使用一个多 nodejs 版本管理工具 nvm（当然也有其他的版本管理工具，这里只是作者推荐在用的一个），方便以后用于管理多个 nodejs 可以自由切换，或者您也可以只安装 nodejs 。
 
-| [micro-design-vue](https://gitee.com/MicroDesign/micro-design-vue) | 说明                         | GitHub | Gitee                                           |
-| ------------------------------------------------------------ | ---------------------------- | ------ | ----------------------------------------------- |
-| [micro-design-docsite](https://gitee.com/MicroDesign/micro-design-docsite) | Maven 依赖版本管理           |        | https://gitee.com/MicroDesign/micro-design-vue |
-| [micro-design-ai](https://gitee.com/MicroDesign/micro-design-ai) | Java 框架拓展                |        |                                                 |
-| [micro-design-ui](https://gitee.com/MicroDesign/micro-design-ui) | 管理后台 + 用户 APP 的服务端 |        |                                                 |
-| [micro-design-admin](https://gitee.com/MicroDesign/micro-design-admin) | 系统功能的 Module 模块       |        |                                                 |
-| [micro-design-docs](https://gitee.com/MicroDesign/micro-design-docs) | 会员中心的 Module 模块       |        |                                                 |
-| [micro-design-theme](https://gitee.com/MicroDesign/micro-design-theme) | 基础设施的 Module 模块       |        |                                                 |
-| [micro-design-awesome](https://gitee.com/MicroDesign/micro-design-awesome) | 工作流程的 Module 模块       |        |                                                 |
-| [micro-design-nuxt](https://gitee.com/MicroDesign/micro-design-nuxt) | 支付系统的 Module 模块       |        |                                                 |
-| [micro-design-uniapp](https://gitee.com/MicroDesign/micro-design-uniapp) | 商城系统的 Module 模块       |        |                                                 |
-| [micro-uniapp-admin](https://gitee.com/MicroDesign/micro-uniapp-admin) | 微信公众号的 Module 模块     |        |                                                 |
-| [micro-design-hono](https://gitee.com/MicroDesign/micro-design-hono) | 大屏报表 Module 模块         |        |                                                 |
+关于安装 nodejs 和 nvm 的安装，这里就不再赘述了，相关的安装教程可以在百度可以搜索到。
+
+- [nodejs 官网](https://nodejs.org/zh-cn)
+- [nvm 官网](https://github.com/coreybutler/nvm-windows/releases)
+
+## 环境要求        
+
+- [OpenJDK 17 LTS](https://github.com/openjdk/jdk)
+- [Node.js 20 LTS](https://nodejs.org/)
+- [pnpm 9](https://pnpm.io/)
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+- [Git](https://git-scm.com/)
+- [Docker](https://www.docker.com/)（可选）
+
 ## 后端项目
 
 | 项目                                                         | 说明 | GitHub | Gitee                                            |
