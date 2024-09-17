@@ -16,7 +16,10 @@
 - [nvm 官网](https://github.com/coreybutler/nvm-windows/releases)
 
 ## 环境要求        
-
+- [Vue](https://cn.vuejs.org/)
+- [Vite](https://cn.vitejs.dev/)
+- [UnoCSS](https://unocss.dev/)
+- [Naive UI](https://www.naiveui.com/zh-CN/os-theme)
 - [OpenJDK 17 LTS](https://github.com/openjdk/jdk)
 - [Node.js 20 LTS](https://nodejs.org/)
 - [pnpm 9](https://pnpm.io/)
