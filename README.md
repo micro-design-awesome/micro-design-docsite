@@ -14,6 +14,16 @@
 - 🧬 [uni-app 条件编译样式](https://weapp-tw.icebreaker.top/docs/quick-start/uni-app-css-macro) - 帮助你在多端更灵活的使用 `TailwindCSS`
 
 - 🦾 [TypeScript](https://www.typescriptlang.org/) & [ESLint](https://eslint.org/) & [Stylelint](https://stylelint.io/) - 样式，类型，统一的校验与格式化规则，保证你的代码风格和质量
+## 项目插件
+
+| 插件名称 | 插件描述 | 版本 |
+| :------: | :------: | :--: |
+|          |          |      |
+|          |          |      |
+|          |          |      |
+
+
+
 ## Git 贡献提交规范
 参考 vue 规范 (Angular)
 
