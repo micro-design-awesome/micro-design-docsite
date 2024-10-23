@@ -47,5 +47,18 @@
 - [Surely Table](https://www.surely.cool/) ：支持高性能编辑模式了 立即体验
 - [Admin Pro ](https://store.antdv.com/pro/preview/workplace):Ant Design Vue 4版本
 
+## 前端项目汇总
 
+| 项目名称                                                     | 项目地址                                       | 演示地址                                     | 描述           |
+| ------------------------------------------------------------ | ---------------------------------------------- | -------------------------------------------- | -------------- |
+|                                                              |                                                | https://nova-admin-site.netlify.app/         |                |
+| Simple Icons                                                 |                                                | 图标库                                       | 图标库         |
+| Next.js Templates                                            |                                                | https://nextjs-templates.com/                |                |
+| [Tailwindcss **Templates**](https://tailwindcsstemplates.com/) |                                                | https://tailwindcsstemplates.com/            |                |
+| [Vue3 Baidu Map Gl](https://yue1123.github.io/vue3-baidu-map-gl/) | https://github.com/yue1123/vue3-baidu-map-gl   | https://yue1123.github.io/vue3-baidu-map-gl/ | 百度地图组件库 |
+| [smart-admin](https://github.com/1024-lab/smart-admin)       |                                                |                                              |                |
+| [tailwindcss](https://github.com/tailwindlabs/tailwindcss)   | https://github.com/tailwindlabs/tailwindcss    | https://tailwindcss.com/                     |                |
+| primevue                                                     | https://github.com/primefaces/primevue         | https://primevue.org/                        |                |
+| [arco-design-vue](https://github.com/arco-design/arco-design-vue) | https://github.com/arco-design/arco-design-vue | https://arco.design/vue/docs/start           |                |
+| Vite CLI                                                     | https://github.com/ErKeLost/create-vite-app    | https://vite-cli.netlify.app/                |                |
 
