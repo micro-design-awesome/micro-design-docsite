@@ -6,14 +6,60 @@
  * @FilePath: \micro-design-docs\docs\guide\index.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
-# 准备工作
-## 准备工作
-由于 MICRO 系列项目依赖于前端工程化进行开发，所以依赖于 npm 管理安装此模块，也正式因为如此，您需要准备 nodejs 进行安装，如果您的电脑已经安装过了 nodejs ，那么您可以直接往下继续看，若没有，这里推荐您安装并使用一个多 nodejs 版本管理工具 nvm（当然也有其他的版本管理工具，这里只是作者推荐在用的一个），方便以后用于管理多个 nodejs 可以自由切换，或者您也可以只安装 nodejs 。
+# 开发指南
+## Node.js
+MIcroDesign 系列项目依赖于前端工程化进行开发，所以依赖于 npm 管理安装此模块，也正式因为如此，您需要安装[Node.js](https://nodejs.org/zh-cn)，如果您的电脑已经安装过了 [Node.js](https://nodejs.org/zh-cn) ，那么您可以直接往下继续看，若没有，这里推荐您安装并使用一个多 [Node.js](https://nodejs.org/zh-cn) 版本管理工具 [nvm](https://github.com/nvm-sh/nvm)（Windows 下使用 [nvm-windows](https://github.com/coreybutler/nvm-windows)）（当然也有其他的版本管理工具，这里只是作者推荐在用的一个） [fnm](https://github.com/Schniz/fnm) 来管理[Node.js](https://nodejs.org/zh-cn) 版本 ，方便以后用于管理多个[Node.js](https://nodejs.org/zh-cn) 可以自由切换，或者您也可以只安装 [Node.js](https://nodejs.org/zh-cn) 。
+::: tip 说明
 
-关于安装 nodejs 和 nvm 的安装，这里就不再赘述了，相关的安装教程可以在百度可以搜索到。
+1. Vue 3 项目可以通过 Vue CLI 或 Vite 来创建和管理。Vue CLI 是 Vue 官方提供的命令行工具，它为单页面应用 (SPA) 快速搭建繁杂的脚手架，并提供了功能齐备的构建设置。对于 Vue 3，应该使用 npm 上可用的 Vue CLI v4.5 作为 @vue/cli。要升级，需要全局重新安装最新版本的 @vue/cli 
+2. 对于使用 Vite 创建 Vue 3 项目，通常要求 Node.js 18 或更高版本，因为新版本的 Vite 及其插件利用了 Node.js 18 中的新 API 和性能改进。如果开发者使用较低版本的 Node.js（如 16.x），可能会遇到兼容性问题，如不兼容警告（如 EBADENGINE）或构建错误，由于缺少某些现代 API，可能会导致构建过程失败 。
+
+:::
+关于安装 Node.js 和 nvm 的安装，这里就不再赘述了，相关的安装教程可以在百度可以搜索到。
 
 - [nodejs 官网](https://nodejs.org/zh-cn)
 - [nvm 官网](https://github.com/coreybutler/nvm-windows/releases)
+- [fnm官网](https://github.com/Schniz/fnm) 
+
+下面以在 mac 下安装 nvm 为例：
+```sh
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+# 安装 node 14 版本
+$ nvm install 14
+# 使用 node 14
+$ nvm use 14
+# 验证 node 是否安装成功
+$ node -v
+v14.19.3
+```
+## 包管理工具
+安装 Node.js 后，默认会包含 npm。除此以外，还有其他的包管理工具：
+
+- [pnpm](https://pnpm.io/)（推荐）
+- [cnpm](https://www.npmjs.com/package/cnpm)（推荐）
+- [yarn](https://yarnpkg.com/)
+
+安装 pnpm 示例如下：
+```sh
+$ npm i pnpm -g --register=https://registry.npmmirror.com/
+# 验证 pnpm 是否安装成功
+$ pnpm -v
+7.1.7
+```
+## IDE
+
+推荐使用 IDE 进行前端应用开发和调试，会有更好的调试体验。目前比较流行的 IDE 有：
+
+- [Visual Studio Code](https://code.visualstudio.com/)（推荐）
+- [WebStorm](https://www.jetbrains.com/webstorm/)（推荐）
+- [Sublime Text](https://www.sublimetext.com/)
+- [Atom](https://atom.io/)
+## 小程序开发者工具[](https://v3.ice.work/docs/guide/basic/development#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7)
+
+目前小程序开发调试均需使用对应的开发者工具，在此附上小程序开发者工具下载链接：
+
+- [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
+- [阿里小程序开发者工具](https://opendocs.alipay.com/mini/ide/download)
 
 ## 环境要求        
 - [Vue](https://cn.vuejs.org/)

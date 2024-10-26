@@ -1,10 +1,10 @@
 /*
- * @Description: 
+ * @Description:
  * @Author: xunzhaotech
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-09-17 19:33:06
+ * @LastEditTime: 2024-10-26 10:42:02
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -13,7 +13,7 @@ export default {
   '/config/': getConfigSidebar(),
   '/components/': getComponentsSidebar(),
   '/guide/': getGuideSidebar(),
-  '/awesome/': getAwesomeSidebar()
+  '/awesome/': getAwesomeSidebar(),
 }
 
 function getApiSidebar() {
@@ -24,10 +24,10 @@ function getApiSidebar() {
       items: [
         {
           text: '已实现',
-          link: '/api/'
+          link: '/api/',
         },
-      ]
-    }
+      ],
+    },
   ]
 }
 
@@ -38,30 +38,30 @@ function getComponentsSidebar() {
       items: [
         {
           text: 'Button 按钮',
-          link: '/components/button'
+          link: '/components/button',
         },
         {
           text: 'Tabs 标签页',
-          link: '/components/tabs'
+          link: '/components/tabs',
         },
         {
           text: 'Modal 对话框',
-          link: '/components/modal'
+          link: '/components/modal',
         },
         {
           text: 'Tag 标签',
-          link: '/components/tag'
+          link: '/components/tag',
         },
         {
           text: 'Vue 引用组件',
-          link: '/components/vue'
+          link: '/components/vue',
         },
         {
           text: 'Vue Script',
-          link: '/components/vue-script'
-        }
-      ]
-    }
+          link: '/components/vue-script',
+        },
+      ],
+    },
   ]
 }
 function getDocsSidebar() {
@@ -71,18 +71,18 @@ function getDocsSidebar() {
       items: [
         {
           text: '简介',
-          link: '/guide/'
+          link: '/guide/',
         },
         {
           text: '演示',
-          link: '/guide/introduce'
+          link: '/guide/introduce',
         },
         {
           text: '源码',
-          link: '/guide/source'
-        }
-      ]
-    }
+          link: '/guide/source',
+        },
+      ],
+    },
   ]
 }
 function getConfigSidebar() {
@@ -92,18 +92,18 @@ function getConfigSidebar() {
       items: [
         {
           text: '简介',
-          link: '/guide/'
+          link: '/guide/',
         },
         {
           text: '演示',
-          link: '/guide/introduce'
+          link: '/guide/introduce',
         },
         {
           text: '源码',
-          link: '/guide/source'
-        }
-      ]
-    }
+          link: '/guide/source',
+        },
+      ],
+    },
   ]
 }
 function getGuideSidebar() {
@@ -112,40 +112,40 @@ function getGuideSidebar() {
       text: '开发指南',
       items: [
         {
-          text: '环境准备',
-          link: '/guide/'
+          text: '开发环境',
+          link: '/guide/',
         },
         {
           text: 'NPM源配置',
-          link: '/guide/introduce'
+          link: '/guide/introduce',
         },
         {
           text: '源码',
-          link: '/guide/source'
-        }
-      ]
-    }
+          link: '/guide/source',
+        },
+      ],
+    },
   ]
 }
 
 function getAwesomeSidebar() {
-   return [
+  return [
     {
       text: '工具资源',
       items: [
         {
           text: '博客相关',
-          link: '/guide/'
+          link: '/guide/',
         },
         {
           text: '面试系列',
-          link: '/guide/button'
+          link: '/guide/button',
         },
         {
           text: '书籍大全',
-          link: '/guide/modal'
-        }
-      ]
-    }
+          link: '/guide/modal',
+        },
+      ],
+    },
   ]
 }
