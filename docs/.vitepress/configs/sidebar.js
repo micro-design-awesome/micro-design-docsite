@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-10-28 12:23:56
+ * @LastEditTime: 2024-10-28 12:49:39
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -176,7 +176,7 @@ function getLint() {
       text: '规范',
       items: [
         {
-          text: '前端规范',
+          text: 'JavaScript规范',
           link: '/lint/',
         },
         {
