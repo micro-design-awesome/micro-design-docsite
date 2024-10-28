@@ -35,9 +35,6 @@
 
     console.log(foo[0], bar[0]); // => 9, 9
     ```
-
-    **[[⬆]](#TOC)**
-
 ## <a name='objects'>对象</a>
 
   - 使用字面值创建对象
