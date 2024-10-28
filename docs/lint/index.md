@@ -82,11 +82,12 @@
 
     ```javascript
     var someStack = [];
+    ```
 
 
     // bad
     someStack[someStack.length] = 'abracadabra';
-
+    
     // good
     someStack.push('abracadabra');
     ```
@@ -143,7 +144,7 @@
     ```javascript
     // bad
     var errorMessage = 'This is a super long error that was thrown because of Batman. When you stop to think about how Batman had anything to do with this, you would get nowhere fast.';
-
+    
     // bad
     var errorMessage = 'This is a super long error that \
     was thrown because of Batman. \
@@ -151,6 +152,7 @@
     how Batman had anything to do \
     with this, you would get nowhere \
     fast.';
+    ```
 
 
     // good
@@ -539,22 +541,23 @@
 
     ```javascript
     function Calculator() {
-
+    
       // FIXME: shouldn't use a global here
       total = 0;
-
+    
       return this;
     }
     ```
 
     ```javascript
     function Calculator() {
-
+    
       // TODO: total should be configurable by an options param
       this.total = 0;
-
+    
       return this;
     }
+    ```
   ```
 
     **[[⬆]](#TOC)**
@@ -579,7 +582,7 @@
     function() {
     ∙∙∙∙var name;
     }
-    ```
+  ```
   - 大括号前放一个空格
 
     ```javascript
@@ -1107,21 +1110,21 @@
     // bad
     function setSidebar() {
       $('.sidebar').hide();
-
+    
       // ...stuff...
-
+    
       $('.sidebar').css({
         'background-color': 'pink'
       });
     }
-
+    
     // good
     function setSidebar() {
       var $sidebar = $('.sidebar');
       $sidebar.hide();
-
+    
       // ...stuff...
-
+    
       $sidebar.css({
         'background-color': 'pink'
       });
@@ -1134,33 +1137,28 @@
     ```javascript
     // bad
     $('.sidebar', 'ul').hide();
-
+    
     // bad
     $('.sidebar').find('ul').hide();
-
+    
     // good
     $('.sidebar ul').hide();
-
+    
     // good
     $('.sidebar > ul').hide();
-
+    
     // good (slower)
     $sidebar.find('ul');
-
+    
     // good (faster)
     $($sidebar[0]).find('ul');
     ```
 
-    **[[⬆]](#TOC)**
 
 
 ## <a name='es5'>ECMAScript 5兼容性</a>
 
   - 参考[Kangax](https://twitter.com/kangax/)的 ES5 [compatibility table](http://kangax.github.com/es5-compat-table/)
-
-  **[[⬆]](#TOC)**
-
-
 
 ## <a name='performance'>性能</a>
 
@@ -1172,8 +1170,6 @@
   - [innerHTML vs textContent for script text](http://jsperf.com/innerhtml-vs-textcontent-for-script-text)
   - [Long String Concatenation](http://jsperf.com/ya-string-concat)
   - Loading...
-
-  **[[⬆]](#TOC)**
 
 
 ## <a name='resources'>资源</a>
@@ -1222,8 +1218,6 @@
   - [Dmitry Baranovskiy](http://dmitry.baranovskiy.com/)
   - [Dustin Diaz](http://dustindiaz.com/)
   - [nettuts](http://net.tutsplus.com/?s=javascript)
-
-  **[[⬆]](#TOC)**
 
 ## <a name='in-the-wild'>哪些人在使用</a>
 
