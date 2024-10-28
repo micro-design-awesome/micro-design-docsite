@@ -1,127 +1,55 @@
-<!--
- * @Author: luyb luyb@xunzhaotech.com
- * @Date: 2022-11-24 11:59:56
- * @LastEditors: xunzhaotech
- * @LastEditTime: 2024-04-28 21:51:04
- * @FilePath: \micro-design-docs\docs\guide\index.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
-# 开发指南
-## Node.js
-MIcroDesign 系列项目依赖于前端工程化进行开发，所以依赖于 npm 管理安装此模块，也正式因为如此，您需要安装[Node.js](https://nodejs.org/zh-cn)，如果您的电脑已经安装过了 [Node.js](https://nodejs.org/zh-cn) ，那么您可以直接往下继续看，若没有，这里推荐您安装并使用一个多 [Node.js](https://nodejs.org/zh-cn) 版本管理工具 [nvm](https://github.com/nvm-sh/nvm)（Windows 下使用 [nvm-windows](https://github.com/coreybutler/nvm-windows)）（当然也有其他的版本管理工具，这里只是作者推荐在用的一个） [fnm](https://github.com/Schniz/fnm) 来管理[Node.js](https://nodejs.org/zh-cn) 版本 ，方便以后用于管理多个[Node.js](https://nodejs.org/zh-cn) 可以自由切换，或者您也可以只安装 [Node.js](https://nodejs.org/zh-cn) 。
-::: tip 说明
-
-1. Vue 3 项目可以通过 Vue CLI 或 Vite 来创建和管理。Vue CLI 是 Vue 官方提供的命令行工具，它为单页面应用 (SPA) 快速搭建繁杂的脚手架，并提供了功能齐备的构建设置。对于 Vue 3，应该使用 npm 上可用的 Vue CLI v4.5 作为 @vue/cli。要升级，需要全局重新安装最新版本的 @vue/cli 
-2. 对于使用 Vite 创建 Vue 3 项目，通常要求 Node.js 18 或更高版本，因为新版本的 Vite 及其插件利用了 Node.js 18 中的新 API 和性能改进。如果开发者使用较低版本的 Node.js（如 16.x），可能会遇到兼容性问题，如不兼容警告（如 EBADENGINE）或构建错误，由于缺少某些现代 API，可能会导致构建过程失败 。
-
-:::
-关于安装 Node.js 和 nvm 的安装，这里就不再赘述了，相关的安装教程可以在百度可以搜索到。
-
-- [nodejs 官网](https://nodejs.org/zh-cn)
-- [nvm 官网](https://github.com/coreybutler/nvm-windows/releases)
-- [fnm官网](https://github.com/Schniz/fnm) 
-
-下面以在 mac 下安装 nvm 为例：
-```sh
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-# 安装 node 14 版本
-$ nvm install 14
-# 使用 node 14
-$ nvm use 14
-# 验证 node 是否安装成功
-$ node -v
-v14.19.3
-```
-## 包管理工具
-安装 Node.js 后，默认会包含 npm。除此以外，还有其他的包管理工具：
-
-- [pnpm](https://pnpm.io/)（推荐）
-- [cnpm](https://www.npmjs.com/package/cnpm)（推荐）
-- [yarn](https://yarnpkg.com/)
-
-安装 pnpm 示例如下：
-```sh
-$ npm i pnpm -g --register=https://registry.npmmirror.com/
-# 验证 pnpm 是否安装成功
-$ pnpm -v
-7.1.7
-```
-## IDE
-
-推荐使用 IDE 进行前端应用开发和调试，会有更好的调试体验。目前比较流行的 IDE 有：
-
-- [Visual Studio Code](https://code.visualstudio.com/)（推荐）
-- [WebStorm](https://www.jetbrains.com/webstorm/)（推荐）
-- [Sublime Text](https://www.sublimetext.com/)
-- [Atom](https://atom.io/)
-## 小程序开发者工具[](https://v3.ice.work/docs/guide/basic/development#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7)
-
-目前小程序开发调试均需使用对应的开发者工具，在此附上小程序开发者工具下载链接：
-
-- [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
-- [阿里小程序开发者工具](https://opendocs.alipay.com/mini/ide/download)
-
-## 环境要求        
-- [Vue](https://cn.vuejs.org/)
-- [Vite](https://cn.vitejs.dev/)
-- [UnoCSS](https://unocss.dev/)
-- [Naive UI](https://www.naiveui.com/zh-CN/os-theme)
-- [OpenJDK 17 LTS](https://github.com/openjdk/jdk)
-- [Node.js 20 LTS](https://nodejs.org/)
-- [pnpm 9](https://pnpm.io/)
-- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
-- [Git](https://git-scm.com/)
-- [Docker](https://www.docker.com/)（可选）
-## 文档地址
-
-- [文档地址]()
-- [在线预览]()
-
-## 后端项目
-
-| 项目                                                         | 说明 | GitHub | Gitee                                            |
-| ------------------------------------------------------------ | ---- | ------ | ------------------------------------------------ |
-| [micro-design-cloud](https://gitee.com/MicroDesign/micro-design-cloud) |      |        | https://gitee.com/MicroDesign/micro-design-cloud |
-## 在线体验
-- [演示地址【micro-design-ai】](https://microdesign.gitee.io/micro-design-ai/)
-- [演示地址【micro-design-ui】](https://microdesign.gitee.io/micro-design-ui/)
-- [演示地址【micro-design-admin】](https://microdesign.gitee.io/micro-design-admin/)
-- [演示地址【micro-design-docs】](https://microdesign.gitee.io/micro-design-docs/)
-## 使用框架
-| 框架                                                                                          | 说明               | 版本          | 学习指南                                                                |
-|---------------------------------------------------------------------------------------------|------------------|-------------|---------------------------------------------------------------------|
-| [Spring Cloud Alibaba](https://github.com/alibaba/spring-cloud-alibaba)                     | 微服务框架            | 2021.0.4.0  | [文档](https://github.com/YunaiV/SpringBoot-Labs)                     |
-| [Nacos](https://github.com/alibaba/nacos)                                                   | 配置中心 & 注册中心      | 2.0.4       | [文档](https://www.iocoder.cn/categories/Nacos/?yudao)                |
-| [RocketMQ](https://github.com/apache/rocketmq)                                              | 消息队列             | 4.9.4       | [文档](https://www.iocoder.cn/categories/RocketMQ/?yudao)             |
-| [Sentinel](https://github.com/alibaba/sentinel)                                             | 服务保障             | 1.8.6       | [文档](https://www.iocoder.cn/categories/Sentinel/?yudao)             |
-| [XXL Job](https://github.com/xuxueli/xmd-job)                                               | 定时任务             | 2.3.1       | [文档](https://www.iocoder.cn/Xmd-JOB/good-collection/?yudao)         |
-| [Spring Cloud Gateway](https://github.com/spring-cloud/spring-cloud-gateway)                | 服务网关             | 3.4.1       | [文档](https://www.iocoder.cn/categories/Spring-Cloud-Gateway/?yudao) |
-| [Seata](https://github.com/seata/seata)                                                     | 分布式事务            | 1.6.1       | [文档](https://www.iocoder.cn/categories/Seata/?yudao)                |
-| [MySQL](https://www.mysql.com/cn/)                                                          | 数据库服务器           | 5.7 / 8.0+  |                                                                     |
-| [Druid](https://github.com/alibaba/druid)                                                   | JDBC 连接池、监控组件    | 1.2.19      | [文档](http://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao)      |
-| [MyBatis Plus](https://mp.baomidou.com/)                                                    | MyBatis 增强工具包    | 3.5.3.1     | [文档](http://www.iocoder.cn/Spring-Boot/MyBatis/?yudao)              |
-| [Dynamic Datasource](https://dynamic-datasource.com/)                                       | 动态数据源            | 3.6.0       | [文档](http://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao)      |
-| [Redis](https://redis.io/)                                                                  | key-value 数据库    | 5.0 / 6.0   |                                                                     |
-| [Redisson](https://github.com/redisson/redisson)                                            | Redis 客户端        | 3.18.0      | [文档](http://www.iocoder.cn/Spring-Boot/Redis/?yudao)                |
-| [Spring MVC](https://github.com/spring-projects/spring-framework/tree/master/spring-webmvc) | MVC 框架           | 5.3.24      | [文档](http://www.iocoder.cn/SpringMVC/MVC/?yudao)                    |
-| [Spring Security](https://github.com/spring-projects/spring-security)                       | Spring 安全框架      | 5.7.5       | [文档](http://www.iocoder.cn/Spring-Boot/Spring-Security/?yudao)      |
-| [Hibernate Validator](https://github.com/hibernate/hibernate-validator)                     | 参数校验组件           | 6.2.5       | [文档](http://www.iocoder.cn/Spring-Boot/Validation/?yudao)           |
-| [Flowable](https://github.com/flowable/flowable-engine)                                     | 工作流引擎            | 6.7.2       | [文档](https://doc.iocoder.cn/bpm/)                                   |
-| [Knife4j](https://gitee.com/xiaoym/knife4j)                                                 | Swagger 增强 UI 实现 | 4.0.0       | [文档](http://www.iocoder.cn/Spring-Boot/Swagger/?yudao)              |
-| [SkyWalking](https://skywalking.apache.org/)                                                | 分布式应用追踪系统        | 8.12.0      | [文档](http://www.iocoder.cn/Spring-Boot/SkyWalking/?yudao)           |
-| [Spring Boot Admin](https://github.com/codecentric/spring-boot-admin)                       | Spring Boot 监控平台 | 2.7.10      | [文档](http://www.iocoder.cn/Spring-Boot/Admin/?yudao)                |
-| [Jackson](https://github.com/FasterXML/jackson)                                             | JSON 工具库         | 2.13.3      |                                                                     |
-| [MapStruct](https://mapstruct.org/)                                                         | Java Bean 转换     | 1.5.5.Final | [文档](http://www.iocoder.cn/Spring-Boot/MapStruct/?yudao)            |
-| [Lombok](https://projectlombok.org/)                                                        | 消除冗长的 Java 代码    | 1.18.26     | [文档](http://www.iocoder.cn/Spring-Boot/Lombok/?yudao)               |
-| [JUnit](https://junit.org/junit5/)                                                          | Java 单元测试框架      | 5.8.2       | -                                                                   |
-| [Mockito](https://github.com/mockito/mockito)                                               | Java Mock 框架     | 4.8.0       | -                                                                   |
-## 更新日志
-- V1.0.0
-## 常见问题
-- Vue2组件兼容性问题
-## 贡献指南
-- Gitee:https://gitee.com/MicroDesign
-- GitHub：https://github.com/micro-design-awesome
-## 问题反馈
-- microdesign@xunzhaotech.com
-- Email:xuanzhaotech@aliyun.com
+<div class="relative mt-10 md:mt-0">
+  <ul class="grid grid-cols-[repeat(auto-fill,minmax(12rem,1fr))] gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+    <li>
+      <div class="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+        <div class="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
+        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" class="absolute inset-0 h-full w-full">
+          <defs>
+            <linearGradient id="a" gradientUnits="userSpaceOnUse" x1=".621" y1="0" x2="1.082" y2=".379" gradientTransform="matrix(94.54297 0 0 127.17188 .418 .406)">
+              <stop offset="0" style="stop-color:#4285eb;stop-opacity:1"/>
+              <stop offset="1" style="stop-color:#2ec7ff;stop-opacity:1"/>
+            </linearGradient>
+            <linearGradient id="b" gradientUnits="userSpaceOnUse" x1=".696" y1="0" x2=".54" y2="1.085" gradientTransform="matrix(94.54297 0 0 127.17188 .418 .406)">
+              <stop offset="0" style="stop-color:#29cdff;stop-opacity:1"/>
+              <stop offset=".379" style="stop-color:#148eff;stop-opacity:1"/>
+              <stop offset="1" style="stop-color:#0a60ff;stop-opacity:1"/>
+            </linearGradient>
+            <linearGradient id="c" gradientUnits="userSpaceOnUse" x1=".697" y1="-.13" x2=".167" y2="1.174" gradientTransform="matrix(31.49219 0 0 49.5586 96.176 39.402)">
+              <stop offset="0" style="stop-color:#fa816e;stop-opacity:1"/>
+              <stop offset=".415" style="stop-color:#f74a5c;stop-opacity:1"/>
+              <stop offset="1" style="stop-color:#f51d2c;stop-opacity:1"/>
+            </linearGradient>
+            <linearGradient id="d" gradientUnits="userSpaceOnUse" x1=".681" y1="-.357" x2=".304" y2="1.149" gradientTransform="matrix(30.21094 0 0 30.1836 49.227 49.188)">
+              <stop offset="0" style="stop-color:#fa8e7d;stop-opacity:1"/>
+              <stop offset=".513" style="stop-color:#f74a5c;stop-opacity:1"/>
+              <stop offset="1" style="stop-color:#f51d2c;stop-opacity:1"/>
+            </linearGradient>
+          </defs>
+          <path style="stroke:none;fill-rule:nonzero;fill:url(#a)" d="M58.617 2.672 2.676 58.566a7.672 7.672 0 0 0 0 10.868l55.941 55.894a7.684 7.684 0 0 0 10.871 0l23.457-23.437a6.891 6.891 0 0 0 0-9.746 6.9 6.9 0 0 0-9.754 0l-17.78 17.765c-.75.75-1.888.75-2.634 0L18.102 65.277c-.747-.75-.747-1.886 0-2.632l44.675-44.637c.746-.746 1.883-.746 2.633 0l17.781 17.765a6.9 6.9 0 0 0 9.754 0 6.891 6.891 0 0 0 0-9.746L69.492 2.594c-3.02-2.938-7.879-2.914-10.875.078Zm0 0"/>
+          <path style="stroke:none;fill-rule:nonzero;fill:url(#b)" d="M58.617 2.672 2.676 58.566a7.672 7.672 0 0 0 0 10.868l55.941 55.894a7.684 7.684 0 0 0 10.871 0l23.457-23.437a6.891 6.891 0 0 0 0-9.746 6.9 6.9 0 0 0-9.754 0l-17.78 17.765c-.75.75-1.888.75-2.634 0L18.102 65.277c-.747-.75-.747-1.886 0-2.632l44.675-44.637c1.864-1.606 4.903-4.86 9.371-5.621 3.317-.567 6.946.68 10.883 3.734-2.633-2.633-7.144-7.14-13.539-13.527-3.02-2.938-7.879-2.914-10.875.078Zm0 0"/>
+          <path style="stroke:none;fill-rule:nonzero;fill:url(#c)" d="M98.36 86.945a6.9 6.9 0 0 0 9.753 0l17.301-17.285a7.667 7.667 0 0 0 0-10.863l-17.453-17.379a6.91 6.91 0 0 0-9.762.012 6.884 6.884 0 0 0 0 9.746l11.79 11.777a1.826 1.826 0 0 1 0 2.629l-11.63 11.621a6.88 6.88 0 0 0 0 9.742Zm0 0"/>
+          <path style="stroke:none;fill-rule:evenodd;fill:url(#d)" d="M79.438 64.281c0-8.336-6.762-15.094-15.106-15.094-8.34 0-15.105 6.758-15.105 15.094 0 8.332 6.765 15.09 15.105 15.09 8.344 0 15.106-6.758 15.106-15.09Zm0 0"/>
+        </svg>
+          <!-- <img src="/plus/img/category-thumbnails/application-ui/stacked.png" alt="" > -->
+        </div>
+        <p class="relative mt-1.5 text-xs font-medium text-slate-500">9 components</p>
+      </div>
+    </li>
+    <li>
+      <div class="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+        <div class="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
+          <!-- <img src="/plus/img/category-thumbnails/application-ui/stacked.png" alt="" class="absolute inset-0 h-full w-full"> -->
+        </div>
+        <p class="relative mt-1.5 text-xs font-medium text-slate-500">9 components</p>
+      </div>
+    </li>
+    <li>
+      <div class="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
+        <div class="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
+          <!-- <img src="/plus/img/category-thumbnails/application-ui/stacked.png" alt="" class="absolute inset-0 h-full w-full"> -->
+        </div>
+        <p class="relative mt-1.5 text-xs font-medium text-slate-500">9 components</p>
+      </div>
+    </li>
+  </ul>
+</div>
