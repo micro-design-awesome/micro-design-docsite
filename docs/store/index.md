@@ -1,55 +1,100 @@
-<div class="relative mt-10 md:mt-0">
-  <ul class="grid grid-cols-[repeat(auto-fill,minmax(12rem,1fr))] gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-    <li>
-      <div class="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
-        <div class="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
-        <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" class="absolute inset-0 h-full w-full">
-          <defs>
-            <linearGradient id="a" gradientUnits="userSpaceOnUse" x1=".621" y1="0" x2="1.082" y2=".379" gradientTransform="matrix(94.54297 0 0 127.17188 .418 .406)">
-              <stop offset="0" style="stop-color:#4285eb;stop-opacity:1"/>
-              <stop offset="1" style="stop-color:#2ec7ff;stop-opacity:1"/>
-            </linearGradient>
-            <linearGradient id="b" gradientUnits="userSpaceOnUse" x1=".696" y1="0" x2=".54" y2="1.085" gradientTransform="matrix(94.54297 0 0 127.17188 .418 .406)">
-              <stop offset="0" style="stop-color:#29cdff;stop-opacity:1"/>
-              <stop offset=".379" style="stop-color:#148eff;stop-opacity:1"/>
-              <stop offset="1" style="stop-color:#0a60ff;stop-opacity:1"/>
-            </linearGradient>
-            <linearGradient id="c" gradientUnits="userSpaceOnUse" x1=".697" y1="-.13" x2=".167" y2="1.174" gradientTransform="matrix(31.49219 0 0 49.5586 96.176 39.402)">
-              <stop offset="0" style="stop-color:#fa816e;stop-opacity:1"/>
-              <stop offset=".415" style="stop-color:#f74a5c;stop-opacity:1"/>
-              <stop offset="1" style="stop-color:#f51d2c;stop-opacity:1"/>
-            </linearGradient>
-            <linearGradient id="d" gradientUnits="userSpaceOnUse" x1=".681" y1="-.357" x2=".304" y2="1.149" gradientTransform="matrix(30.21094 0 0 30.1836 49.227 49.188)">
-              <stop offset="0" style="stop-color:#fa8e7d;stop-opacity:1"/>
-              <stop offset=".513" style="stop-color:#f74a5c;stop-opacity:1"/>
-              <stop offset="1" style="stop-color:#f51d2c;stop-opacity:1"/>
-            </linearGradient>
-          </defs>
-          <path style="stroke:none;fill-rule:nonzero;fill:url(#a)" d="M58.617 2.672 2.676 58.566a7.672 7.672 0 0 0 0 10.868l55.941 55.894a7.684 7.684 0 0 0 10.871 0l23.457-23.437a6.891 6.891 0 0 0 0-9.746 6.9 6.9 0 0 0-9.754 0l-17.78 17.765c-.75.75-1.888.75-2.634 0L18.102 65.277c-.747-.75-.747-1.886 0-2.632l44.675-44.637c.746-.746 1.883-.746 2.633 0l17.781 17.765a6.9 6.9 0 0 0 9.754 0 6.891 6.891 0 0 0 0-9.746L69.492 2.594c-3.02-2.938-7.879-2.914-10.875.078Zm0 0"/>
-          <path style="stroke:none;fill-rule:nonzero;fill:url(#b)" d="M58.617 2.672 2.676 58.566a7.672 7.672 0 0 0 0 10.868l55.941 55.894a7.684 7.684 0 0 0 10.871 0l23.457-23.437a6.891 6.891 0 0 0 0-9.746 6.9 6.9 0 0 0-9.754 0l-17.78 17.765c-.75.75-1.888.75-2.634 0L18.102 65.277c-.747-.75-.747-1.886 0-2.632l44.675-44.637c1.864-1.606 4.903-4.86 9.371-5.621 3.317-.567 6.946.68 10.883 3.734-2.633-2.633-7.144-7.14-13.539-13.527-3.02-2.938-7.879-2.914-10.875.078Zm0 0"/>
-          <path style="stroke:none;fill-rule:nonzero;fill:url(#c)" d="M98.36 86.945a6.9 6.9 0 0 0 9.753 0l17.301-17.285a7.667 7.667 0 0 0 0-10.863l-17.453-17.379a6.91 6.91 0 0 0-9.762.012 6.884 6.884 0 0 0 0 9.746l11.79 11.777a1.826 1.826 0 0 1 0 2.629l-11.63 11.621a6.88 6.88 0 0 0 0 9.742Zm0 0"/>
-          <path style="stroke:none;fill-rule:evenodd;fill:url(#d)" d="M79.438 64.281c0-8.336-6.762-15.094-15.106-15.094-8.34 0-15.105 6.758-15.105 15.094 0 8.332 6.765 15.09 15.105 15.09 8.344 0 15.106-6.758 15.106-15.09Zm0 0"/>
-        </svg>
-          <!-- <img src="/plus/img/category-thumbnails/application-ui/stacked.png" alt="" > -->
-        </div>
-        <p class="relative mt-1.5 text-xs font-medium text-slate-500">9 components</p>
+<div class="flex flex-col space-y-4">
+  <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-4">
+    <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
       </div>
-    </li>
-    <li>
-      <div class="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
-        <div class="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
-          <!-- <img src="/plus/img/category-thumbnails/application-ui/stacked.png" alt="" class="absolute inset-0 h-full w-full"> -->
-        </div>
-        <p class="relative mt-1.5 text-xs font-medium text-slate-500">9 components</p>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
       </div>
-    </li>
-    <li>
-      <div class="group relative before:absolute before:-inset-2.5 before:rounded-[20px] before:bg-gray-50 before:opacity-0 hover:before:opacity-100">
-        <div class="relative aspect-[2/1] overflow-hidden rounded-lg bg-gray-100 ring-1 ring-gray-900/10">
-          <!-- <img src="/plus/img/category-thumbnails/application-ui/stacked.png" alt="" class="absolute inset-0 h-full w-full"> -->
-        </div>
-        <p class="relative mt-1.5 text-xs font-medium text-slate-500">9 components</p>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
       </div>
-    </li>
-  </ul>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+     <a href="/icons/ie10" class="bg-white dark:bg-zinc-800 flex flex-col justify-center items-center space-y-4 w-full h-auto p-4 text-center rounded h-full shadow border-2 border-transparent hover:shadow-lg hover:border-blue-500 transition-shadow duration-300 ease-in-out">
+      <div>
+        <img src="https://icon.icepanel.io/Technology/svg/Internet-Explorer-10-%28ie10%29.svg" alt="Internet Explorer 10 (ie10) icon" height="64" width="64" class="">
+      </div>
+      <p class="text-xs font-medium min-h-8 flex justify-center items-center break-words">Internet Explorer 10 (ie10)</p>
+    </a>
+  </div>
 </div>
