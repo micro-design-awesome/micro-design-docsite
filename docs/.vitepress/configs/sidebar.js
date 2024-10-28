@@ -4,15 +4,19 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-10-26 10:42:02
+ * @LastEditTime: 2024-10-28 12:23:56
  * @LastEditors: xunzhaotech
  */
 export default {
-  '/api/': getApiSidebar(),
-  '/docs/': getDocsSidebar(),
-  '/config/': getConfigSidebar(),
-  '/components/': getComponentsSidebar(),
   '/guide/': getGuideSidebar(),
+  '/config/': getConfigSidebar(),
+  '/docs/': getDocsSidebar(),
+  '/components/': getComponentsSidebar(),
+  '/project/': getProject(),
+  '/lint/': getLint(),
+  '/course/': getCourse(),
+  '/store/': getStore(),
+  '/api/': getApiSidebar(),
   '/awesome/': getAwesomeSidebar(),
 }
 
@@ -144,6 +148,74 @@ function getAwesomeSidebar() {
         {
           text: '书籍大全',
           link: '/guide/modal',
+        },
+      ],
+    },
+  ]
+}
+function getProject() {
+  return [
+    {
+      text: '项目',
+      items: [
+        {
+          text: '前端项目',
+          link: '/project/',
+        },
+        {
+          text: '后端项目',
+          link: '/project/banckup',
+        },
+      ],
+    },
+  ]
+}
+function getLint() {
+  return [
+    {
+      text: '规范',
+      items: [
+        {
+          text: '前端规范',
+          link: '/lint/',
+        },
+        {
+          text: '后端规范',
+          link: '/lint/banckup',
+        },
+      ],
+    },
+  ]
+}
+function getCourse() {
+  return [
+    {
+      text: '课程',
+      items: [
+        {
+          text: '前端规范',
+          link: '/course/',
+        },
+        {
+          text: '后端规范',
+          link: '/course/banckup',
+        },
+      ],
+    },
+  ]
+}
+function getStore() {
+  return [
+    {
+      text: '课程',
+      items: [
+        {
+          text: '前端规范',
+          link: '/store/',
+        },
+        {
+          text: '后端规范',
+          link: '/store/banckup',
         },
       ],
     },
