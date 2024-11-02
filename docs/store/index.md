@@ -1,4 +1,4 @@
- <div id="app">
+<div id="app">
       <div class="px-4 mx-auto sm:px-6 lg:px-8 xl-px-8 2xl:px-20">
         <div class="grid grid-cols-1 my-5 mt-6 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 xl:gap-x-8">
           <div>
@@ -27,5 +27,5 @@
             </div>
           </div>
         </div>
-      <div>
+      </div>
     </div>
