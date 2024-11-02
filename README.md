@@ -4,16 +4,15 @@
 ## 特性
 
 - ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/) - 快 & 稳定
-
 - 🎨 [TailwindCSS](https://tailwindcss.com/) - 世界上最流行，生态最好的原子化CSS框架
-
 - 😃 [集成 Iconify](https://github.com/egoist/tailwindcss-icons) - [icones.js.org](https://icones.js.org/) 中的所有图标都为你所用
-
 - 📥 [API 自动加载](https://github.com/antfu/unplugin-auto-import) - 直接使用 Composition API 无需引入
-
 - 🧬 [uni-app 条件编译样式](https://weapp-tw.icebreaker.top/docs/quick-start/uni-app-css-macro) - 帮助你在多端更灵活的使用 `TailwindCSS`
-
 - 🦾 [TypeScript](https://www.typescriptlang.org/) & [ESLint](https://eslint.org/) & [Stylelint](https://stylelint.io/) - 样式，类型，统一的校验与格式化规则，保证你的代码风格和质量
+- [create-vue](https://github.com/vuejs/create-vue)
+- [Vitesse](https://github.com/antfu/vitesse)
+- [petite](https://github.com/JessicaSachs/petite)
+- [volar-starter](https://github.com/johnsoncodehk/volar-starter) 
 ## 项目插件
 
 | 插件名称           | 插件描述                                                     |  版本  |
