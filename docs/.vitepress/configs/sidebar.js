@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-10-28 12:49:39
+ * @LastEditTime: 2024-11-02 21:45:27
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -92,7 +92,109 @@ function getDocsSidebar() {
 function getConfigSidebar() {
   return [
     {
-      text: '介绍',
+      text: '环境准备',
+      items: [
+        {
+          text: '简介',
+          link: '/guide/',
+        },
+        {
+          text: '演示',
+          link: '/guide/introduce',
+        },
+        {
+          text: '源码',
+          link: '/guide/source',
+        },
+      ],
+    },
+    {
+      text: '创建项目',
+      items: [
+        {
+          text: '简介',
+          link: '/guide/',
+        },
+        {
+          text: '演示',
+          link: '/guide/introduce',
+        },
+        {
+          text: '源码',
+          link: '/guide/source',
+        },
+      ],
+    },
+     {
+      text: '创建项目',
+      items: [
+        {
+          text: '简介',
+          link: '/guide/',
+        },
+        {
+          text: '演示',
+          link: '/guide/introduce',
+        },
+        {
+          text: '源码',
+          link: '/guide/source',
+        },
+      ],
+    },
+    {
+      text: '项目集成',
+      items: [
+        {
+          text: '简介',
+          link: '/guide/',
+        },
+        {
+          text: '演示',
+          link: '/guide/introduce',
+        },
+        {
+          text: '源码',
+          link: '/guide/source',
+        },
+      ],
+    },
+    {
+      text: '代码规范',
+      items: [
+        {
+          text: '简介',
+          link: '/guide/',
+        },
+        {
+          text: '演示',
+          link: '/guide/introduce',
+        },
+        {
+          text: '源码',
+          link: '/guide/source',
+        },
+      ],
+    },
+     {
+      text: '打包部署',
+      items: [
+        {
+          text: '简介',
+          link: '/guide/',
+        },
+        {
+          text: '演示',
+          link: '/guide/introduce',
+        },
+        {
+          text: '源码',
+          link: '/guide/source',
+        },
+      ],
+    },
+    {
+      text: 'SSL 证书配置（如果需要）',
       items: [
         {
           text: '简介',
