@@ -4,7 +4,7 @@
           <div>
             <div class="relative w-full overflow-hidden rounded-lg imageContainer">
               <a href="/product/modernize-free-nextjs-admin-template">
-                <img title="Live Preview" alt="free-next-js-admin-template" loading="lazy" width="564" height="395" decoding="async" data-nimg="1" class="object-cover object-center w-full h-full rounded-lg lg:w-full" srcset="/_next/image?url=https%3A%2F%2Fadminmart.com%2Fwp-content%2Fuploads%2F2023%2F03%2Fmodernize-free-next-js-admin-template.png&amp;w=640&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fadminmart.com%2Fwp-content%2Fuploads%2F2023%2F03%2Fmodernize-free-next-js-admin-template.png&amp;w=1200&amp;q=75 2x" src="https://micro-components.github.io/micro-admin-docs/micro-admin.png&amp;w=1200&amp;q=75" style="color: transparent;">
+                <img title="Live Preview" alt="free-next-js-admin-template" loading="lazy" width="564" height="395" decoding="async" data-nimg="1" class="object-cover object-center w-full h-full rounded-lg lg:w-full" srcset="https://micro-components.github.io/micro-admin-docs/micro-admin.png&amp;w=1200&amp;q=75 2x" src="https://micro-components.github.io/micro-admin-docs/micro-admin.png&amp;w=1200&amp;q=75" style="color: transparent;">
               </a>
               <div class="absolute flex items-center gap-3 top-2 right-2">
                 <span class="px-2 py-1 text-white rounded bg-green">Free</span>
