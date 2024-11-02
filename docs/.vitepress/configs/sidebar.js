@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-11-02 22:00:54
+ * @LastEditTime: 2024-11-02 22:05:26
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -249,7 +249,7 @@ function getAwesomeSidebar() {
         },
         {
           text: '书籍大全',
-          link: '/guide/book',
+          link: '/awesome/book',
         },
       ],
     },
