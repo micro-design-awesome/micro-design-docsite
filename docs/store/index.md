@@ -1,65 +1,27 @@
-<section class="py-10 bg-white sm:py-16 lg:py-24">
-    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div class="max-w-2xl mx-auto text-center">
-            <h2 class="text-2xl font-bold text-gray-800 sm:text-4xl sm:leading-tight">Trusted by world class companies, design teams & popular designers</h2>
-        </div>
-
-        <div class="grid items-center max-w-4xl grid-cols-2 mx-auto mt-12 md:mt-20 md:grid-cols-4 gap-x-10 gap-y-16">
-            <div>
-                <img class="object-contain w-full h-6 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-1.png" alt="" />
-            </div>
-    
-            <div>
-                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-2.png" alt="" />
-            </div>
-    
-            <div>
-                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-3.png" alt="" />
-            </div>
-    
-            <div>
-                <img class="object-contain w-full mx-auto h-7" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-4.png" alt="" />
-            </div>
-    
-            <div class="hidden md:block">
-                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-5.png" alt="" />
-            </div>
-    
-            <div class="hidden md:block">
-                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-6.png" alt="" />
-            </div>
-    
-            <div class="hidden md:block">
-                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-7.png" alt="" />
-            </div>
-    
-            <div class="hidden md:block">
-                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-8.png" alt="" />
-            </div>
-    
-            <div class="hidden md:block">
-                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-9.png" alt="" />
-            </div>
-    
-            <div class="hidden md:block">
-                <img class="object-contain w-full mx-auto h-7" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-10.png" alt="" />
-            </div>
-    
-            <div class="hidden md:block">
-                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-11.png" alt="" />
-            </div>
-    
-            <div class="hidden md:block">
-                <img class="object-contain w-full h-8 mx-auto" src="https://cdn.rareblocks.xyz/collection/celebration/images/logos/3/logo-12.png" alt="" />
+<div class="px-4 mx-auto sm:px-6 lg:px-8 xl-px-8 2xl:px-20">
+    <div class="grid grid-cols-1 my-5 mt-6 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 xl:gap-x-8">
+        <div>
+        <div class="relative w-full overflow-hidden rounded-lg imageContainer">
+            <a href="/product/modernize-free-nextjs-admin-template">
+            <img title="Live Preview" alt="free-next-js-admin-template" loading="lazy" width="564" height="395" decoding="async" data-nimg="1" class="object-cover object-center w-full h-full rounded-lg lg:w-full" srcset="/_next/image?url=https%3A%2F%2Fadminmart.com%2Fwp-content%2Fuploads%2F2023%2F03%2Fmodernize-free-next-js-admin-template.png&amp;w=640&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fadminmart.com%2Fwp-content%2Fuploads%2F2023%2F03%2Fmodernize-free-next-js-admin-template.png&amp;w=1200&amp;q=75 2x" src="https://micro-components.github.io/micro-admin-docs/micro-admin.png&amp;w=1200&amp;q=75" style="color: transparent;">
+            </a>
+            <div class="absolute flex items-center gap-3 top-2 right-2">
+            <span class="px-2 py-1 text-white rounded bg-green">Free</span>
             </div>
         </div>
-    
-        <div class="flex items-center justify-center mt-10 space-x-3 md:hidden">
-            <div class="w-2.5 h-2.5 rounded-full bg-blue-600 block"></div>
-            <div class="w-2.5 h-2.5 rounded-full bg-gray-300 block"></div>
-            <div class="w-2.5 h-2.5 rounded-full bg-gray-300 block"></div>
+            <div class="flex items-center justify-between gap-3 py-3">
+            <div class="w-[70%] no-wrap truncate">
+                <h3 class="text-sm font-semibold truncate ">
+                <a href="/product/modernize-free-nextjs-admin-template"> Modernize Free NextJs Admin Template</a>
+                </h3>
+                <small class="opacity-75">Modernize Free Next.js Admin Template: Cutting-Edge Design for Seamless Web Management</small>
+            </div>
+            <div class="text-sm font-medium bottom-1 w-25 shrink-0"><div class="flex gap-2 rounded-x">
+                <a href="/product/modernize-free-nextjs-admin-template">
+                <button title="Download" class="flex items-center gap-1 p-1 px-2 text-sm border rounded dark:border-primary border-dark dark:bg-primary/10 bg-dark/10 dark:text-primary text-dark dark:hover:bg-primary hover:bg-dark dark:hover:text-white hover:text-white">Get <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-3 h-3 tabler-icon tabler-icon-download"><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path><path d="M7 11l5 5l5 -5"></path><path d="M12 4l0 12"></path></svg>
+                </button>
+                </a>
+            </div>
+            </div>
         </div>
-    
-        <p class="mt-10 text-base text-center text-gray-500 md:mt-20">and, 1000+ more companies</p>
-    </div>
-</section>
+        </div>
