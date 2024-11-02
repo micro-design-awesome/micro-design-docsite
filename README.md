@@ -48,18 +48,18 @@
 
 ## 前端项目汇总
 
-| 项目名称                                                     | 项目地址                                       | 演示地址                                         | 描述           |
-| ------------------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------ | -------------- |
-| [Nova-admin](https://nova-admin-docs.pages.dev/zh/)          |                                                | https://nova-admin-site.netlify.app/             |                |
-| [Nova-admin文档](https://nova-admin-docs.pages.dev/zh/)      |                                                |                                                  |                |
-| 搜索文档K 搜索文档KSimple Icons                              |                                                | 图标库                                           | 图标库         |
-| Next.js Templates                                            |                                                | https://nextjs-templates.com/                    |                |
-| [Tailwindcss **Templates**](https://tailwindcsstemplates.com/) |                                                | https://tailwindcsstemplates.com/                |                |
-| [Vue3 Baidu Map Gl](https://yue1123.github.io/vue3-baidu-map-gl/) | https://github.com/yue1123/vue3-baidu-map-gl   | https://yue1123.github.io/vue3-baidu-map-gl/     | 百度地图组件库 |
-| [smart-admin](https://github.com/1024-lab/smart-admin)       | https://github.com/1024-lab/smart-admin        | https://smartadmin.vip/views/v3/front/Login.html |                |
-| [tailwindcss](https://github.com/tailwindlabs/tailwindcss)   | https://github.com/tailwindlabs/tailwindcss    | https://tailwindcss.com/                         |                |
-| primevue                                                     | https://github.com/primefaces/primevue         | https://primevue.org/                            |                |
-| [arco-design-vue](https://github.com/arco-design/arco-design-vue) | https://github.com/arco-design/arco-design-vue | https://arco.design/vue/docs/start               |                |
-| Vite CLI                                                     | https://github.com/ErKeLost/create-vite-app    | https://vite-cli.netlify.app/                    |                |
-| Vue DevTools                                                 | https://github.com/vuejs/devtools-next         | https://devtools.vuejs.org/                      |                |
+| 项目名称                                                     | 项目地址                                         | 演示地址                                         | 描述           |
+| ------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | -------------- |
+| [Nova-admin](https://nova-admin-docs.pages.dev/zh/)          | https://github.com/chansee97/nova-admin.git      | https://nova-admin-site.netlify.app/             |                |
+| [Nova-admin文档](https://nova-admin-docs.pages.dev/zh/)      | https://github.com/chansee97/nova-admin-docs.git | https://nova-admin-docs.pages.dev/zh/            |                |
+| 搜索文档K 搜索文档KSimple Icons                              | https://github.com/simple-icons/simple-icons.git | https://simpleicons.org/                         | 图标库         |
+| Next.js Templates                                            |                                                  | https://nextjs-templates.com/                    |                |
+| [Tailwindcss **Templates**](https://tailwindcsstemplates.com/) |                                                  | https://tailwindcsstemplates.com/                |                |
+| [Vue3 Baidu Map Gl](https://yue1123.github.io/vue3-baidu-map-gl/) | https://github.com/yue1123/vue3-baidu-map-gl     | https://yue1123.github.io/vue3-baidu-map-gl/     | 百度地图组件库 |
+| [smart-admin](https://github.com/1024-lab/smart-admin)       | https://github.com/1024-lab/smart-admin          | https://smartadmin.vip/views/v3/front/Login.html |                |
+| [tailwindcss](https://github.com/tailwindlabs/tailwindcss)   | https://github.com/tailwindlabs/tailwindcss      | https://tailwindcss.com/                         |                |
+| primevue                                                     | https://github.com/primefaces/primevue           | https://primevue.org/                            |                |
+| [arco-design-vue](https://github.com/arco-design/arco-design-vue) | https://github.com/arco-design/arco-design-vue   | https://arco.design/vue/docs/start               |                |
+| Vite CLI                                                     | https://github.com/ErKeLost/create-vite-app      | https://vite-cli.netlify.app/                    |                |
+| Vue DevTools                                                 | https://github.com/vuejs/devtools-next           | https://devtools.vuejs.org/                      |                |
 
