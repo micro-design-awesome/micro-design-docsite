@@ -62,8 +62,12 @@
 ## 效率工具
 
 - [Markdown Nice](https://editor.mdnice.com/) 一款 Markdown 编辑器，可以适配知乎、掘金等平台
+
 - [在线重命名](https://webrename.cn) 文件批量重命名在线工具，支持各种重命名方法，在线打包
+
 - [在线工具](https://tool.lu/) 大量的开发小工具库，非常实用
+
+- [iCraft Editor](https://icraft.gantcloud.com/zh-CN) 设计3D架构图更 直观 
 
 ## 其它工具
 
