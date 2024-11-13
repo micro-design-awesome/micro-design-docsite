@@ -52,16 +52,16 @@
 | ------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ | -------------- |
 | [Nova-admin](https://nova-admin-docs.pages.dev/zh/)          | https://github.com/chansee97/nova-admin.git      | https://nova-admin-site.netlify.app/             |                |
 | [Nova-admin文档](https://nova-admin-docs.pages.dev/zh/)      | https://github.com/chansee97/nova-admin-docs.git | https://nova-admin-docs.pages.dev/zh/            |                |
-| 搜索文档K 搜索文档KSimple Icons                              | https://github.com/simple-icons/simple-icons.git | https://simpleicons.org/                         | 图标库         |
-| Next.js Templates                                            |                                                  | https://nextjs-templates.com/                    |                |
+| [搜索文档K 搜索文档KSimple Icons](https://simpleicons.org/)  | https://github.com/simple-icons/simple-icons.git | https://simpleicons.org/                         | 图标库         |
+| [Next.js Templates](https://nextjs-templates.com/)           |                                                  | https://nextjs-templates.com/                    |                |
 | [Tailwindcss **Templates**](https://tailwindcsstemplates.com/) |                                                  | https://tailwindcsstemplates.com/                |                |
 | [Vue3 Baidu Map Gl](https://yue1123.github.io/vue3-baidu-map-gl/) | https://github.com/yue1123/vue3-baidu-map-gl     | https://yue1123.github.io/vue3-baidu-map-gl/     | 百度地图组件库 |
 | [smart-admin](https://github.com/1024-lab/smart-admin)       | https://github.com/1024-lab/smart-admin          | https://smartadmin.vip/views/v3/front/Login.html |                |
 | [tailwindcss](https://github.com/tailwindlabs/tailwindcss)   | https://github.com/tailwindlabs/tailwindcss      | https://tailwindcss.com/                         |                |
-| primevue                                                     | https://github.com/primefaces/primevue           | https://primevue.org/                            |                |
+| [primevue](https://primevue.org/)                            | https://github.com/primefaces/primevue           | https://primevue.org/                            |                |
 | [arco-design-vue](https://github.com/arco-design/arco-design-vue) | https://github.com/arco-design/arco-design-vue   | https://arco.design/vue/docs/start               |                |
-| Vite CLI                                                     | https://github.com/ErKeLost/create-vite-app      | https://vite-cli.netlify.app/                    |                |
-| Vue DevTools                                                 | https://github.com/vuejs/devtools-next           | https://devtools.vuejs.org/                      |                |
+| [Vite CLI](https://vite-cli.netlify.app/)                    | https://github.com/ErKeLost/create-vite-app      | https://vite-cli.netlify.app/                    |                |
+| [Vue DevTools](https://devtools.vuejs.org/)                  | https://github.com/vuejs/devtools-next           | https://devtools.vuejs.org/                      |                |
 
 
 
@@ -70,8 +70,8 @@
 | -------------------------------------------- | ------------------------------------------------------------ | -------------------- |
 | [Codaily.dev](https://codaily.dev/)          | 有关 Web 开发、软件架构和新兴技术的专家文章。通过深入的技术分析和实用见解保持领先地位。 | https://codaily.dev/ |
 | [web.dev](https://api.daily.dev/r/nZIKT5rQY) | [携手打造更出色的网络](https://web.dev/about?hl=zh-cn)       | https://web.dev/     |
-| cruip                                        | 下一个项目的 Tailwind CSS 模板 (   [HTML Templates](https://cruip.com/docs/html-templates-tailwind-css/)  [Next.js Templates](https://cruip.com/docs/next-js-templates-tailwind-css/)  [Vue Templates](https://cruip.com/docs/vue-templates-tailwind-css/)  [React Templates](https://cruip.com/docs/react-templates-tailwind-css/)  [Laravel Template](https://cruip.com/docs/laravel-templates/)) | https://cruip.com/   |
-| HTMLrev                                      | 1500+ HTMLrev 上的免费 HTML 网站模板  [Devluc](https://devluc.com/) | https://htmlrev.com/ |
+| [cruip](https://cruip.com/)                  | 下一个项目的 Tailwind CSS 模板 (   [HTML Templates](https://cruip.com/docs/html-templates-tailwind-css/)  [Next.js Templates](https://cruip.com/docs/next-js-templates-tailwind-css/)  [Vue Templates](https://cruip.com/docs/vue-templates-tailwind-css/)  [React Templates](https://cruip.com/docs/react-templates-tailwind-css/)  [Laravel Template](https://cruip.com/docs/laravel-templates/)) | https://cruip.com/   |
+| [HTMLrev](https://htmlrev.com/)              | 1500+ HTMLrev 上的免费 HTML 网站模板  [Devluc](https://devluc.com/) | https://htmlrev.com/ |
 |                                              |                                                              |                      |
 |                                              |                                                              |                      |
 |                                              |                                                              |                      |
