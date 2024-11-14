@@ -66,18 +66,18 @@
 
 
 ## 博客列表
-| 项目名称                                     | 说明                                                         | 地址                 |
-| -------------------------------------------- | ------------------------------------------------------------ | -------------------- |
-| [Codaily.dev](https://codaily.dev/)          | 有关 Web 开发、软件架构和新兴技术的专家文章。通过深入的技术分析和实用见解保持领先地位。 | https://codaily.dev/ |
-| [web.dev](https://api.daily.dev/r/nZIKT5rQY) | [携手打造更出色的网络](https://web.dev/about?hl=zh-cn)       | https://web.dev/     |
-| [cruip](https://cruip.com/)                  | 下一个项目的 Tailwind CSS 模板 (   [HTML Templates](https://cruip.com/docs/html-templates-tailwind-css/)  [Next.js Templates](https://cruip.com/docs/next-js-templates-tailwind-css/)  [Vue Templates](https://cruip.com/docs/vue-templates-tailwind-css/)  [React Templates](https://cruip.com/docs/react-templates-tailwind-css/)  [Laravel Template](https://cruip.com/docs/laravel-templates/)) | https://cruip.com/   |
-| [HTMLrev](https://htmlrev.com/)              | 1500+ HTMLrev 上的免费 HTML 网站模板  [Devluc](https://devluc.com/) | https://htmlrev.com/ |
-|                                              |                                                              |                      |
-|                                              |                                                              |                      |
-|                                              |                                                              |                      |
-|                                              |                                                              |                      |
-|                                              |                                                              |                      |
-|                                              |                                                              |                      |
+| 项目名称                                             | 说明                                                         | 地址                                   |
+| ---------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------- |
+| [Codaily.dev](https://codaily.dev/)                  | 有关 Web 开发、软件架构和新兴技术的专家文章。通过深入的技术分析和实用见解保持领先地位。 | https://codaily.dev/                   |
+| [web.dev](https://api.daily.dev/r/nZIKT5rQY)         | [携手打造更出色的网络](https://web.dev/about?hl=zh-cn)       | https://web.dev/                       |
+| [cruip](https://cruip.com/)                          | 下一个项目的 Tailwind CSS 模板 (   [HTML Templates](https://cruip.com/docs/html-templates-tailwind-css/)  [Next.js Templates](https://cruip.com/docs/next-js-templates-tailwind-css/)  [Vue Templates](https://cruip.com/docs/vue-templates-tailwind-css/)  [React Templates](https://cruip.com/docs/react-templates-tailwind-css/)  [Laravel Template](https://cruip.com/docs/laravel-templates/)) | https://cruip.com/                     |
+| [HTMLrev](https://htmlrev.com/)                      | 1500+ HTMLrev 上的免费 HTML 网站模板  [Devluc](https://devluc.com/) | https://htmlrev.com/                   |
+| [wrappixel](https://www.wrappixel.com/)              | 即用型生产级 Admin Dashboard 模板 ( 下载基于Bootstrap、React、Angular、Vue、Tailwind、Next.js和Nuxt.js构建的开发者友好型管理员仪表板模板。 ) | https://www.wrappixel.com/             |
+| [draw.audio](https://draw.audio/)                    | 手动绘制音乐                                                 | https://draw.audio/                    |
+| [Cuicui](https://cuicui.day/)                        | 为 React 制作的开源组件、挂钩和工具有 100 多个变体。只需复制粘贴。 | https://cuicui.day/                    |
+| [Spafe Code](https://code.spafe.ru/?ref=producthunt) |                                                              | https://code.spafe.ru/?ref=producthunt |
+|                                                      |                                                              |                                        |
+|                                                      |                                                              |                                        |
 ## ⭐ PORTFOLIO LINE START ⭐ 
 
 | Author                     | Screenshot                                                                                                                                                                | Live URL                                                                                                      | Repo                                                                         | Tech Stack                                                                                                     |

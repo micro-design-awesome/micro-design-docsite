@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-11-08 20:01:23
+ * @LastEditTime: 2024-11-14 12:27:32
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -254,6 +254,10 @@ function getAwesomeSidebar() {
         {
           text: '模板资源',
           link: '/awesome/templates',
+        },
+        {
+          text: 'UI组件库',
+          link: '/awesome/ui',
         },
         {
           text: '免费图标',
