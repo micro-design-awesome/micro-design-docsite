@@ -48,22 +48,27 @@
 - [Surely Table](https://www.surely.cool/) ：支持高性能编辑模式了 立即体验
 
 - [Admin Pro ](https://store.antdv.com/pro/preview/workplace):Ant Design Vue 4版本
+## 前端开发人员⚡️的 15 个基本工具和资源 
 
-  以下是将上述内容整理成表格的形式：
+您提供的链接是一篇关于前端开发者必备的15个工具和资源的文章。以下是这些工具和资源的列表，以及它们的简要描述：
 
-  | 序号 | 托管服务         | 最适合用途                           | 特点                                                         | 限制                                       | 网址             |
-  | ---- | ---------------- | ------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ | ---------------- |
-  | 1    | GitHub Pages     | 静态网站（HTML, CSS, JavaScript）    | 自定义域名、集成GitHub版本控制、支持Jekyll静态站点生成器     | 只支持静态内容，不支持数据库或服务器端语言 | GitHub Pages     |
-  | 2    | Netlify          | JAMstack网站和静态网站               | 全球CDN、自动化部署、支持无服务器函数、表单处理、身份验证服务和自定义域名 | 免费层有构建分钟数和带宽限制               | Netlify          |
-  | 3    | Vercel           | 静态网站、Next.js和React应用         | 全球边缘部署、自动化部署、支持无服务器函数                   | 免费层有部署频率和构建时长限制             | Vercel           |
-  | 4    | Firebase Hosting | Web应用、PWA、静态和动态内容         | 与Firebase服务集成、全球CDN、自动SSL证书                     | 免费层有带宽和数据库访问限制               | Firebase Hosting |
-  | 5    | InfinityFree     | PHP网站和MySQL数据库                 | 无限存储和带宽（受公平使用政策限制）、支持PHP和MySQL、自定义域名和SSL证书 | 有广告，可能基于流量或使用量限制性能       | InfinityFree     |
-  | 6    | Cloudflare Pages | 静态网站、JAMstack                   | 全球CDN、自动化部署、自动SSL证书                             | 只支持静态网站                             | Cloudflare Pages |
-  | 7    | 000WebHost       | 小型PHP基础网站                      | 1GB存储和10GB带宽、支持PHP和MySQL、自定义域名                | 有广告，功能有限                           | 000WebHost       |
-  | 8    | Surge            | 前端Web应用（HTML, CSS, JavaScript） | 命令行工具快速部署、支持自定义域名                           | 只支持静态网站                             | Surge            |
-  | 9    | Render           | 全栈Web应用、静态网站和API           | 支持动态内容、100GB带宽/月、自动化部署、自定义域名和SSL证书  | 免费层带宽和构建时间有限                   | Render           |
-  | 10   | ByetHost         | 全功能Web托管（PHP, MySQL）          | cPanel访问、支持PHP和MySQL、无限带宽（受公平使用政策限制）   | 有广告，可能基于使用或流量限制性能         | ByetHost         |
-
+| 序号 | 工具/资源名称     | 描述                                                         |
+| ---- | ----------------- | ------------------------------------------------------------ |
+| 1    | PureRef           | 参考管理工具，用于收集和组织视觉灵感，支持Mac、Linux和Windows。 |
+| 2    | GSAP              | 流行的JavaScript动画库，用于创建平滑、高性能的网页动画。     |
+| 3    | Font Tester       | Chrome扩展程序，帮助为网站挑选字体，测试和预览1000+字体。    |
+| 4    | SVG Repo          | 提供超过500,000个图标和矢量图的免费站点，适用于个人和商业项目。 |
+| 5    | Color Hunt        | 提供策划的颜色调色板，适合寻找新鲜颜色组合的网页设计师。     |
+| 6    | CSS Gradient      | 用于创建自定义渐变的CSS代码生成器。                          |
+| 7    | Awwwards          | 展示顶级网站的设计、创意和可用性的网站展示平台。             |
+| 8    | LandBook          | 精选的美丽且有效的着陆页画廊，提供不同行业的着陆页设计实例。 |
+| 9    | Screenity         | Chrome屏幕录制扩展程序，支持录制时注释、捕获摄像头和麦克风输入。 |
+| 10   | HTML REV          | 提供超过1,500个免费模板的集合，包括HTML、Bootstrap、Tailwind等。 |
+| 11   | Excalidraw        | 开源在线白板，用于绘制图表和布局，适合头脑风暴、流程图绘制。 |
+| 12   | Codepen           | 用于HTML、CSS和JavaScript的在线代码编辑器，支持实时预览和社区反馈。 |
+| 13   | BrowserStack      | 跨浏览器测试工具，提供在真实设备上的跨浏览器测试。           |
+| 14   | CSS-Tricks        | 提供CSS和前端开发教程、文章和代码片段的博客和参考网站。      |
+| 15   | Smashing Magazine | 提供设计、开发和用户体验方面的文章、教程和资源的在线出版物。 |
 
 ## 适用于静态和动态站点的 10 种免费虚拟主机解决方案 
 
