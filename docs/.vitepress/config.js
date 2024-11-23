@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-08-11 16:31:58
+ * @LastEditTime: 2024-11-23 12:06:58
  * @LastEditors: xunzhaotech
  */
 import { defineConfig } from 'vitepress'
@@ -75,7 +75,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/xinlei3166/vitepress-demo' }
+      { icon: 'github', link: 'https://github.com/micro-design-awesome/micro-design-docsite' }
     ],
 
     footer: {
