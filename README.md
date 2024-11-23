@@ -42,9 +42,43 @@
 - wip 开发中
 ## 相关文档
 - [Ant Design Vue 4](https://www.antdv.com/components/overview) ：五大新组件，全新 Design Token
+
 - [Surely Form](https://form.antdv.com/) ：全新主题编辑， AI 问卷开放内测申请 立即体验
+
 - [Surely Table](https://www.surely.cool/) ：支持高性能编辑模式了 立即体验
+
 - [Admin Pro ](https://store.antdv.com/pro/preview/workplace):Ant Design Vue 4版本
+
+  以下是将上述内容整理成表格的形式：
+
+  | 序号 | 托管服务         | 最适合用途                           | 特点                                                         | 限制                                       | 网址             |
+  | ---- | ---------------- | ------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ | ---------------- |
+  | 1    | GitHub Pages     | 静态网站（HTML, CSS, JavaScript）    | 自定义域名、集成GitHub版本控制、支持Jekyll静态站点生成器     | 只支持静态内容，不支持数据库或服务器端语言 | GitHub Pages     |
+  | 2    | Netlify          | JAMstack网站和静态网站               | 全球CDN、自动化部署、支持无服务器函数、表单处理、身份验证服务和自定义域名 | 免费层有构建分钟数和带宽限制               | Netlify          |
+  | 3    | Vercel           | 静态网站、Next.js和React应用         | 全球边缘部署、自动化部署、支持无服务器函数                   | 免费层有部署频率和构建时长限制             | Vercel           |
+  | 4    | Firebase Hosting | Web应用、PWA、静态和动态内容         | 与Firebase服务集成、全球CDN、自动SSL证书                     | 免费层有带宽和数据库访问限制               | Firebase Hosting |
+  | 5    | InfinityFree     | PHP网站和MySQL数据库                 | 无限存储和带宽（受公平使用政策限制）、支持PHP和MySQL、自定义域名和SSL证书 | 有广告，可能基于流量或使用量限制性能       | InfinityFree     |
+  | 6    | Cloudflare Pages | 静态网站、JAMstack                   | 全球CDN、自动化部署、自动SSL证书                             | 只支持静态网站                             | Cloudflare Pages |
+  | 7    | 000WebHost       | 小型PHP基础网站                      | 1GB存储和10GB带宽、支持PHP和MySQL、自定义域名                | 有广告，功能有限                           | 000WebHost       |
+  | 8    | Surge            | 前端Web应用（HTML, CSS, JavaScript） | 命令行工具快速部署、支持自定义域名                           | 只支持静态网站                             | Surge            |
+  | 9    | Render           | 全栈Web应用、静态网站和API           | 支持动态内容、100GB带宽/月、自动化部署、自定义域名和SSL证书  | 免费层带宽和构建时间有限                   | Render           |
+  | 10   | ByetHost         | 全功能Web托管（PHP, MySQL）          | cPanel访问、支持PHP和MySQL、无限带宽（受公平使用政策限制）   | 有广告，可能基于使用或流量限制性能         | ByetHost         |
+
+
+## 适用于静态和动态站点的 10 种免费虚拟主机解决方案 
+
+| 序号 | 托管服务         | 最适合用途                           | 特点                                                         | 限制                                       | 网址             |
+| ---- | ---------------- | ------------------------------------ | ------------------------------------------------------------ | ------------------------------------------ | ---------------- |
+| 1    | GitHub Pages     | 静态网站（HTML, CSS, JavaScript）    | 自定义域名、集成GitHub版本控制、支持Jekyll静态站点生成器     | 只支持静态内容，不支持数据库或服务器端语言 | GitHub Pages     |
+| 2    | Netlify          | JAMstack网站和静态网站               | 全球CDN、自动化部署、支持无服务器函数、表单处理、身份验证服务和自定义域名 | 免费层有构建分钟数和带宽限制               | Netlify          |
+| 3    | Vercel           | 静态网站、Next.js和React应用         | 全球边缘部署、自动化部署、支持无服务器函数                   | 免费层有部署频率和构建时长限制             | Vercel           |
+| 4    | Firebase Hosting | Web应用、PWA、静态和动态内容         | 与Firebase服务集成、全球CDN、自动SSL证书                     | 免费层有带宽和数据库访问限制               | Firebase Hosting |
+| 5    | InfinityFree     | PHP网站和MySQL数据库                 | 无限存储和带宽（受公平使用政策限制）、支持PHP和MySQL、自定义域名和SSL证书 | 有广告，可能基于流量或使用量限制性能       | InfinityFree     |
+| 6    | Cloudflare Pages | 静态网站、JAMstack                   | 全球CDN、自动化部署、自动SSL证书                             | 只支持静态网站                             | Cloudflare Pages |
+| 7    | 000WebHost       | 小型PHP基础网站                      | 1GB存储和10GB带宽、支持PHP和MySQL、自定义域名                | 有广告，功能有限                           | 000WebHost       |
+| 8    | Surge            | 前端Web应用（HTML, CSS, JavaScript） | 命令行工具快速部署、支持自定义域名                           | 只支持静态网站                             | Surge            |
+| 9    | Render           | 全栈Web应用、静态网站和API           | 支持动态内容、100GB带宽/月、自动化部署、自定义域名和SSL证书  | 免费层带宽和构建时间有限                   | Render           |
+| 10   | ByetHost         | 全功能Web托管（PHP, MySQL）          | cPanel访问、支持PHP和MySQL、无限带宽（受公平使用政策限制）   | 有广告，可能基于使用或流量限制性能         | ByetHost         |
 
 ## 前端项目汇总
 
@@ -62,6 +96,7 @@
 | [arco-design-vue](https://github.com/arco-design/arco-design-vue) | https://github.com/arco-design/arco-design-vue   | https://arco.design/vue/docs/start               |                |
 | [Vite CLI](https://vite-cli.netlify.app/)                    | https://github.com/ErKeLost/create-vite-app      | https://vite-cli.netlify.app/                    |                |
 | [Vue DevTools](https://devtools.vuejs.org/)                  | https://github.com/vuejs/devtools-next           | https://devtools.vuejs.org/                      |                |
+| [vitepress-demo](https://xinlei3166.github.io/vitepress-demo/) | https://xinlei3166.github.io/vitepress-demo/     | https://xinlei3166.github.io/vitepress-demo/     | vue3组件库     |
 
 
 
