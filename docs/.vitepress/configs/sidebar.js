@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-11-14 12:27:32
+ * @LastEditTime: 2024-11-23 10:45:37
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -262,6 +262,14 @@ function getAwesomeSidebar() {
         {
           text: '免费图标',
           link: '/awesome/icon',
+        },
+        {
+          text: '网站插图',
+          link: '/awesome/Illustrations',
+        },
+        {
+          text: '设计资源',
+          link: '/awesome/design',
         },
       ],
     },
