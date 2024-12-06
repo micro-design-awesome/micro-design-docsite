@@ -315,11 +315,11 @@ function getCourse() {
       text: '课程',
       items: [
         {
-          text: '前端规范',
+          text: '前端课程',
           link: '/course/',
         },
         {
-          text: '后端规范',
+          text: '后端课程',
           link: '/course/banckup',
         },
       ],
