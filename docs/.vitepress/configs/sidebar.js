@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-11-23 10:45:37
+ * @LastEditTime: 2024-12-06 12:37:21
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -17,6 +17,7 @@ export default {
   '/course/': getCourse(),
   '/store/': getStore(),
   '/api/': getApiSidebar(),
+  '/tools/': getTools(),
   '/awesome/': getAwesomeSidebar(),
 }
 
@@ -321,6 +322,23 @@ function getCourse() {
         {
           text: '后端课程',
           link: '/course/banckup',
+        },
+      ],
+    },
+  ]
+}
+function getTools() {
+  return [
+    {
+      text: '工具',
+      items: [
+        {
+          text: '前端工具',
+          link: '/course/',
+        },
+        {
+          text: '后端工具',
+          link: '/tools/backend',
         },
       ],
     },
