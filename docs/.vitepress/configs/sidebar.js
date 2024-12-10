@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-12-06 12:37:21
+ * @LastEditTime: 2024-12-10 08:51:05
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -334,13 +334,27 @@ function getTools() {
       items: [
         {
           text: '前端工具',
-          link: '/course/',
-        },
+          link: '/tools/',
+        }
+      ]
+    },
+    {
+      text: '前端工具',
+      items: [
+        {
+          text: '前端工具',
+          link: '/tools/',
+        }
+      ]
+    },
+    {
+      text: '后端工具',
+      items: [
         {
           text: '后端工具',
           link: '/tools/backend',
-        },
-      ],
+        }
+      ]
     },
   ]
 }
