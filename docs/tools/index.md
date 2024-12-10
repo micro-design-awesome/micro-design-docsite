@@ -1,4 +1,80 @@
 # 前端工具集合
+## 开发者工具与平台
+
+| 类别                 | 工具/平台名称               | 描述                                                         | 地址                                                       |
+|----------------------|--------------------------|--------------------------------------------------------------|--------------------------------------------------------------|
+| 开发者工具与平台       | Supabase                 | 开源Firebase替代品，支持Postgres、认证和存储。                 | [Supabase](https://supabase.com/) |
+|                      | PayloadCMS               | 基于Node.js、TypeScript和MongoDB的无头CMS。                     | [PayloadCMS](https://payloadcms.com/) |
+|                      | OpenAI Platform          | 构建AI驱动应用的API文档。                                     | [OpenAI Platform](https://platform.openai.com/docs/overview) |
+|                      | Langchain Python Docs     | 构建大型语言模型（LLM）应用的文档。                             | [Langchain Python Docs](https://python.langchain.com/) |
+|                      | Trigger.dev              | 在代码库中直接实现自动化工作流。                               | [Trigger.dev](https://trigger.dev/) |
+|                      | Segment                  | 客户数据平台，用于跟踪和分析。                                   | [Segment](https://segment.com/)  |
+|                      | Sendgrid                 | 电子邮件交付和管理。                                           | [Sendgrid](https://sendgrid.com/)        |
+|                      | Twilio                   | 通信API，包括短信、语音、WhatsApp等。                           | [Twilio](https://www.twilio.com/) |
+|                      | Cloudflare               | DNS、CDN和安全解决方案。                                       | [Cloudflare](https://dash.cloudflare.com/login) |
+|                      | Resend                   | 发送事务性电子邮件的简单API。                                   | [Resend](https://resend.com/home) |
+|                      | Upstash                  | 适用于Redis和Kafka的无服务器数据平台。                           | [Upstash](https://upstash.com/) |
+|                      | Openpanel                | 事件级分析，用于产品洞察。                                     | [Openpanel](https://openpanel.com/) |
+| 前端与UI库           | Tailwind UI              | 使用Tailwind CSS构建的UI组件。                                 | [Tailwind UI](https://tailwindui.com/) |
+|                      | Shadcn UI                | 基于Tailwind CSS的可定制组件。                                   | [Shadcn UI](https://ui.shadcn.com/) |
+|                      | Mantine & Mantine UI      | 用于构建丰富UI的React组件。                                     | [Mantine](https://mantine.dev/) & [Mantine UI](https://ui.mantine.dev/) |
+|                      | Tremor Blocks            | 构建仪表板的低级组件。                                          | [Tremor Blocks](https://blocks.tremor.so/blocks) |
+|                      | Syntax UI                | 基于Tailwind的React UI。                                        | [Syntax UI](https://syntaxui.com/)   |
+|                      | Melt-UI                  | 基于Svelte的组件库。                                            | [Melt-UI](https://www.melt-ui.com/)       |
+| 文档与知识库         | Mintlify                 | 文档即代码，易于维护的文档。                                    | [Mintlify](https://mintlify.com/) |
+|                      | PostHog Docs             | 自托管分析平台参考。                                            | [PostHog Docs](https://posthog.com/docs)  |
+|                      | N8n Docs                 | 工作流自动化平台文档。                                          | [N8n Docs](https://docs.n8n.io/)        |
+| DevOps与部署         | Vercel AI SDK            | 在Vercel上构建AI应用的工具。                                    | [Vercel AI SDK](https://sdk.vercel.ai/docs) |
+|                      | Elest.io                 | 开源软件的托管服务。                                            | [Elest.io](https://elest.io/)            |
+|                      | Fleetbase API Docs        | 物流API参考。                                                  | [Fleetbase API Docs](https://docs.fleetbase.dev/api#metadata) |
+|                      | OpenRemote               | 开源IoT平台。                                                   | [OpenRemote](https://www.openremote.io/developers/) |
+| AI与LLM工具           | LlamaIndex               | LLM应用的数据框架。                                            | [LlamaIndex](https://www.llamaindex.ai/) |
+|                      | FlowiseAI                | 构建LangChain流程的可视化拖放UI。                                | [FlowiseAI](https://flowiseai.com/) |
+|                      | Serper.dev               | 由AI驱动的搜索API。                                            | [Serper.dev](https://serper.dev/)        |
+|                      | DreamStudio AI           | 文本到图像生成。                                               | [DreamStudio AI](https://beta.dreamstudio.ai/) |
+|                      | AI Editor                | AI辅助代码和内容编辑。                                          | [AI Editor](https://aieditor.dev/)      |
+|                      | Continue.dev             | AI驱动编码辅助的IDE插件。                                       | [Continue.dev](https://www.continue.dev/) |
+|                      | FinancialDatasets.ai      | 用于机器学习的金融数据。                                       | [FinancialDatasets.ai](https://www.financialdatasets.ai/) |
+|                      | GoAPI.ai                 | AI辅助API构建和测试环境。                                      | [GoAPI.ai](https://www.goapi.ai/)   |
+| 自动化与工作流       | Make.com Templates       | 可视化自动化场景。                                              | [Make.com Templates](https://eu2.make.com/templates) |
+|                      | Axiom.ai                 | 无需编码的浏览器自动化。                                        | [Cal.com Docs](https://cal.com/docs) |
+|                      | Cal.com Docs             | 调度API和集成。                                                | [UI Shadcn](https://ui.shadcn.com/)          |
+| 设计与UX资源         | UI Kits & Design Systems | 下一代项目的可重用UI组件。                                      | [UI Colors](https://uicolors.app/create) |
+|                      | Visual Design & Inspiration | 设计灵感和展示。                                              | [10 Principles of Good Web Design (Medium)](https://medium.muz.li/10-principles-of-good-web-design-1b837743ffa8) |
+|                      | UX & Design Articles     | 关于网页设计、品牌和UX设计的文章。                                |                                 |
+| 工具与设计师         | Spline                   | 用于网络体验的3D设计平台。                                      | [Spline](https://app.spline.design/) |
+|                      | Figma Plugins             | 在Figma中直接扩展设计能力。                                     | [Figma Plugins](https://dev.ton/A%20link%20but%20recommended) |
+|                      | HemingwayApp             | 提高内容的可读性。                                              | [HemingwayApp](https://hemingwayapp.com/)  |
+|                      | RealTimeColors           | 实时调色板调整。                                                | [RealTimeColors](https://www.realtimecolors.com/) |
+|                      | Polypane                 | 响应式和可访问性测试的浏览器。                                   | [Polypane](https://polypane.app/) |
+| 分析、监控与营销     | Plausible.io             | 隐私友好的网络分析。                                            | [Plausible.io](https://plausible.io/login) |
+|                      | LogSnag                  | 事件跟踪和分析。                                                | [LogSnag](https://logsnag.com/)              |
+|                      | PostHog                  | 产品分析和事件跟踪。                                            | [PostHog](https://posthog.com/docs)       |
+|                      | Mixpanel                 | 用户行为的高级产品分析。                                          | [Mixpanel](https://mixpanel.com/)      |
+|                      | Growth.Design             | 产品增长和UX的案例研究。                                         | [Growth.Design](https://growth.design/case-studies) |
+| AI与数据             | Langchain Academy        | 构建LLM应用的培训资源。                                          | [Langchain Academy](https://academy.langchain.com/) |
+|                      | Meilisearch & AI         | AI驱动的搜索集成。                                              | [Meilisearch & AI](https://www.meilisearch.com/blog/add-ai-powered-search-to-react) |
+|                      | OpenArt.ai               | 浏览和生成AI生成的艺术。                                         | [OpenArt.ai](https://openart.ai/)     |
+|                      | Stack AI                 | 数据驱动决策的AI洞察。                                          | [Stack AI](https://www.stack-ai.com/)  |
+| 工作流与项目管理     | Monday.com CRM          | CRM和工作流管理。                                              | [Monday.com CRM](https://monday.com/crm/features) |
+|                      | ClickUp                  | 项目管理和生产力工具。                                          |                                           |
+| 电子商务与支付       | Medusa Commerce          | 基于Node.js的商务引擎。                                         | [Medusa Commerce](https://medusajs.com/nextjs-commerce/) |
+|                      | Circle Developers         | 加密支付基础设施。                                              | [Circle Developers](https://www.circle.com/en/developers) |
+| 灵感与学习           | 3Blue1Brown              | 数学和数据可视化视频。                                          | [3Blue1Brown](https://www.3blue1brown.com/) |
+|                      | AIValley & DailyAI       | AI新闻和洞察。                                                  | [AIValley](https://www.theaivalley.com/) & [DailyAI](https://dailyai.com/) |
+|                      | Bootcamp UXDesign        | UX和设计教程。                                                  | [Bootcamp UXDesign](https://bootcamp.uxdesign.cc/) |
+| Web3与区块链         | Thirdweb                 | Web3开发框架和工具。                                            | [Thirdweb](https://thirdweb.com/)         |
+|                      | Solidity Docs            | Solidity语言的官方文档。                                          | [Solidity Docs](https://docs.soliditylang.org/en/v0.8.21/) |
+| 其他与杂项           | Novel.sh                 | AI驱动的文本编辑。                                              | [Novel.sh](https://novel.sh/)               |
+|                      | Dyte.io                  | 视频和语音API。                                                  | [Dyte.io](https://dyte.io/)                     |
+|                      | Acquire.com              | 买卖在线业务的平台。                                              | [Acquire.com](http://acquire.com/)          |
+|                      | Pusher                   | 实时APIs用于通信功能。                                            | [Pusher](https://pusher.com/)            |
+|                      | Framermotion Examples     | Motion UI库示例。                                              | [Framermotion Examples](https://framermotionexamples.com/examples?s=free) |
+|                      | ImageKit                 | 图像优化和CDN。                                                 | [ImageKit](https://imagekit.io/dashboard)     |
+|                      | Testimonial.to           | 收集视频推荐。                                                  | [Testimonial.to](https://testimonial.to/)       |
+
+请注意，由于表格内容较多，这里仅展示了部分内容。如果需要完整的表格或有其他特定需求，请告知。
+
 ## General Frameworks/Libraries
 
 | Name | Stars | Forks | Issues | PRs | Commit Activity | Contributors | Created At | React only |
