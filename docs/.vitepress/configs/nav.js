@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-12-06 12:38:43
+ * @LastEditTime: 2025-01-04 21:44:41
  * @LastEditors: xunzhaotech
  */
 import { createRequire } from 'module'
@@ -22,6 +22,7 @@ export default [
   { text: 'API 参考', link: '/api/' },
   { text: '工具', link: '/tools/' },
   { text: '资源', link: '/awesome/' },
+  { text: 'AI工具', link: '/ai/' },
   {
     text: pkg.version,
     items: [
