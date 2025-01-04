@@ -4,6 +4,7 @@
 | 类别                 | 工具/平台名称               | 描述                                                         | 地址                                                       |
 |----------------------|--------------------------|--------------------------------------------------------------|--------------------------------------------------------------|
 | 开发者工具与平台       | Supabase                 | 开源Firebase替代品，支持Postgres、认证和存储。                 | [Supabase](https://supabase.com/) |
+| Development Tools | Development Tools | 探索可以提高软件开发生产力和效率的各种开发人员工具。介绍在现代编程工作流程中使用这些工具的主要功能和优势。 | [Development Tools](https://freetool.vercel.app/) |
 |                      | PayloadCMS               | 基于Node.js、TypeScript和MongoDB的无头CMS。                     | [PayloadCMS](https://payloadcms.com/) |
 |                      | OpenAI Platform          | 构建AI驱动应用的API文档。                                     | [OpenAI Platform](https://platform.openai.com/docs/overview) |
 |                      | Langchain Python Docs     | 构建大型语言模型（LLM）应用的文档。                             | [Langchain Python Docs](https://python.langchain.com/) |
