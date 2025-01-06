@@ -5,6 +5,7 @@
 |----------------------|--------------------------|--------------------------------------------------------------|--------------------------------------------------------------|
 | 开发者工具与平台       | Supabase                 | 开源Firebase替代品，支持Postgres、认证和存储。                 | [Supabase](https://supabase.com/) |
 | Development Tools | Development Tools | 探索可以提高软件开发生产力和效率的各种开发人员工具。介绍在现代编程工作流程中使用这些工具的主要功能和优势。 | [Development Tools](https://freetool.vercel.app/) |
+| ![call to inspiration](https://calltoinspiration.com/_nuxt/logo.1481ec41.png) | calltoinspiration | 面向用户体验设计师和开发人员的数字紫色帽子 ，登录页面，表单 | [calltoinspiration](https://calltoinspiration.com/) |
 |                      | PayloadCMS               | 基于Node.js、TypeScript和MongoDB的无头CMS。                     | [PayloadCMS](https://payloadcms.com/) |
 |                      | OpenAI Platform          | 构建AI驱动应用的API文档。                                     | [OpenAI Platform](https://platform.openai.com/docs/overview) |
 |                      | Langchain Python Docs     | 构建大型语言模型（LLM）应用的文档。                             | [Langchain Python Docs](https://python.langchain.com/) |
@@ -75,6 +76,24 @@
 |                      | Testimonial.to           | 收集视频推荐。                                                  | [Testimonial.to](https://testimonial.to/)       |
 
 请注意，由于表格内容较多，这里仅展示了部分内容。如果需要完整的表格或有其他特定需求，请告知。
+
+## 11 Free Must-Know Websites for Every Developer
+
+| 序号 | 网站名称      | 主要功能及特点                                               | 地址                                       |
+| ---- | ------------- | ------------------------------------------------------------ | ------------------------------------------ |
+| 1    | Omatsuri      | 包含 12 个开源工具的渐进式 Web 应用程序，适用于前端开发，帮助设计、优化和调试项目 | [Omatsuri](https://omatsuri.app/)          |
+| 2    | HTMLRev       | 提供大量免费的 HTML 模板，适合网站、博客、组合等，可自定义且易于部署 | [HTMLRev](https://htmlrev.com/)            |
+| 3    | Unicornicons  | 提供动画、有趣且视觉吸引力的图标，有免费和付费包可供选择，颜色可自定义 | [Unicornicons](https://unicornicons.com/)  |
+| 4    | UiVerse       | 包含超过 3,000 个预设计的 CSS 和 Tailwind UI 元素，免费使用，代码易于复制粘贴 | [UiVerse](https://uiverse.io/)             |
+| 5    | Undraw        | 提供免费且可自定义的 SVG 插图，适合着陆页、博客文章和产品部分，定期更新新插图 | [Undraw](https://undraw.co/)               |
+| 6    | PatternPad    | 使用独特形状和颜色创建无尽图案变化，可导出为 SVG 以无缝使用于设计中 | [PatternPad](https://patternpad.com/)      |
+| 7    | Shape Divider | 生成干净、可自定义的分隔形状，简单地复制粘贴到代码中，使布局脱颖而出 | [Shape Divider](https://shapedivider.app/) |
+| 8    | Photopea      | 浏览器中的 Photoshop 替代品，支持 PSD、XD、Sketch 等格式，无需安装即可编辑 | [Photopea](https://photopea.com/)          |
+| 9    | QuickRef      | 提供丰富的速查表，涵盖语言、框架和工具，界面易于导航，快速获取语法和命令 | [QuickRef](https://quickref.me/)           |
+| 10   | DevDocs       | 将多个框架和库的文档整合在一个地方，提供离线访问功能         | [DevDocs](https://devdocs.io/)             |
+| 11   | DevHints      | 提供工具和技术的简洁速查表，专注于最常用的功能，快速刷新记忆 | [DevHints](https://devhints.io/)           |
+
+这个表格总结了每个网站的主要功能和特点，方便开发者快速了解这些资源的价值和用途.
 
 ## General Frameworks/Libraries
 
