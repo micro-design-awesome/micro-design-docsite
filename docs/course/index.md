@@ -1,4 +1,13 @@
 # 课程集合
+## 帮助您构建更好的 Web 开发项目的 JavaScript 技巧
+| 名称                                            | 说明                                                         | 地址                                                         |
+| ----------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 帮助您构建更好的 Web 开发项目的 JavaScript 技巧 | JavaScript 是编程语言中广泛使用的 Web。我最近在 Twitter（现在，X）上参加了 30 天的 JavaScript 提示挑战赛，在 30 天内，我每天与我的追随者分享 30 个不同的 JavaScript 提示。我决定将这些提示汇编成一个巨大的教程，供露营者和互联网上的其他人使用。 | https://www.freecodecamp.org/news/javascript-tips-for-better-web-dev-projects/?ref=dailydev |
+| Your Next AI Project Just Got **100x Easier**   | Your Next AI Project Just Got **100x Easier**                | https://www.datastax.com/lp/langflow-signup-c?utm_medium=display&utm_source=bsacarbon&utm_campaign=bsacarbon_dailydev_dev_langflow&utm_content=ad1 |
+|                                                 |                                                              |                                                              |
+
+
+
 ## General Frameworks/Libraries
 
 | Name | Stars | Forks | Issues | PRs | Commit Activity | Contributors | Created At | React only |
