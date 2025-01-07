@@ -6,6 +6,9 @@
 | 开发者工具与平台       | Supabase                 | 开源Firebase替代品，支持Postgres、认证和存储。                 | [Supabase](https://supabase.com/) |
 | Development Tools | Development Tools | 探索可以提高软件开发生产力和效率的各种开发人员工具。介绍在现代编程工作流程中使用这些工具的主要功能和优势。 | [Development Tools](https://freetool.vercel.app/) |
 | ![call to inspiration](https://calltoinspiration.com/_nuxt/logo.1481ec41.png) | calltoinspiration | 面向用户体验设计师和开发人员的数字紫色帽子 ，登录页面，表单 | [calltoinspiration](https://calltoinspiration.com/) |
+| Ultimate Framer UI 套件;设计系统和组件库 | Crafting Daily UI Designs: Framer Component Built with Frameblox UI kit and Plugin | 制作日常 UI 设计：使用 Frameblox UI 套件和插件构建的 Framer 组件 | [Frameblox UI](https://www.frameblox.com)/ |
+| FramerLink - Framer 的节库 | FramerLink - Library Of Sections For Framer | 查找、自定义和使用 Cool Framer 部分 | [FramerLink - Library ](https://framerlink.framer.ai/) |
+| Builder.io | Builder.io | **AI 助力设计到代码**：利用人工智能技术，将设计快速转换为代码，大大缩短了从想法到生产的时间，提高了开发效率. | [Builder.io](https://www.builder.io/) |
 |                      | PayloadCMS               | 基于Node.js、TypeScript和MongoDB的无头CMS。                     | [PayloadCMS](https://payloadcms.com/) |
 |                      | OpenAI Platform          | 构建AI驱动应用的API文档。                                     | [OpenAI Platform](https://platform.openai.com/docs/overview) |
 |                      | Langchain Python Docs     | 构建大型语言模型（LLM）应用的文档。                             | [Langchain Python Docs](https://python.langchain.com/) |
