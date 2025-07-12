@@ -4,142 +4,83 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-10-28 12:10:33
- * @LastEditTime: 2025-07-12 13:20:09
+ * @LastEditTime: 2025-07-12 17:38:18
  * @LastEditors: xunzhaotech
 -->
-以下是当前主流的桌面端开发工具和技术栈，涵盖跨平台框架、原生开发工具及实用辅助工具：
+# 项目案例
+<div class="product-grid">
+<div class="product-card">
+  <img src="/images/logo.svg" alt="智能手表" style="width: 100%; height: 200px; object-fit: cover;">
+  <div style="padding: 20px;">
+    <h3>智能手表 Pro</h3>
+    <p>全天候健康监测，超长续航，个性化表盘</p>
+    <div class="price-tag">¥1299</div>
+    <a href="/products/smartwatch" class="action-btn">查看详情</a>
+  </div>
+</div>
 
----
+<div class="product-card">
+  <img src="/images/logo.svg" alt="无线耳机" style="width: 100%; height: 200px; object-fit: cover;">
+  <div style="padding: 20px;">
+    <h3>无线耳机 Air</h3>
+    <p>主动降噪，空间音频，30小时续航</p>
+    <div class="price-tag">¥899</div>
+    <a href="/products/earbuds" class="action-btn">查看详情</a>
+  </div>
+</div>
 
-### 一、跨平台开发框架
-#### 1. **Electron**
-- **语言**：JavaScript/HTML/CSS
-- **特点**：基于 Chromium + Node.js，生态成熟
-- **代表应用**：VS Code、Slack、Discord
-- **官网**：https://www.electronjs.org
+<div class="product-card">
+  <img src="/images/logo.svg" alt="智能家居" style="width: 100%; height: 200px; object-fit: cover;">
+  <div style="padding: 20px;">
+    <h3>智能家居中心</h3>
+    <p>统一控制所有智能设备，语音助手集成</p>
+    <div class="price-tag">¥1599</div>
+    <a href="/products/smarthome" class="action-btn">查看详情</a>
+  </div>
+</div>
 
-#### 2. **Tauri**
-- **语言**：Rust (核心) + Web 前端
-- **特点**：轻量级（应用体积比 Electron 小 10 倍），安全
-- **优势**：内存占用低，支持系统原生控件
-- **官网**：https://tauri.app
+</div>
 
-#### 3. **Flutter**
-- **语言**：Dart
-- **特点**：高性能跨平台（移动/桌面/Web），热重载
-- **桌面支持**：Windows/macOS/Linux 稳定版
-- **官网**：https://flutter.dev
+## 为什么选择TechPro?
 
-#### 4. **Qt**
-- **语言**：C++/Python（PyQt/PySide）
-- **特点**：工业级框架，原生性能
-- **使用场景**：专业级应用（如 AutoCAD, WPS）
-- **官网**：https://www.qt.io
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 40px 0;">
 
----
+<div>
+  <h3>🔬 创新技术</h3>
+  <p>我们持续投入研发，将最新科技融入产品设计</p>
+</div>
 
-### 二、原生开发工具
-#### Windows
-1. **WinUI 3**  
-   - 微软现代 UI 框架
-   - 支持 Win11 Fluent Design
-   - 项目模板：https://github.com/microsoft/WinUI-Gallery
+<div>
+  <h3>🔋 持久续航</h3>
+  <p>优化电池管理，提供行业领先的续航能力</p>
+</div>
 
-2. **WPF**  
-   - 成熟 .NET 桌面框架
-   - 开发工具：Visual Studio
+<div>
+  <h3>📱 无缝连接</h3>
+  <p>所有设备无缝协同工作，打造统一生态系统</p>
+</div>
 
-#### macOS
-1. **SwiftUI**  
-   - Apple 官方声明式 UI 框架
-   - Xcode 开发环境
+<div>
+  <h3>🛡️ 安全保障</h3>
+  <p>企业级数据加密，保护您的隐私安全</p>
+</div>
 
-2. **AppKit**  
-   - 传统 macOS 原生开发
+</div>
 
-#### Linux
-1. **GTK** (GNOME 生态)
-2. **Qt** (KDE 生态)
+## 用户评价
 
----
+<div class="testimonial-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 40px;">
 
-### 三、开发辅助工具
-#### 1. 调试工具
-| 工具 | 平台 | 特点 |
-|------|------|------|
-| **Electron Fiddle** | Electron | 快速原型开发 |
-| **Snoop** | WPF | UI 元素检查器 |
-| **Reveal** | macOS/iOS | UI 深度调试 |
+> "这款智能手表彻底改变了我的健康管理方式，心率监测和睡眠分析功能非常准确！"
+> 
+> <div style="text-align: right; font-weight: bold;">— 张先生，科技博主</div>
 
-#### 2. 安装包构建
-| 工具 | 支持平台 | 打包格式 |
-|------|----------|----------|
-| **electron-builder** | Electron | exe/dmg/deb/rpm |
-| **Wix Toolset** | Windows | MSI 安装包 |
-| **create-dmg** | macOS | DMG 镜像 |
+> "无线耳机的降噪效果超出预期，在嘈杂的地铁上也能享受纯净的音乐体验。"
+> 
+> <div style="text-align: right; font-weight: bold;">— 李女士，音乐爱好者</div>
 
-#### 3. 性能优化
-- **Electron**：使用 V8 快照（electron-link）
-- **Flutter**：AOT 编译
-- **通用**：内存分析（Valgrind/Instruments）
+> "智能家居中心让我的生活更便捷，一个应用控制所有设备，真正实现了智能生活。"
+> 
+> <div style="text-align: right; font-weight: bold;">— 王先生，智能家居爱好者</div>
 
----
-
-### 四、新兴技术
-1. **WebView2**  
-   - 微软官方 Web 嵌入方案
-   - 替代 Electron 的轻量级选择
-   - 支持 Win10/Win11
-
-2. **Neutralinojs**  
-   - 轻量级替代 Electron（无 Node.js 依赖）
-   - 官网：https://neutralino.js.org
-
-3. **Slint**  
-   - Rust 原生 GUI 框架
-   - 声明式 UI 语法
-   - 官网：https://slint.dev
-
----
-
-### 五、工具链推荐组合
-#### 快速开发方案
-```mermaid
-graph LR
-A[前端技术] --> B(Electron/Tauri)
-B --> C[electron-builder]
-C --> D[Windows/macOS/Linux 安装包]
-```
-
-#### 高性能方案
-```mermaid
-graph LR
-E[Rust] --> F(Tauri/Slint)
-F --> G[系统原生二进制]
-G --> H[最佳性能]
-```
-
-#### 企业级方案
-```mermaid
-graph LR
-I[C++] --> J(Qt)
-J --> K[专业桌面应用]
-K --> L[工业/医疗/嵌入式]
-```
-
----
-
-### 六、学习资源
-1. **Electron 官方文档**：https://electronjs.org/docs
-2. **Tauri 实战教程**：https://tauri.app/v1/guides/
-3. **Flutter 桌面开发**：https://docs.flutter.dev/desktop
-4. **Qt 入门教程**：https://doc.qt.io/qt-6/gettingstarted.html
-
----
-
-> **选择建议**：  
-> - 追求开发速度：**Electron/Tauri**  
-> - 需要原生性能：**Qt/Rust**  
-> - 统一移动/桌面：**Flutter**  
-> - 企业级 Windows 应用：**WinUI 3/WPF**  
-> - 轻量级工具类应用：**Tauri/Neutralinojs**
+</div>
