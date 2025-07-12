@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-12 13:17:39
+ * @LastEditTime: 2025-07-12 17:12:53
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -364,8 +364,20 @@ function getStore() {
       text: '成功案例',
       items: [
         {
-          text: '桌面端',
+          text: '介绍',
           link: '/store/',
+        },
+        // {
+        //   text: '演示',
+        //   link: '/store/introduce',
+        // },
+        // {
+        //   text: '源码',
+        //   link: '/store/source',
+        // },
+        {
+          text: '桌面端',
+          link: '/store/executable',
         },
         {
           text: '管理端',
@@ -378,6 +390,10 @@ function getStore() {
           {
           text: 'APP端',
           link: '/store/app',
+        },
+        {
+          text: '可视化',
+          link: '/store/bi',
         },
       ],
     },
