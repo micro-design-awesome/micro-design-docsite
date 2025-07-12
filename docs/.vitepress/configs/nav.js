@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-12 12:57:59
+ * @LastEditTime: 2025-07-12 17:28:29
  * @LastEditors: xunzhaotech
  */
 import { createRequire } from 'module'
@@ -23,6 +23,9 @@ export default [
   { text: '工具', link: '/tools/', activeMatch: '^/tools/' },
   { text: '资源', link: '/awesome/' , activeMatch: '^/awesome/' },
   { text: 'AI工具', link: '/ai/', activeMatch: '^/ai/' },
+  { text: '博客', link: '/blog/', activeMatch: '^/blog/' },
+  { text: '赞赏', link: '/zan/', activeMatch: '^/zan/' },
+  { text: '更新日志', link: '/logs/', activeMatch: '^/logs/' },
   {
     text: pkg.version,
     items: [
