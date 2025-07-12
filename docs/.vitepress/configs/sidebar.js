@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-12-10 08:51:05
+ * @LastEditTime: 2025-07-12 13:17:39
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -361,15 +361,23 @@ function getTools() {
 function getStore() {
   return [
     {
-      text: '课程',
+      text: '成功案例',
       items: [
         {
-          text: '前端规范',
+          text: '桌面端',
           link: '/store/',
         },
         {
-          text: '后端规范',
-          link: '/store/banckup',
+          text: '管理端',
+          link: '/store/web',
+        },
+         {
+          text: '小程序',
+          link: '/store/wechat',
+        },
+          {
+          text: 'APP端',
+          link: '/store/app',
         },
       ],
     },
