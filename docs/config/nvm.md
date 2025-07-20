@@ -2,7 +2,7 @@
  * @Author: luyb luyb@xunzhaotech.com
  * @Date: 2022-11-24 11:59:56
  * @LastEditors: luyb luyb@xunzhaotech.com
- * @LastEditTime: 2025-07-20 19:27:38
+ * @LastEditTime: 2025-07-20 20:34:45
  * @FilePath: \micro-design-docs\docs\guide\index.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -165,5 +165,59 @@ NVM-Windows 安装时会自动配置以下环境变量：
    nvm install latest
    nvm alias default latest  # 设置最新版为默认
    ```
+## `nvm use 20.18.0` 时遇到了权限问题（"没有足够的权限执行此操作"）。以下是解决方案：
+
+### 解决方案步骤：
+
+1. **以管理员身份运行命令行**
+   - 右键点击命令提示符(CMD)或PowerShell
+   - 选择"以管理员身份运行"
+   - 再次尝试 `nvm use 20.18.0`
+
+2. **关闭所有可能占用Node.js的程序**
+   - 关闭VS Code、WebStorm等IDE
+   - 结束所有Node.js进程（任务管理器中检查）
+   - 关闭正在运行的npm/yarn进程
+
+3. **手动删除符号链接（如果存在）**
+   ```
+   rmdir /s /q "C:\Program Files\nodejs"
+   ```
+
+4. **重新尝试切换版本**
+   ```
+   nvm use 20.18.0
+   ```
+
+5. **检查防病毒软件**
+   - 暂时禁用Windows Defender或其他安全软件
+   - 再次尝试切换版本
+
+### 如果问题仍然存在：
+
+1. **完全卸载并重新安装nvm-windows**
+   ```
+   nvm uninstall 20.18.0
+   nvm install 20.18.0
+   nvm use 20.18.0
+   ```
+
+2. **检查环境变量**
+   - 确保`NVM_HOME`和`NVM_SYMLINK`变量正确设置
+   - `NVM_SYMLINK`应该指向`C:\Program Files\nodejs`
+
+3. **尝试手动创建符号链接**
+   ```
+   mklink /D "C:\Program Files\nodejs" "C:\Users\15255\AppData\Roaming\nvm\v20.18.0"
+   ```
+
+### 永久解决方案：
+
+将你的用户账户添加到`C:\Program Files`的完全控制权限：
+1. 右键点击`C:\Program Files\nodejs`
+2. 选择"属性" → "安全" → "编辑"
+3. 添加你的用户账户
+4. 勾选"完全控制"
+5. 点击"确定"
 
 现在你已经成功安装并配置了 NVM-Windows，可以方便地管理多个 Node.js 版本了！
