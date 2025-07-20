@@ -4,8 +4,8 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-12 12:34:15
- * @LastEditors: xunzhaotech
+ * @LastEditTime: 2025-07-20 21:10:22
+ * @LastEditors: luyb luyb@xunzhaotech.com
  */
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
@@ -30,7 +30,7 @@ export default {
     DefaultTheme.enhanceApp(ctx)
     useComponents(ctx.app)
     ctx.app.component(Button.name, Button)
-    ctx.provide('collapsedIcon', {
+    ctx.app.provide('collapsedIcon', {
         open: '▼', // 展开时的图标
         closed: '▶' // 折叠时的图标
       })
