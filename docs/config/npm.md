@@ -1,4 +1,4 @@
-# Node.js 包管理器（npm/yarn/pnpm）的详细设置教程**，涵盖镜像配置、缓存管理、权限优化等核心内容，适用于 Windows/macOS/Linux 系统：
+# Node.js 包管理器（npm/yarn/pnpm）的详细设置教程，涵盖镜像配置、缓存管理、权限优化等核心内容，适用于 Windows/macOS/Linux 系统：
 ---
 
 ### 一、npm 基础配置
