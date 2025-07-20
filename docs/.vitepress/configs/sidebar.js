@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-20 21:03:20
+ * @LastEditTime: 2025-07-20 21:22:21
  * @LastEditors: luyb luyb@xunzhaotech.com
  */
 export default {
@@ -88,7 +88,7 @@ function getDocsSidebar() {
           link: '/guide/introduce',
         },
         {
-          text: '源码',
+          text: '',
           link: '/guide/source',
         },
       ],
@@ -228,12 +228,12 @@ function getGuideSidebar() {
           text: '开发环境',
           link: '/guide/',
         },
+        // {
+        //   text: 'NPM源配置',
+        //   link: '/guide/introduce',
+        // },
         {
-          text: 'NPM源配置',
-          link: '/guide/introduce',
-        },
-        {
-          text: '源码',
+          text: '源码地址',
           link: '/guide/source',
         },
       ],
