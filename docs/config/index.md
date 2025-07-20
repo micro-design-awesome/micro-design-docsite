@@ -13,7 +13,7 @@ MicroDesign 系列项目依赖于前端工程化进行开发，所以依赖于 n
 
 当谈到Node.js、NVM（Node Version Manager）和NRM（Npm Registry Manager）时，这些是在Node.js开发中非常重要的工具和概念。以下是对它们的简要介绍：
 
-**Node.js：**
+**[Node.js：](https://nodejs.org/zh-cn)**
 
 Node.js是一个基于Chrome V8引擎的JavaScript运行时环境，用于构建[服务器](https://cloud.tencent.com/product/cvm?from_column=20065&from=20065)端和网络应用程序。它允许您使用JavaScript语言在服务器端编写高性能的应用程序，而不仅仅是在浏览器中执行JavaScript。Node.js具有非阻塞、事件驱动的特性，适用于构建高吞吐量的实时应用程序，如Web服务器、API服务器、聊天应用程序等。Node.js还有一个强大的包管理器NPM，用于管理依赖项和模块。
 
