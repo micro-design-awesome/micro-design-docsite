@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-20 19:24:24
+ * @LastEditTime: 2025-07-20 19:31:41
  * @LastEditors: luyb luyb@xunzhaotech.com
  */
 export default {
@@ -97,7 +97,7 @@ function getConfigSidebar() {
       items: [
         {
           text: 'Node.js配置',
-          link: '/config/',
+          link: '/config/nidejs',
         },
         {
           text: 'NVM配置',
