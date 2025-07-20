@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-20 19:36:51
+ * @LastEditTime: 2025-07-20 20:50:44
  * @LastEditors: luyb luyb@xunzhaotech.com
  */
 export default {
@@ -106,6 +106,10 @@ function getConfigSidebar() {
         {
           text: 'NRM配置',
           link: '/config/nrm',
+        },
+        {
+          text: 'NPM配置',
+          link: '/config/npm',
         },
       ],
     },
