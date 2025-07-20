@@ -2,7 +2,7 @@
  * @Author: luyb luyb@xunzhaotech.com
  * @Date: 2022-11-24 11:59:56
  * @LastEditors: luyb luyb@xunzhaotech.com
- * @LastEditTime: 2025-07-20 19:54:24
+ * @LastEditTime: 2025-07-20 20:20:01
  * @FilePath: \micro-design-docs\docs\guide\index.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
@@ -10,7 +10,7 @@
 Node.js是一个基于Chrome V8引擎的JavaScript运行时环境，用于构建服务器端和网络应用程序。它允许您使用JavaScript语言在服务器端编写高性能的应用程序，而不仅仅是在浏览器中执行JavaScript。Node.js具有非阻塞、事件驱动的特性，适用于构建高吞吐量的实时应用程序，如Web服务器、API服务器、聊天应用程序等。Node.js还有一个强大的包管理器NPM，用于管理依赖项和模块。
 ## Node.js 安装与配置详细教程（Windows版）
 
-### 第一部分：Node.js 安装
+## 第一部分：Node.js 安装
 
 #### 1. 下载 Node.js 安装包
 1. 访问 Node.js 官方网站：[https://nodejs.org/](https://nodejs.org/)
@@ -40,7 +40,7 @@ Node.js是一个基于Chrome V8引擎的JavaScript运行时环境，用于构建
    ```
    应该显示类似 `8.19.2` 的版本号
 
-### 第二部分：环境变量配置
+## 第二部分：环境变量配置
 
 #### 1. 检查环境变量是否自动配置
 Node.js 安装程序通常会自动配置环境变量，但我们可以验证一下：
@@ -91,7 +91,7 @@ Node.js 安装程序通常会自动配置环境变量，但我们可以验证一
    ```
    应该显示你设置的路径
 
-### 第三部分：测试 Node.js 环境
+## 第三部分：测试 Node.js 环境
 
 #### 1. 创建测试文件
 1. 创建一个新文件夹，如 `D:\nodejs-test`
@@ -126,7 +126,7 @@ Node.js 安装程序通常会自动配置环境变量，但我们可以验证一
 4. 打开浏览器访问 `http://127.0.0.1:3000`，应该看到 "Hello, Node.js!"
 5. 按 Ctrl+C 停止服务器
 
-### 第四部分：更新 npm 和安装常用工具
+## 第四部分：更新 npm 和安装常用工具
 
 #### 1. 更新 npm 到最新版本
 ```bash
@@ -138,7 +138,7 @@ npm install -g npm@latest
 npm install -g yarn nodemon typescript @angular/cli create-react-app
 ```
 
-### 常见问题解决
+## 常见问题解决
 
 1. **'node' 不是内部或外部命令**
    - 检查环境变量配置是否正确
