@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-20 19:19:36
+ * @LastEditTime: 2025-07-20 19:24:24
  * @LastEditors: luyb luyb@xunzhaotech.com
  */
 export default {
@@ -93,7 +93,7 @@ function getDocsSidebar() {
 function getConfigSidebar() {
   return [
     {
-      text: '环境准备',
+      text: '环境配置',
       items: [
         {
           text: 'Node.js配置',

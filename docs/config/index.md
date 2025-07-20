@@ -6,14 +6,14 @@
  * @FilePath: \micro-design-docs\docs\guide\index.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
-# 项目创建
+# 环境配置
 ## 准备工作
 MicroDesign 系列项目依赖于前端工程化进行开发，所以依赖于 npm 管理安装此模块，也正式因为如此，您需要准备 nodejs 进行安装，如果您的电脑已经安装过了 nodejs ，那么您可以直接往下继续看，若没有，这里推荐您安装并使用一个多 nodejs 版本管理工具 nvm（当然也有其他的版本管理工具，这里只是作者推荐在用的一个），方便以后用于管理多个 nodejs 可以自由切换，或者您也可以只安装 nodejs 。
 ## 背景介绍
 
 当谈到Node.js、NVM（Node Version Manager）和NRM（Npm Registry Manager）时，这些是在Node.js开发中非常重要的工具和概念。以下是对它们的简要介绍：
 
-**[Node.js：](https://nodejs.org/zh-cn)**
+**Node.js**
 
 Node.js是一个基于Chrome V8引擎的JavaScript运行时环境，用于构建[服务器](https://cloud.tencent.com/product/cvm?from_column=20065&from=20065)端和网络应用程序。它允许您使用JavaScript语言在服务器端编写高性能的应用程序，而不仅仅是在浏览器中执行JavaScript。Node.js具有非阻塞、事件驱动的特性，适用于构建高吞吐量的实时应用程序，如Web服务器、API服务器、聊天应用程序等。Node.js还有一个强大的包管理器NPM，用于管理依赖项和模块。
 
@@ -37,7 +37,6 @@ NRM是一个用于管理Npm镜像源的工具。Npm是Node.js的包管理器，�
 
 - [nodejs 官网](https://nodejs.org/zh-cn)
 - [nvm 官网](https://github.com/coreybutler/nvm-windows/releases)
-- []
 
 ## 环境要求        
 
