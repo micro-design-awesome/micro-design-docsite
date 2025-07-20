@@ -4,8 +4,8 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-12 17:12:53
- * @LastEditors: xunzhaotech
+ * @LastEditTime: 2025-07-20 19:19:36
+ * @LastEditors: luyb luyb@xunzhaotech.com
  */
 export default {
   '/guide/': getGuideSidebar(),
@@ -96,16 +96,16 @@ function getConfigSidebar() {
       text: '环境准备',
       items: [
         {
-          text: '简介',
-          link: '/guide/',
+          text: 'Node.js配置',
+          link: '/config/',
         },
         {
-          text: '演示',
-          link: '/guide/introduce',
+          text: 'NVM配置',
+          link: '/config/nvm',
         },
         {
-          text: '源码',
-          link: '/guide/source',
+          text: 'NRM配置',
+          link: '/config/nrm',
         },
       ],
     },
