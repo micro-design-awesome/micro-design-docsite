@@ -30,5 +30,9 @@ export default {
     DefaultTheme.enhanceApp(ctx)
     useComponents(ctx.app)
     ctx.app.component(Button.name, Button)
+    ctx.provide('collapsedIcon', {
+        open: '▼', // 展开时的图标
+        closed: '▶' // 折叠时的图标
+      })
   }
 }
