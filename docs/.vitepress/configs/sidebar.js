@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-20 19:31:41
+ * @LastEditTime: 2025-07-20 19:36:51
  * @LastEditors: luyb luyb@xunzhaotech.com
  */
 export default {
@@ -110,28 +110,11 @@ function getConfigSidebar() {
       ],
     },
     {
-      text: '创建项目',
+      text: '项目创建',
       items: [
         {
-          text: '简介',
-          link: '/guide/',
-        },
-        {
-          text: '演示',
-          link: '/guide/introduce',
-        },
-        {
-          text: '源码',
-          link: '/guide/source',
-        },
-      ],
-    },
-     {
-      text: '创建项目',
-      items: [
-        {
-          text: '简介',
-          link: '/guide/',
+          text: '创建项目',
+          link: '/project/',
         },
         {
           text: '演示',
