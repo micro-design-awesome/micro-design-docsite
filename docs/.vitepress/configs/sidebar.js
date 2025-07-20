@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-20 20:50:44
+ * @LastEditTime: 2025-07-20 21:03:20
  * @LastEditors: luyb luyb@xunzhaotech.com
  */
 export default {
@@ -26,6 +26,7 @@ function getApiSidebar() {
     {
       text: '功能',
       collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '已实现',
@@ -40,6 +41,8 @@ function getComponentsSidebar() {
   return [
     {
       text: '基础组件',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: 'Button 按钮',
@@ -73,6 +76,8 @@ function getDocsSidebar() {
   return [
     {
       text: '介绍',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '简介',
@@ -94,6 +99,8 @@ function getConfigSidebar() {
   return [
     {
       text: '环境配置',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: 'Node.js配置',
@@ -115,6 +122,8 @@ function getConfigSidebar() {
     },
     {
       text: '项目创建',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '创建项目',
@@ -132,6 +141,8 @@ function getConfigSidebar() {
     },
     {
       text: '项目集成',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '简介',
@@ -149,6 +160,8 @@ function getConfigSidebar() {
     },
     {
       text: '代码规范',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '简介',
@@ -166,6 +179,8 @@ function getConfigSidebar() {
     },
      {
       text: '打包部署',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '简介',
@@ -183,6 +198,8 @@ function getConfigSidebar() {
     },
     {
       text: 'SSL 证书配置（如果需要）',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '简介',
@@ -204,6 +221,8 @@ function getGuideSidebar() {
   return [
     {
       text: '开发指南',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '开发环境',
@@ -226,6 +245,8 @@ function getAwesomeSidebar() {
   return [
     {
       text: '工具资源',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '博客相关',
@@ -267,6 +288,8 @@ function getProject() {
   return [
     {
       text: '项目',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '前端项目',
@@ -284,6 +307,8 @@ function getLint() {
   return [
     {
       text: '规范',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: 'JavaScript规范',
@@ -301,6 +326,8 @@ function getCourse() {
   return [
     {
       text: '课程',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '前端课程',
@@ -318,6 +345,8 @@ function getTools() {
   return [
     {
       text: '工具',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '前端工具',
@@ -327,6 +356,8 @@ function getTools() {
     },
     {
       text: '前端工具',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '前端工具',
@@ -336,6 +367,8 @@ function getTools() {
     },
     {
       text: '后端工具',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '后端工具',
@@ -349,6 +382,8 @@ function getStore() {
   return [
     {
       text: '成功案例',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '介绍',
