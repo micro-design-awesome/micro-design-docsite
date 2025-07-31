@@ -1,31 +1,19 @@
-# Modal 对话框
+<!--
+ * @Description: 
+ * @Author: xunzhaotech
+ * @Email: luyb@xunzhaotech.com
+ * @QQ: 1525572900
+ * @Date: 2024-08-11 11:40:50
+ * @LastEditTime: 2025-07-31 17:59:44
+ * @LastEditors: xunzhaotech
+-->
+## 后端项目
 
-在保留当前页面状态的情况下，告知用户并承载相关操作。
-
-## 基础用法
-
-Modal 弹出一个对话框，适合需要定制性更大的场景。
-
-:::demo
-
-```vue
-<template>
-  <md-button>默认按钮</md-button>
-  <md-button type="primary">主要按钮</md-button>
-  <md-button type="success">成功按钮</md-button>
-  <md-button type="info">信息按钮</md-button>
-  <md-button type="warning">警告按钮</md-button>
-  <md-button type="danger">危险按钮</md-button>
-</template>
-```
-
-:::
-
-## Attributes
-
-| 参数    | 说明         | 类型     | 可选值       | 默认值 |
-| ------- | ------------ | -------- | ------------ | ------ |
-| visible | 是否展示     | boolean  | true / false | normal |
-| ok      | 确认触发函数 | function | ()=>{}       | —      |
-| cancel  | 取消触发函数 | function | ()=>{}       | —      |
-
+| 项目                                                         | 说明 | GitHub | Gitee                                            |
+| ------------------------------------------------------------ | ---- | ------ | ------------------------------------------------ |
+| [micro-design-cloud](https://gitee.com/MicroDesign/micro-design-cloud) |      |        | https://gitee.com/MicroDesign/micro-design-cloud |
+## 在线体验
+- [演示地址【micro-design-ai】](https://microdesign.gitee.io/micro-design-ai/)
+- [演示地址【micro-design-ui】](https://microdesign.gitee.io/micro-design-ui/)
+- [演示地址【micro-design-admin】](https://microdesign.gitee.io/micro-design-admin/)
+- [演示地址【micro-design-docs】](https://microdesign.gitee.io/micro-design-docs/)
