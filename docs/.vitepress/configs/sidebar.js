@@ -4,8 +4,8 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-12 17:12:53
- * @LastEditors: xunzhaotech
+ * @LastEditTime: 2025-07-20 21:22:21
+ * @LastEditors: luyb luyb@xunzhaotech.com
  */
 export default {
   '/guide/': getGuideSidebar(),
@@ -26,6 +26,7 @@ function getApiSidebar() {
     {
       text: '功能',
       collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '已实现',
@@ -40,6 +41,8 @@ function getComponentsSidebar() {
   return [
     {
       text: '基础组件',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: 'Button 按钮',
@@ -73,6 +76,8 @@ function getDocsSidebar() {
   return [
     {
       text: '介绍',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '简介',
@@ -83,7 +88,7 @@ function getDocsSidebar() {
           link: '/guide/introduce',
         },
         {
-          text: '源码',
+          text: '',
           link: '/guide/source',
         },
       ],
@@ -93,45 +98,36 @@ function getDocsSidebar() {
 function getConfigSidebar() {
   return [
     {
-      text: '环境准备',
+      text: '环境配置',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
-          text: '简介',
-          link: '/guide/',
+          text: 'Node.js配置',
+          link: '/config/nidejs',
         },
         {
-          text: '演示',
-          link: '/guide/introduce',
+          text: 'NVM配置',
+          link: '/config/nvm',
         },
         {
-          text: '源码',
-          link: '/guide/source',
+          text: 'NRM配置',
+          link: '/config/nrm',
+        },
+        {
+          text: 'NPM配置',
+          link: '/config/npm',
         },
       ],
     },
     {
-      text: '创建项目',
+      text: '项目创建',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
-          text: '简介',
-          link: '/guide/',
-        },
-        {
-          text: '演示',
-          link: '/guide/introduce',
-        },
-        {
-          text: '源码',
-          link: '/guide/source',
-        },
-      ],
-    },
-     {
-      text: '创建项目',
-      items: [
-        {
-          text: '简介',
-          link: '/guide/',
+          text: '创建项目',
+          link: '/project/',
         },
         {
           text: '演示',
@@ -145,6 +141,8 @@ function getConfigSidebar() {
     },
     {
       text: '项目集成',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '简介',
@@ -162,6 +160,8 @@ function getConfigSidebar() {
     },
     {
       text: '代码规范',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '简介',
@@ -179,6 +179,8 @@ function getConfigSidebar() {
     },
      {
       text: '打包部署',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '简介',
@@ -196,6 +198,8 @@ function getConfigSidebar() {
     },
     {
       text: 'SSL 证书配置（如果需要）',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '简介',
@@ -217,17 +221,19 @@ function getGuideSidebar() {
   return [
     {
       text: '开发指南',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '开发环境',
           link: '/guide/',
         },
+        // {
+        //   text: 'NPM源配置',
+        //   link: '/guide/introduce',
+        // },
         {
-          text: 'NPM源配置',
-          link: '/guide/introduce',
-        },
-        {
-          text: '源码',
+          text: '源码地址',
           link: '/guide/source',
         },
       ],
@@ -239,6 +245,8 @@ function getAwesomeSidebar() {
   return [
     {
       text: '工具资源',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '博客相关',
@@ -280,6 +288,8 @@ function getProject() {
   return [
     {
       text: '项目',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '前端项目',
@@ -297,6 +307,8 @@ function getLint() {
   return [
     {
       text: '规范',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: 'JavaScript规范',
@@ -314,6 +326,8 @@ function getCourse() {
   return [
     {
       text: '课程',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '前端课程',
@@ -331,6 +345,8 @@ function getTools() {
   return [
     {
       text: '工具',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '前端工具',
@@ -340,6 +356,8 @@ function getTools() {
     },
     {
       text: '前端工具',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '前端工具',
@@ -349,6 +367,8 @@ function getTools() {
     },
     {
       text: '后端工具',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '后端工具',
@@ -362,6 +382,8 @@ function getStore() {
   return [
     {
       text: '成功案例',
+      collapsible: true,
+      collapsed: true, // 默认折叠
       items: [
         {
           text: '介绍',
