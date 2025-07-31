@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-31 17:20:33
+ * @LastEditTime: 2025-07-31 17:25:43
  * @LastEditors: xunzhaotech
  */
 import { createRequire } from 'module'
@@ -28,9 +28,13 @@ export default [
       { text: '移动组件', link: '/marketplace/plugins/', activeMatch: '^/marketplace/plugins/' },
     ]
   },
-  { text: '规范', link: '/lint/', activeMatch: '^/lint/' },
-  { text: '课程', link: '/course/', activeMatch: '^/course/' },
-  { text: 'API 参考', link: '/api/', activeMatch: '^/api/' },
+  {
+    text: '学习资源',
+    items: [
+     { text: '规范', link: '/lint/', activeMatch: '^/lint/' },
+     { text: '课程', link: '/course/', activeMatch: '^/course/' },
+     { text: '博客', link: '/blog/', activeMatch: '^/blog/' },
+  ] },
   {
     text: '工具资源',
       items: [
@@ -42,8 +46,8 @@ export default [
       ]
     },
 
-  { text: '博客', link: '/blog/', activeMatch: '^/blog/' },
   { text: '赞赏', link: '/zan/', activeMatch: '^/zan/' },
+  { text: 'API 参考', link: '/api/', activeMatch: '^/api/' },
   { text: '更新日志', link: '/logs/', activeMatch: '^/logs/' },
   {
     text: pkg.version,
