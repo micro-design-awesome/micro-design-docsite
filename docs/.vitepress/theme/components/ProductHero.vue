@@ -1,3 +1,12 @@
+<!--
+ * @Description: 
+ * @Author: xunzhaotech
+ * @Email: luyb@xunzhaotech.com
+ * @QQ: 1525572900
+ * @Date: 2025-07-31 13:06:25
+ * @LastEditTime: 2025-07-31 17:00:48
+ * @LastEditors: xunzhaotech
+-->
 <template>
   <div class="theme-container">
     <!-- ... -->
