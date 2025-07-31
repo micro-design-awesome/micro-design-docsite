@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-31 16:52:43
+ * @LastEditTime: 2025-07-31 17:20:33
  * @LastEditors: xunzhaotech
  */
 import { createRequire } from 'module'
@@ -15,9 +15,10 @@ export default [
   { text: '指南', link: '/guide/', activeMatch: '^/guide/' },
   { text: '配置', link: '/config/', activeMatch: '^/config/' },
   {
-    text: '项目文档',
+    text: '项目案例',
     items: [
       { text: '项目', link: '/project/', activeMatch: '^/project/' },
+      { text: '案例', link: '/store/', activeMatch: '^/store/' },
       { text: '文档', link: '/docs/', activeMatch: '^/docs/' },
   ]},
   {
@@ -29,11 +30,18 @@ export default [
   },
   { text: '规范', link: '/lint/', activeMatch: '^/lint/' },
   { text: '课程', link: '/course/', activeMatch: '^/course/' },
-  { text: '案例', link: '/store/', activeMatch: '^/store/' },
   { text: 'API 参考', link: '/api/', activeMatch: '^/api/' },
-  { text: '工具', link: '/tools/', activeMatch: '^/tools/' },
-  { text: '资源', link: '/awesome/' , activeMatch: '^/awesome/' },
-  { text: 'AI工具', link: '/ai/', activeMatch: '^/ai/' },
+  {
+    text: '工具资源',
+      items: [
+        // { text: '在线工具', link: '/tools/online/', activeMatch: '^/tools/online/' },
+        // { text: '本地工具', link: '/tools/local/', activeMatch: '^/tools/local/' },
+        { text: '工具', link: '/tools/', activeMatch: '^/tools/' },
+        { text: '资源', link: '/awesome/' , activeMatch: '^/awesome/' },
+        { text: 'AI工具', link: '/ai/', activeMatch: '^/ai/' }
+      ]
+    },
+
   { text: '博客', link: '/blog/', activeMatch: '^/blog/' },
   { text: '赞赏', link: '/zan/', activeMatch: '^/zan/' },
   { text: '更新日志', link: '/logs/', activeMatch: '^/logs/' },
