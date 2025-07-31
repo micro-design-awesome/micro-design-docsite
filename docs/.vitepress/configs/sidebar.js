@@ -4,8 +4,8 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-20 21:22:21
- * @LastEditors: luyb luyb@xunzhaotech.com
+ * @LastEditTime: 2025-07-31 16:14:07
+ * @LastEditors: xunzhaotech
  */
 export default {
   '/guide/': getGuideSidebar(),
@@ -18,6 +18,7 @@ export default {
   '/store/': getStore(),
   '/api/': getApiSidebar(),
   '/tools/': getTools(),
+  '/blog/': getBlogSidebar(),
   '/awesome/': getAwesomeSidebar(),
 }
 
@@ -375,6 +376,29 @@ function getTools() {
           link: '/tools/backend',
         }
       ]
+    },
+  ]
+}
+function getBlogSidebar () {
+  return [
+    {
+      text: '博客',
+      collapsible: true,
+      collapsed: true, // 默认折叠
+      items: [
+        {
+          text: '介绍',
+          link: '/blog/',
+        },
+        {
+          text: '演示',
+          link: '/blog/introduce',
+        },
+        {
+          text: '源码',
+          link: '/blog/source',
+        },
+      ],
     },
   ]
 }
