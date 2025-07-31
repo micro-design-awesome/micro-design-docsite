@@ -4,9 +4,10 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2025-07-12 17:23:51
- * @LastEditTime: 2025-07-31 16:05:43
+ * @LastEditTime: 2025-07-31 18:32:25
  * @LastEditors: xunzhaotech
 -->
+## uniapp页面跳转
 在 uni-app 中，页面跳转是常见的交互需求，你提到的 `uni.navigateTo`、`uni.redirectTo`、`uni.reLaunch`、`uni.switchTab` 是四种核心跳转方法，它们各自有不同的使用场景和特性：
 
 1. **`uni.navigateTo`**
