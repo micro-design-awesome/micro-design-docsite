@@ -1,0 +1,14 @@
+:root {
+  --c-brand: #646cff;
+  --c-text: #213547;
+  --c-bg: #ffffff;
+  --c-border: #e2e8f0;
+  --c-glass: rgba(255, 255, 255, 0.8);
+  --c-glass-dark: rgba(0, 0, 0, 0.5);
+}
+.dark {
+  --c-text: rgba(255, 255, 255, 0.87);
+  --c-bg: #121212;
+  --c-border: rgba(84, 84, 84, 0.65);
+  --c-glass: var(--c-glass-dark);
+}
