@@ -1,3 +1,12 @@
+<!--
+ * @Description: 
+ * @Author: xunzhaotech
+ * @Email: luyb@xunzhaotech.com
+ * @QQ: 1525572900
+ * @Date: 2024-08-11 11:40:49
+ * @LastEditTime: 2025-07-31 18:10:03
+ * @LastEditors: xunzhaotech
+-->
 ---
 layout: home
 hero:
@@ -10,7 +19,7 @@ hero:
   actions:
     - theme: brand
       text: 开发文档
-      link: /pages/docs/modules.md
+      link: /guide/index.md
     - theme: alt
       text: 在线演示
       link: /pages/docs/README.md
