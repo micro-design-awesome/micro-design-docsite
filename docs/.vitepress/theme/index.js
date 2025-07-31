@@ -4,11 +4,12 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-31 16:54:21
+ * @LastEditTime: 2025-07-31 20:38:14
  * @LastEditors: xunzhaotech
  */
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
+import 'uno.css'
 import 'vitepress-theme-demoblock/dist/theme/styles/index.css'
 import Documate from '@documate/vue'
 import '@documate/vue/dist/style.css'

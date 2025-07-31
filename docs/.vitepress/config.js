@@ -4,10 +4,11 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2024-11-23 12:06:58
+ * @LastEditTime: 2025-07-31 20:36:11
  * @LastEditors: xunzhaotech
  */
 import { defineConfig } from 'vitepress'
+import Unocss from 'unocss/vite'
 import { demoblockPlugin, demoblockVitePlugin } from 'vitepress-theme-demoblock'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import path from 'path'
@@ -38,7 +39,7 @@ export default defineConfig({
   },
 
   vite: {
-    plugins: [demoblockVitePlugin(), vueJsx()],
+    plugins: [demoblockVitePlugin(), vueJsx(),Unocss({ /* options */ })],
     resolve: {
       alias: {
         '@alias': path.resolve(__dirname, '../')
