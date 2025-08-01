@@ -10,9 +10,11 @@ hero:
   actions:
     - theme: brand
       text: 开发文档
+      type: primary
       link: /guide/index.md
     - theme: alt
       text: 在线演示
+      type: secondary
       link: /pages/docs/README.md
     # - theme: alt
     #   text: GitHub

@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-31 20:38:14
+ * @LastEditTime: 2025-08-01 19:14:00
  * @LastEditors: xunzhaotech
  */
 import { h } from 'vue'
@@ -15,21 +15,23 @@ import Documate from '@documate/vue'
 import '@documate/vue/dist/style.css'
 import { useComponents } from './useComponents'
 import './style.css'
+import './fonts.css' // 如果单独管理字体
 import './styles/main.css'
 import './styles/custom.css'
 import './styles/tailwind.css'
 import Button from '../../../src/components/Button.vue'
 import '../../../src/styles/index.css'
-import Layout from './layouts/Layout.vue'
+import Layout from './layouts/MyLayout.vue'
 
 export default {
   // Layout,
   ...DefaultTheme,
-  Layout: h(DefaultTheme.Layout, null, {
-    'nav-bar-content-before': () => h(Documate, {
-      endpoint: '',
-    }),
-  }),
+   Layout,
+  // Layout: h(DefaultTheme.Layout, null, {
+  //   'nav-bar-content-before': () => h(Documate, {
+  //     endpoint: '',
+  //   }),
+  // }),
   enhanceApp(ctx) {
     DefaultTheme.enhanceApp(ctx)
     useComponents(ctx.app)
