@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2025-08-01 19:05:56
- * @LastEditTime: 2025-08-01 19:16:13
+ * @LastEditTime: 2025-08-01 19:26:36
  * @LastEditors: xunzhaotech
 -->
 <script setup>
@@ -26,6 +26,15 @@ const { Layout } = DefaultTheme
       </div>
     </template>
     -->
+    <template #doc-before>
+      <!-- 在文档内容之前插入内容 -->
+    </template>
+    <template #aside-outline-before>
+      <!-- 在侧边栏大纲之前插入内容 -->
+    </template>
+    <template #aside-outline-after>
+      <!-- 在侧边栏大纲之前插入内容 -->
+    </template>
   </Layout>
 </template>
 <style scoped>
