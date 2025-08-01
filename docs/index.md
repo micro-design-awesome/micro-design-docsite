@@ -79,21 +79,27 @@ features:
 
 <div class="feature-grid">
   <div class="feature-card">
-    <div class="feature-icon">🚀</div>
-    <h3>性能优化</h3>
-    <p>基于 Vite 的构建系统确保闪电般快速的加载和构建时间</p>
+    <div class="feature-icon">
+    <img src="/images/bi/bi.png" height="200" />
+    </div>
+    <h3>物联网BI可视</h3>
+    <p>技术栈Vue3+Element+pina+echars+axios+typescript+unocss</p>
   </div>
   
   <div class="feature-card">
-    <div class="feature-icon">🔌</div>
-    <h3>插件系统</h3>
-    <p>丰富的插件生态系统扩展 Vitepress 的功能</p>
+    <div class="feature-icon">
+       <img src="/images/erp/login.png" height="200" />
+    </div>
+    <h3>ERP系统</h3>
+    <p>技术栈Vue3+Element+pina+axios+typescript+unocss</p>
   </div>
   
   <div class="feature-card">
-    <div class="feature-icon">💡</div>
-    <h3>智能路由</h3>
-    <p>自动根据文件结构生成路由，无需手动配置</p>
+    <div class="feature-icon">
+       <img src="/images/erp/login.png" height="200" />
+    </div>
+    <h3>CRM系统</h3>
+    <p>技术栈Vue3+Element+pina+axios+typescript+unocss</p>
   </div>
 </div>
 
@@ -130,6 +136,7 @@ features:
 .feature-icon {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  heigh:200px;
 }
 
 .feature-card h3 {
