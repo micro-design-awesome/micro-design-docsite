@@ -53,4 +53,91 @@ features:
   - icon: 🛠️
     title: 技术支持
     details: 免费系统升级，上下兼容，生态体系不断升级，支持满足80%以上业务场景。
+  - icon: ⚡️
+    title: 极速开发体验
+    details: 基于 Vite 的即时服务器启动和闪电般快速的 HMR
+  - icon: 🛠️
+    title: 强大的 Markdown 扩展
+    details: 支持 Vue 组件、自定义容器和代码块高亮
+  - icon: 🎨
+    title: 灵活的主题定制
+    details: 轻松定制主题以满足品牌需求
+  - icon: 🌓
+    title: 深色模式支持
+    details: 开箱即用的深色/浅色模式切换
+  - icon: 🔍
+    title: 内置搜索功能
+    details: 无需额外配置的全文搜索支持
+  - icon: 📱
+    title: 响应式设计
+    details: 在各种设备上提供完美的阅读体验
 ---
+
+<div class="custom-container">
+
+## 项目案例展示
+
+<div class="feature-grid">
+  <div class="feature-card">
+    <div class="feature-icon">🚀</div>
+    <h3>性能优化</h3>
+    <p>基于 Vite 的构建系统确保闪电般快速的加载和构建时间</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-icon">🔌</div>
+    <h3>插件系统</h3>
+    <p>丰富的插件生态系统扩展 Vitepress 的功能</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="feature-icon">💡</div>
+    <h3>智能路由</h3>
+    <p>自动根据文件结构生成路由，无需手动配置</p>
+  </div>
+</div>
+
+</div>
+
+<style>
+/* 自定义样式 */
+.custom-container {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 1.5rem;
+  border: 1px solid var(--vp-c-divider-light);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  color: var(--vp-c-brand);
+  margin-bottom: 0.8rem;
+}
+
+.feature-card p {
+  color: var(--vp-c-text-2);
+}
+</style>
