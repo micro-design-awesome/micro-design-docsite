@@ -1,8 +1,8 @@
 ---
 layout: home
 hero:
-  name: MicroDocs Framework
-  text: 一个基于微服务架构生态的文档框架
+  name: MicroDesign Ecosystem Framework
+  text: 一个基于微服务架构生态文档系统框架 
   tagline: 极致体验，用心创造，让开发文档书写更简单、更优雅、更高效!
   image:
     src: https://s1.ax1x.com/2022/12/17/zbmcHs.png
