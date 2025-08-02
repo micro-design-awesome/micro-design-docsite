@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-31 16:14:07
+ * @LastEditTime: 2025-08-02 11:06:49
  * @LastEditors: xunzhaotech
  */
 export default {
@@ -128,7 +128,7 @@ function getConfigSidebar() {
       items: [
         {
           text: '创建项目',
-          link: '/project/',
+          link: '/config/create',
         },
         {
           text: '演示',
