@@ -4,10 +4,12 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-07-31 20:36:11
+ * @LastEditTime: 2025-08-02 10:32:13
  * @LastEditors: xunzhaotech
  */
 import { defineConfig } from 'vitepress'
+import Components from 'unplugin-vue-components/vite'
+import MotionResolver from 'motion-v/resolver'
 import Unocss from 'unocss/vite'
 import { demoblockPlugin, demoblockVitePlugin } from 'vitepress-theme-demoblock'
 import vueJsx from '@vitejs/plugin-vue-jsx'
@@ -39,7 +41,18 @@ export default defineConfig({
   },
 
   vite: {
-    plugins: [demoblockVitePlugin(), vueJsx(),Unocss({ /* options */ })],
+    plugins: [
+      demoblockVitePlugin(),
+      vueJsx(),
+      Unocss({ /* options */ }),
+      Components({
+        dts: true,
+        resolvers: [
+          MotionResolver()
+        ],
+    }),
+    ],
+  
     resolve: {
       alias: {
         '@alias': path.resolve(__dirname, '../')
