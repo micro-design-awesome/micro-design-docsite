@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-08-09 11:56:30
+ * @LastEditTime: 2025-08-09 12:32:25
  * @LastEditors: xunzhaotech
  */
 import { h } from 'vue'
@@ -28,7 +28,7 @@ import Layout from './layouts/MyLayout.vue'
 import { Underline } from '@theojs/lumen'
 import { BoxCube, Card, Links, Pill } from '@theojs/lumen'
 import { Footer } from '@theojs/lumen'
-import { Footer_Data } from '../data/footerData'
+// import { Footer_Data } from '../data/footerData'
 
 export default {
   // Layout,
@@ -37,7 +37,7 @@ export default {
     'nav-bar-content-before': () => h(Documate, {
       endpoint: '',
     }),
-    'layout-bottom': () => h(Footer, { Footer_Data })
+    // 'layout-bottom': () => h(Footer, { Footer_Data })
   }),
   enhanceApp(ctx) {
     DefaultTheme.enhanceApp(ctx)
