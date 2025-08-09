@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-08-02 10:32:13
+ * @LastEditTime: 2025-08-09 12:05:58
  * @LastEditors: xunzhaotech
  */
 import { defineConfig } from 'vitepress'
@@ -92,9 +92,9 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/micro-design-awesome/micro-design-docsite' }
     ],
 
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present MicroDesign'
-    }
+    // footer: {
+    //   message: 'Released under the MIT License.',
+    //   copyright: 'Copyright © 2022-present MicroDesign'
+    // }
   }
 })

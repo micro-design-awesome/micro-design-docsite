@@ -11,6 +11,8 @@
   --vp-c-bg-mute: #f9f9f9;
   --vp-font-family-base: 'Inter', sans-serif;
   --vp-font-family-mono: 'Fira Code', monospace;
+  --lm-Notice-bg: var(--vp-button-alt-bg);
+  --lm-Notice-bg-hover: var(--vp-c-brand-soft);
 }
 .dark {
   --vp-c-bg: #1a1a1a;
