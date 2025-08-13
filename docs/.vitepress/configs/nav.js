@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2024-08-11 11:40:49
- * @LastEditTime: 2025-08-13 08:51:01
+ * @LastEditTime: 2025-08-13 08:55:39
  * @LastEditors: xunzhaotech
  */
 import { createRequire } from 'module'
@@ -24,7 +24,7 @@ export default [
   {
     text: '插件市场',
     items: [
-      { text: 'WEB端', link: '/components/web', activeMatch: '^/components/web' },
+      { text: 'WEB端', link: '/components/', activeMatch: '^/components/' },
       { text: '桌面端', link: '/components/desktop', activeMatch: '^/components/desktop' },
       { text: '移动端', link: '/components/mobile', activeMatch: '^/components/mobile' },
       { text: '小程序', link: '/components/wechat/', activeMatch: '^/components/wechat' },
