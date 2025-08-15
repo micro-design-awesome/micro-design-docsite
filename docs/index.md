@@ -3,10 +3,24 @@ layout: home
 hero:
   name: MicroDesign Ecosystem Framework
   text: 一个基于微服务架构生态文档系统框架 
+  textsuffix: 一站式服务
   tagline: 极致体验，用心创造，让开发文档书写更简单、更优雅、更高效!
   image:
     src: https://s1.ax1x.com/2022/12/17/zbmcHs.png
-    alt: VitePress
+    alt: home
+    fetchpriority: high
+    width: 320
+    height: 320
+  Notice:
+    title: '<span class="promo-title">优惠码大放送!</span>'
+    desc: |
+      · 85折<span class="promo-text"> 阿里云服务器</span>
+      · 8折<span class="promo-text"> 阿里云服务器 </span>
+      · 配合优惠码折上折，最高可达<span class="promo-text">48折</span>
+    # date: '7月31号23点59分'
+    # dateText: '活动截止至'
+    link: https://itheo.top/qyt
+    rel: sponsored noreferrer
   actions:
     - theme: brand
       text: 开发文档
@@ -16,32 +30,41 @@ hero:
       text: 在线演示
       type: secondary
       link: /pages/docs/README.md
-    # - theme: alt
-    #   text: GitHub
-    #   link: https://github.com/vuejs/vitepress
-    # - theme: alt
-    #   text: Gitee
-    #   link: https://github.com/vuejs/vitepress
-    # - theme: alt
-    #   text: 加入讨论群
-    #   link: https://github.com/vuejs/vitepress
+    - theme: alt
+      text: GitHub
+      link: https://github.com/vuejs/vitepress
+    - theme: alt author
+      text: Gitee
+      link: https://github.com/vuejs/vitepress
+    - theme: alt logo
+      text: 加入讨论群
+      link: https://github.com/vuejs/vitepress
 features:
   - icon: ⚡️
     title: 定制組件
     details: 深入业务场景，定制满足用户体验的系统化组件，可升级可扩展。
-    # link: https://github.com/vuejs/vitepress
+    link: /streaming/netflix-guide
+    linkText: 查看更多
   - icon: 🖖
     title: 定制插件
     details: 根据业务场景，定制满足用户功能的插件，实现一切皆为插件，即插即用。
+    link: /streaming/netflix-guide
+    linkText: 查看更多
   - icon: 🛠️
     title: 定制主题
     details: 提供大厂网页、商城、直播等主题，可自由扩展定制，满足各类业务场景。
+    link: /streaming/netflix-guide
+    linkText: 查看更多
   - icon: 🛠️
     title: 系统架构
     details: 前后端提供前后端分离的单体服务和微服务架构的系统架构，包括SaaS和单体。
+    link: /streaming/netflix-guide
+    linkText: 查看更多
   - icon: 🛠️
     title: 系统监控
     details: 提供一体化监控系统，随时随地掌控你网站系统的Bug、性能和访问量。
+    link: /streaming/netflix-guide
+    linkText: 查看更多
   - icon: 🛠️
     title: 生态支持
     details: 完善的文档视频、为开发文档、部署文档、直播间问题解答保证问题有回应，件件有着落。
