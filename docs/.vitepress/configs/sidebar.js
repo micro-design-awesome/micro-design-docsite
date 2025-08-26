@@ -25,13 +25,121 @@ export default {
 function getApiSidebar() {
   return [
     {
-      text: '功能',
+      text: 'API 概览',
       collapsible: true,
-      collapsed: true, // 默认折叠
+      collapsed: false,
       items: [
         {
-          text: '已实现',
+          text: 'API 文档',
           link: '/api/',
+        },
+        {
+          text: '快速开始',
+          link: '/api/quickstart',
+        },
+        {
+          text: '设计原则',
+          link: '/api/principles',
+        },
+      ],
+    },
+    {
+      text: '认证与安全',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          text: 'JWT 认证',
+          link: '/api/auth/jwt',
+        },
+        {
+          text: 'OAuth2 集成',
+          link: '/api/auth/oauth2',
+        },
+        {
+          text: 'API Key 管理',
+          link: '/api/auth/apikey',
+        },
+        {
+          text: '权限控制',
+          link: '/api/auth/permissions',
+        },
+      ],
+    },
+    {
+      text: '核心 API',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          text: '用户管理',
+          link: '/api/modules/users',
+        },
+        {
+          text: '系统管理',
+          link: '/api/modules/system',
+        },
+        {
+          text: '文件管理',
+          link: '/api/modules/files',
+        },
+        {
+          text: '通知消息',
+          link: '/api/modules/notifications',
+        },
+        {
+          text: 'WebSocket',
+          link: '/api/modules/websocket',
+        },
+      ],
+    },
+    {
+      text: 'SDK 与工具',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          text: 'JavaScript SDK',
+          link: '/api/sdk/javascript',
+        },
+        {
+          text: 'Java SDK',
+          link: '/api/sdk/java',
+        },
+        {
+          text: 'Python SDK',
+          link: '/api/sdk/python',
+        },
+        {
+          text: 'Postman 集合',
+          link: '/api/tools/postman',
+        },
+        {
+          text: 'Mock 服务',
+          link: '/api/tools/mock',
+        },
+      ],
+    },
+    {
+      text: '最佳实践',
+      collapsible: true,
+      collapsed: true,
+      items: [
+        {
+          text: 'API 安全',
+          link: '/api/best-practices/security',
+        },
+        {
+          text: '性能优化',
+          link: '/api/best-practices/performance',
+        },
+        {
+          text: '版本管理',
+          link: '/api/best-practices/versioning',
+        },
+        {
+          text: '错误处理',
+          link: '/api/best-practices/error-handling',
         },
       ],
     },
@@ -318,6 +426,10 @@ function getLint() {
         {
           text: '后端规范',
           link: '/lint/banckup',
+        },
+        {
+          text: '后端平台模板',
+          link: '/lint/platform',
         },
       ],
     },
