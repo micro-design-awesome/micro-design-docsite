@@ -7,9 +7,51 @@
  * @LastEditTime: 2025-08-02 11:47:20
  * @LastEditors: xunzhaotech
 -->
-## 项目创建
-以下是 Vue 3 各种项目创建方式的完整指南，涵盖主流框架和工具链：
+# 项目创建
+本指南将带您从零开始，通过 Vite（官方推荐）和 Vue CLI 两种方式创建 Vue3 项目，并覆盖环境准备、项目配置、运行、打包部署全流程，适用于新手入门与项目初始化参考。
+:::tip 前提条件
+  - Node.js：v18.x 及以上（推荐 LTS 版本，包含 npm 包管理器）
+  - 可选包管理器：yarn 或 pnpm（推荐，提升依赖安装效率）
+:::
+## 验证安装
+打开终端 / 命令提示符，执行以下命令，若显示版本号则安装成功：
+```bash
+node -v  # 示例输出：v20.10.0
+npm -v   # 示例输出：10.2.3
+```
+## 安装可选包管理器（推荐）
+若您偏好 yarn 或 pnpm，可通过以下命令全局安装：
+::: code-group
+```bash[管理器安装]
+# 安装 yarn
+npm install -g yarn
+# 验证
+yarn -v  # 示例输出：1.22.21
 
+# 或安装 pnpm
+npm install -g pnpm
+# 验证
+pnpm -v  # 示例输出：8.15.0
+```
+:::
+::: tip 推荐版本
+- node: v20.12.0
+- npm: 10.8.1
+- pnpm: 9.0.6
+- yarn： 1.22.4
+:::
+## 项目创建
+::: code-group
+```bash [npm]
+npm create vite@latest
+```
+```bash [yarn]
+yarn create vite
+```
+```bash [pnpm]
+pnpm create vite
+```
+:::
 ### 1. **Vite (官方推荐)**
 ```bash
 # 创建基础 Vue 3 项目
