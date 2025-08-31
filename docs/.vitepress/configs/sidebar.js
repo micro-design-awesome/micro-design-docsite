@@ -239,12 +239,12 @@ function getConfigSidebar() {
           link: '/config/create',
         },
         {
-          text: '演示',
-          link: '/guide/introduce',
+          text: '集成路由',
+          link: '/config/router',
         },
         {
-          text: '源码',
-          link: '/guide/source',
+          text: '状态管理',
+          link: '/config/pinia',
         },
       ],
     },
