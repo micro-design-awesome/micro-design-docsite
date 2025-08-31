@@ -717,7 +717,7 @@ export default {
 
 ### 更新日志
 
-查看 [CHANGELOG.md](./CHANGELOG.md) 了解最新版本更新内容。
+<!-- 查看 [CHANGELOG.md](./CHANGELOG.md) 了解最新版本更新内容。 -->
 
 
 
