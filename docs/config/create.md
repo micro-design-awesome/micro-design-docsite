@@ -52,6 +52,52 @@ yarn create vite
 pnpm create vite
 ```
 :::
+## 快速创建
+```bash
+`pnpm create vite@latest micro-design-ts --template vue-ts`
+.../198ff005b50-1cac                     |   +1 +
+.../198ff005b50-1cac                     | Progress: resolved 1, reused 0, downloaded 1, added 1, done
+│
+◇  Scaffolding project in D:\project\micro-design-ts...
+│
+└  Done. Now run:
+
+  cd micro-design-ts
+  pnpm install
+  pnpm run dev
+
+```
+## 模板下载
+```bash
+git clone https://github.com/micro-design-awesome/micro-design-ts
+cd micro-design-ts
+pnpm install
+pnpm run dev
+```
+## 插件说明
+- vue 3.5.20
+- @vitejs/plugin-vue 6.0.1
+- @vue/tsconfig 0.7.0 (0.8.1 is available)
+- typescript 5.8.3 (5.9.2 is available)
+- vite 7.1.3
+- vue-tsc 3.0.6
+## 项目启动
+```bash
+PS D:\project\micro-design-ts> pnpm run dev
+
+> micro-design-ts@0.0.0 dev D:\project\micro-design-ts
+> vite
+
+You are using Node.js 20.12.0. Vite requires Node.js version 20.19+ or 22.12+. Please upgrade your Node.js version.
+Port 5173 is in use, trying another one...
+
+  VITE v7.1.3  ready in 804 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+```
+## 其她扩展
 ### 1. **Vite (官方推荐)**
 ```bash
 # 创建基础 Vue 3 项目
