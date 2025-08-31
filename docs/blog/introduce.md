@@ -4,7 +4,7 @@
  * @Email: luyb@xunzhaotech.com
  * @QQ: 1525572900
  * @Date: 2025-08-25 16:00:00
- * @LastEditTime: 2025-08-25 16:00:00
+ * @LastEditTime: 2025-08-31 11:03:52
  * @LastEditors: xunzhaotech
 -->
 
@@ -98,16 +98,16 @@ MicroBlog 是一个基于微服务架构的现代化博客系统，采用前后�
 ## 系统截图
 
 ### 博客首页
-![博客首页](/images/blog/homepage.png)
+<!-- ![博客首页](/images/blog/homepage.png) -->
 
 ### 文章详情页
-![文章详情页](/images/blog/article-detail.png)
+<!-- ![文章详情页](/images/blog/article-detail.png) -->
 
 ### 后台管理界面
-![后台管理](/images/blog/admin-dashboard.png)
+<!-- ![后台管理](/images/blog/admin-dashboard.png) -->
 
 ### 文章编辑器
-![文章编辑器](/images/blog/editor.png)
+<!-- ![文章编辑器](/images/blog/editor.png) -->
 
 ## 功能特性
 
