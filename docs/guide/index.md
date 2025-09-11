@@ -2,18 +2,41 @@
  * @Author: luyb luyb@xunzhaotech.com
  * @Date: 2022-11-24 11:59:56
  * @LastEditors: xunzhaotech
- * @LastEditTime: 2025-08-02 11:55:55
+ * @LastEditTime: 2025-09-11 11:56:47
  * @FilePath: \micro-design-docs\docs\guide\index.md
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
-# 开发指南
+# 介绍
 [MicroDesign Ecosystem Framework](https://micro-design-awesome.github.io/micro-design-docsite/) 系列项目依赖于前端工程化进行开发，依赖于 npm 管理安装模块，也正式因为如此，您需要安装[Node.js](https://nodejs.org/zh-cn)，如果您的电脑已经安装过了 [Node.js](https://nodejs.org/zh-cn) ，那么您可以直接往下继续看，若没有，这里推荐您安装并使用一个多 [Node.js](https://nodejs.org/zh-cn) 版本管理工具 [nvm](https://github.com/nvm-sh/nvm)（Windows 下使用 [nvm-windows](https://github.com/coreybutler/nvm-windows)）（当然也有其他的版本管理工具，这里只是作者推荐在用的一个） [fnm](https://github.com/Schniz/fnm) 来管理[Node.js](https://nodejs.org/zh-cn) 版本 ，方便以后用于管理多个[Node.js](https://nodejs.org/zh-cn) 可以自由切换，或者您也可以只安装 [Node.js](https://nodejs.org/zh-cn) 。
-::: tip 说明
+## 生成小程序工程
+`micro-uni`由最初始的官方 cli 脚手架模板生成，执行的命令如下：
+```sh
+npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
+```
+- uniapp 官方链接：[点击跳转 - quickstart-cli](https://uniapp.dcloud.net.cn/quickstart-cli.html)
+- uni-helper官方链接：[点击跳转 - uni-helper](https://uni-helper.js.org/create-uni/core/)
+## 生成web端工程
+```sh
+pnpm create vite@latest micro-design-ts --template vue-ts
+```
+- Vue 官方链接：[点击跳转 - Vue](https://vuejs.org/)
+- Vite官方链接：[点击跳转 - Vite](https://cn.vite.dev/guide/)
 
+::: tip 说明
 1. Vue 3 项目可以通过 Vue CLI 或 Vite 来创建和管理。Vue CLI 是 Vue 官方提供的命令行工具，它为单页面应用 (SPA) 快速搭建繁杂的脚手架，并提供了功能齐备的构建设置。对于 Vue 3，应该使用 npm 上可用的 Vue CLI v4.5 作为 @vue/cli。要升级，需要全局重新安装最新版本的 @vue/cli 
 2. 对于使用 Vite 创建 Vue 3 项目，通常要求 Node.js 18 或更高版本，因为新版本的 Vite 及其插件利用了 Node.js 18 中的新 API 和性能改进。如果开发者使用较低版本的 Node.js（如 16.x），可能会遇到兼容性问题，如不兼容警告（如 EBADENGINE）或构建错误，由于缺少某些现代 API，可能会导致构建过程失败 。
 
 :::
+## 前端基础配置六件套
+- prettier
+- eslint
+- stylelint
+- husky
+- lint-staged
+- commitlint
+- UnoCSS
+- UnoCSS Icons
+## 前端环境
 关于安装 Node.js 和 nvm 的安装，这里就不再赘述了，相关的安装教程可以在百度可以搜索到。
 
 - [nodejs 官网](https://nodejs.org/zh-cn)

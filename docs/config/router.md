@@ -279,3 +279,134 @@ app.mount('#app')
 }
 </style>
 ```
+## 步骤 6： 路由使用进阶
+### 1. 路由参数传递
+（1）在路由中定义参数
+修改 routes.ts，添加带参数的路由：
+```typescript
+// 在 routes 数组中添加
+{
+  path: '/user/:id',
+  name: 'User',
+  component: () => import('@/views/User.vue'),
+  meta: {
+    title: '用户详情'
+  }
+}
+```
+（2）创建用户详情页（User.vue）
+```vue
+<template>
+  <div class="user-container">
+    <!-- <h1>用户详情</h1>
+    <p>用户ID: {{ $route.params.id }}</p>
+    <p>用户名: {{ userName }}</p> -->
+  </div>
+</template>
+
+<script setup lang="ts">
+import { useRoute } from 'vue-router'
+import { ref, onMounted } from 'vue'
+
+// 获取路由实例
+const route = useRoute()
+const userName = ref('')
+
+// 组件挂载时获取用户信息
+onMounted(() => {
+  // 模拟根据 ID 获取用户信息
+  const userId = route.params.id as string
+  userName.value = `用户${userId}`
+})
+</script>
+```
+（3）导航到带参数的路由
+在导航栏添加用户详情链接：
+```vue
+<!--  -->
+<router-link :to="{ name: 'User', params: { id: 1 } }" class="nav-link">
+  用户 1
+</router-link>
+<router-link :to="{ name: 'User', params: { id: 2 } }" class="nav-link">
+  用户 2
+</router-link>
+```
+### 2. 编程式导航
+除了使用 `<router-link>` 组件，还可以通过代码进行导航：
+
+```vue
+<template>
+  <div>
+    <button @click="goToAbout">跳转到关于页面</button>
+    <button @click="goToUser(3)">跳转到用户3</button>
+    <button @click="goBack">返回上一页</button>
+  </div>
+</template>
+<script setup lang="ts">
+import { useRouter } from 'vue-router'
+const router = useRouter()
+const goToAbout = () => {
+  router.push('/about')
+  router.push({ name: 'About' })
+}
+const goToUser = (id: number) => {
+  router.push({ name: 'User', params: { id } })
+}
+const goBack = () => {
+  router.back()
+  // 或使用 router.go(-1)
+}
+</script>
+```
+
+### 3. 嵌套路由
+创建嵌套路由结构，例如在用户页面中添加子路由：
+
+（1）添加子路由配置
+
+```typescript
+// 在 User 路由中添加 children
+{
+  path: '/user/:id',
+  name: 'User',
+  component: () => import('@/views/User.vue'),
+  meta: { title: '用户详情' },
+  children: [
+    {
+      path: 'profile', // 子路由路径，完整路径为 /user/:id/profile
+      name: 'UserProfile',
+      component: () => import('@/views/user/Profile.vue')
+    },
+    {
+      path: 'posts', // 完整路径为 /user/:id/posts
+      name: 'UserPosts',
+      component: () => import('@/views/user/Posts.vue')
+    }
+  ]
+}
+```
+
+（2）在父组件中添加子路由出口
+修改 User.vue，添加 <router-view> 作为子路由出口：
+
+```vue
+<template>
+  <div class="user-container">
+    <h1>用户详情</h1>
+    <p>用户ID: {{ $route.params.id }}</p>
+    
+    <!-- 子路由导航 -->
+    <div class="user-tabs">
+      <router-link :to="{ name: 'UserProfile', params: { id: $route.params.id } }">
+        个人资料
+      </router-link>
+      <router-link :to="{ name: 'UserPosts', params: { id: $route.params.id } }">
+        发布内容
+      </router-link>
+    </div>
+    
+    <!-- 子路由出口 -->
+    <router-view />
+  </div>
+</template>
+```
